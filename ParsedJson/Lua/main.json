@@ -1,0 +1,15 @@
+{    
+    "console": {
+        "ConsolePrint": "WARN: Lua function omitted from the dump",
+        "onSocketConnected": "WARN: Lua function omitted from the dump",
+        "onSocketData": "WARN: Lua function omitted from the dump",
+        "socketCrFunc": "WARN: Lua function omitted from the dump"
+    },
+    "main": {
+        "ModuleDic": [],
+        "OnClearLevel": "WARN: Lua function omitted from the dump",
+        "OnLevelLoad": "WARN: Lua function omitted from the dump",
+        "OnRequire": "WARN: Lua function omitted from the dump",
+        "OnStart": "WARN: Lua function omitted from the dump"
+    }
+}

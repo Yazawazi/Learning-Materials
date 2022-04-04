@@ -1,0 +1,85 @@
+{
+    "ActorEventSource": {
+        "NONE": 0,
+        "QUEST": 1
+    },
+    "ActorEvtTargetType": {
+        "ALL": 1,
+        "SINGLE": 0
+    },
+    "ActorType": {
+        "BASE_ENTITY": 1,
+        "CUTSCENE_ACTOR": 7,
+        "GADGET_ACTOR": 5,
+        "GLOBAL_ACTOR": 4,
+        "INTERACTION_ACTOR": 8,
+        "INVALID": 0,
+        "NPCGLOBAL_ACTOR": 9,
+        "NPC_ACTOR": 2,
+        "QUEST_ACTOR": 3,
+        "SUB_GLOBAL_ACTOR": 6
+    },
+    "BeFollowState": {
+        "FAILED": 4,
+        "ING": 0,
+        "PRE_FAILED": 3,
+        "SUCCESS": 5,
+        "TRANS": 2,
+        "WAITING": 1
+    },
+    "DistType": {
+        "EULER": 0,
+        "EULER_XZ": 1
+    },
+    "InterTimingType": {
+        "BTN": 1,
+        "ENTER": 0,
+        "EXIT": 2
+    },
+    "LuaTaskType": {
+        "BTN_TRANS": 5,
+        "FORCE_WALK": 8,
+        "FREE_STYLE": 3,
+        "HOME": 9,
+        "LIMIT_REGION": 4,
+        "MOVE": 1,
+        "NORMAL": 0,
+        "NPC_FOLLOW_PLAYER": 11,
+        "SAFE_CIRCLE": 10,
+        "SPEECH_BUBBLE": 7,
+        "STEER": 6,
+        "THREAT": 2
+    },
+    "NarratorState": {
+        "ING": 0,
+        "PAUSING": 1
+    },
+    "QState": {
+        "ACCEPTED": 0,
+        "FAILED": 3,
+        "FINISHED": 2,
+        "INVALID": -1,
+        "UPDATED": 1
+    },
+    "TaskID": {
+        "FORCE_WALK_ID": 5,
+        "HOME_TASK_ID": 7,
+        "LOCK_TASK_ID": 2,
+        "MOVE_TASK_ID": 0,
+        "NARRATOR_TASK_ID": 1,
+        "NPC_FOLLOW_PLAYER_ID": 9,
+        "SAFE_CIRCLE": 8,
+        "STEER_TO_AUTONOMY_ID": 6,
+        "THREAD_TASK_ID": 3,
+        "TRANSMIT_BTN_ID": 4,
+        "WARNING_TASK_ID": 10
+    },
+    "WeatherType": {
+        "ClearSky": 0,
+        "Cloudy": 1,
+        "Foggy": 2,
+        "Rain": 3,
+        "Snow": 4,
+        "Storm": 5
+    }
+}
