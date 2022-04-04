@@ -1,0 +1,107 @@
+{
+    "gadgets": [
+        {
+            "area_id": 18,
+            "config_id": 299001,
+            "gadget_id": 70300107,
+            "level": 1,
+            "pos": {
+                "x": -6459.398,
+                "y": 200.064,
+                "z": -2759.658
+            },
+            "rot": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "state": 201
+        }
+    ],
+    "init_config": {
+        "end_suite": 0,
+        "rand_suite": false,
+        "suite": 1
+    },
+    "monsters": [
+        {
+            "area_id": 18,
+            "climate_area_id": 7,
+            "config_id": 299002,
+            "disableWander": true,
+            "drop_tag": "\u6df1\u6e0a\u6cd5\u5e08",
+            "level": 1,
+            "monster_id": 22010101,
+            "pos": {
+                "x": -6458.361,
+                "y": 200.199,
+                "z": -2756.558
+            },
+            "pose_id": 9013,
+            "rot": {
+                "x": 0,
+                "y": 199.282,
+                "z": 0
+            }
+        },
+        {
+            "area_id": 18,
+            "climate_area_id": 7,
+            "config_id": 299003,
+            "disableWander": true,
+            "drop_tag": "\u517d\u5883\u730e\u72ac",
+            "level": 1,
+            "monster_id": 22050201,
+            "pos": {
+                "x": -6463.242,
+                "y": 200.085,
+                "z": -2763.408
+            },
+            "pose_id": 101,
+            "rot": {
+                "x": 0,
+                "y": 48.323,
+                "z": 0
+            }
+        },
+        {
+            "area_id": 18,
+            "climate_area_id": 7,
+            "config_id": 299004,
+            "disableWander": true,
+            "drop_tag": "\u517d\u5883\u5e7c\u517d",
+            "level": 1,
+            "monster_id": 22040201,
+            "pos": {
+                "x": -6458.377,
+                "y": 200.055,
+                "z": -2763.406
+            },
+            "pose_id": 101,
+            "rot": {
+                "x": 0,
+                "y": 346.566,
+                "z": 0
+            }
+        }
+    ],
+    "npcs": [],
+    "regions": [],
+    "suites": [
+        {
+            "gadgets": [
+                299001
+            ],
+            "monsters": [
+                299002,
+                299003,
+                299004
+            ],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
+        }
+    ],
+    "triggers": [],
+    "variables": []
+}

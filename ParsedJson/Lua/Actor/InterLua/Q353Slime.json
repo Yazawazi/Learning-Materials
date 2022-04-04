@@ -1,0 +1,4 @@
+{
+    "print_r": "WARN: Lua function omitted from the dump",
+    "tablelength": "WARN: Lua function omitted from the dump"
+}
