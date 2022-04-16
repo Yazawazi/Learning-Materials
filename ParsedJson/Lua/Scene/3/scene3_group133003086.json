@@ -93,16 +93,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "is_TutorialOver",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "from_north",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "from_south",
             "no_refresh": false,
             "value": 0

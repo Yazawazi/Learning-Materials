@@ -179,6 +179,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "quest_value",
             "no_refresh": false,
             "value": 0

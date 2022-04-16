@@ -67,6 +67,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "activecount",
             "no_refresh": true,
             "value": 0

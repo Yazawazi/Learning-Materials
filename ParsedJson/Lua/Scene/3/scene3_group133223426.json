@@ -160,26 +160,31 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Seed",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Notified",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "Bird_Start",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "water_finish",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "Finish",
             "no_refresh": true,
             "value": 0

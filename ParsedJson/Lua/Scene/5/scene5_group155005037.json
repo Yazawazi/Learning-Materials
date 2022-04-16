@@ -20,11 +20,13 @@
     "triggers": [],
     "variables": [
         {
+            "configId": 1,
             "name": "isFinish",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "isUnlockWall",
             "no_refresh": true,
             "value": 0

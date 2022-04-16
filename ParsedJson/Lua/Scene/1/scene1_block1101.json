@@ -3032,8 +3032,7 @@
                 "x": 2519.193,
                 "y": 267.207,
                 "z": -1434.02
-            },
-            "refresh_id": 1
+            }
         },
         {
             "id": 111101251,
@@ -3190,6 +3189,170 @@
                 "z": -1327.933
             },
             "refresh_id": 1
+        },
+        {
+            "id": 111101268,
+            "is_replaceable": {
+                "new_bin_only": true,
+                "value": false,
+                "version": 0
+            },
+            "pos": {
+                "x": 2237.066,
+                "y": 244.12,
+                "z": -1576.807
+            },
+            "refresh_id": 1001
+        },
+        {
+            "id": 111101269,
+            "is_replaceable": {
+                "new_bin_only": true,
+                "value": false,
+                "version": 0
+            },
+            "pos": {
+                "x": 2188.762,
+                "y": 253.633,
+                "z": -1676.243
+            },
+            "refresh_id": 1001
+        },
+        {
+            "id": 111101270,
+            "is_replaceable": {
+                "new_bin_only": true,
+                "value": false,
+                "version": 0
+            },
+            "pos": {
+                "x": 2182.846,
+                "y": 259.962,
+                "z": -1740.243
+            },
+            "refresh_id": 1002
+        },
+        {
+            "id": 111101272,
+            "is_replaceable": {
+                "new_bin_only": true,
+                "value": false,
+                "version": 0
+            },
+            "pos": {
+                "x": 2247.422,
+                "y": 263.135,
+                "z": -1683.071
+            },
+            "refresh_id": 1002
+        },
+        {
+            "id": 111101274,
+            "is_replaceable": {
+                "new_bin_only": true,
+                "value": false,
+                "version": 0
+            },
+            "pos": {
+                "x": 2289.879,
+                "y": 270.109,
+                "z": -1657.515
+            },
+            "refresh_id": 1
+        },
+        {
+            "id": 111101276,
+            "is_replaceable": {
+                "new_bin_only": true,
+                "value": false,
+                "version": 0
+            },
+            "pos": {
+                "x": 2309.478,
+                "y": 285.617,
+                "z": -1736.838
+            }
+        },
+        {
+            "id": 111101277,
+            "is_replaceable": {
+                "new_bin_only": true,
+                "value": false,
+                "version": 0
+            },
+            "pos": {
+                "x": 2242.92,
+                "y": 244.12,
+                "z": -1579.594
+            },
+            "refresh_id": 1001
+        },
+        {
+            "id": 111101278,
+            "is_replaceable": {
+                "new_bin_only": true,
+                "value": false,
+                "version": 0
+            },
+            "pos": {
+                "x": 2201.161,
+                "y": 249.582,
+                "z": -1644.439
+            },
+            "refresh_id": 1001
+        },
+        {
+            "id": 111101279,
+            "is_replaceable": {
+                "new_bin_only": true,
+                "value": false,
+                "version": 0
+            },
+            "pos": {
+                "x": 2168.358,
+                "y": 259.674,
+                "z": -1749.439
+            },
+            "refresh_id": 1001
+        },
+        {
+            "id": 111101280,
+            "is_replaceable": {
+                "new_bin_only": true,
+                "value": false,
+                "version": 0
+            },
+            "pos": {
+                "x": 2252.814,
+                "y": 263.657,
+                "z": -1676.946
+            }
+        },
+        {
+            "id": 111101281,
+            "is_replaceable": {
+                "new_bin_only": true,
+                "value": false,
+                "version": 0
+            },
+            "pos": {
+                "x": 2311.894,
+                "y": 275.432,
+                "z": -1642.034
+            }
+        },
+        {
+            "id": 111101282,
+            "is_replaceable": {
+                "new_bin_only": true,
+                "value": false,
+                "version": 0
+            },
+            "pos": {
+                "x": 2377.407,
+                "y": 283.898,
+                "z": -1727.08
+            }
         }
     ]
 }

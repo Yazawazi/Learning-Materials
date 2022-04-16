@@ -369,6 +369,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "hasStarted",
             "no_refresh": true,
             "value": 0

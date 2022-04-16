@@ -34,6 +34,7 @@
     "triggers": [],
     "variables": [
         {
+            "configId": 1,
             "name": "unlocked",
             "no_refresh": false,
             "value": 0

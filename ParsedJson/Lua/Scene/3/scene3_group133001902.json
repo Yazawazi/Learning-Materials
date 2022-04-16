@@ -70,6 +70,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "JZ",
             "no_refresh": false,
             "value": 0

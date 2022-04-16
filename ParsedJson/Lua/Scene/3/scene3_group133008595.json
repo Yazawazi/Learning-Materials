@@ -364,6 +364,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "is_open",
             "no_refresh": true,
             "value": 0

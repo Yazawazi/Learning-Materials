@@ -263,41 +263,49 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "decal_finish_1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "decal_finish_2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "decal_finish_3",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "total_progress",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "decal_create_1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "decal_create_2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "decal_create_3",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 8,
             "name": "decal_create_all",
             "no_refresh": true,
             "value": 0

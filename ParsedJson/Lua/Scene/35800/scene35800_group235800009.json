@@ -544,6 +544,7 @@
     "triggers": [],
     "variables": [
         {
+            "configId": 1,
             "name": "BulletNum",
             "no_refresh": false,
             "value": 1

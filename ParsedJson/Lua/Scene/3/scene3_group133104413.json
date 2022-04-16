@@ -49,21 +49,25 @@
     "triggers": [],
     "variables": [
         {
+            "configId": 1,
             "name": "isActive",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Defeat01",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "Defeat02",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "chestOpendCount",
             "no_refresh": true,
             "value": 0

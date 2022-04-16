@@ -383,11 +383,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "questStarted",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "questFinished",
             "no_refresh": true,
             "value": 0

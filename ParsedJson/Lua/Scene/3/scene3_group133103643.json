@@ -377,11 +377,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "fin",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "dig",
             "no_refresh": true,
             "value": 0

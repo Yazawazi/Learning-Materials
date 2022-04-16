@@ -592,36 +592,43 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "EnergyBall_Succ_Count",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "mission_progress",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "feather_count",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "feather01",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "feather02",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "feather03",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "feather04",
             "no_refresh": true,
             "value": 0

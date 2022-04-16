@@ -167,6 +167,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "is_cs_finish",
             "no_refresh": true,
             "value": 0

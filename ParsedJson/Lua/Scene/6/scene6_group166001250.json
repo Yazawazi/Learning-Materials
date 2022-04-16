@@ -210,11 +210,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "done",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "save",
             "no_refresh": true,
             "value": 0

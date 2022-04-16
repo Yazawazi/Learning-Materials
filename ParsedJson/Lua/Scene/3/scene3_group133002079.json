@@ -245,31 +245,37 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "1034",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "1035",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "1036",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "1037",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "1039",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "1040",
             "no_refresh": false,
             "value": 0

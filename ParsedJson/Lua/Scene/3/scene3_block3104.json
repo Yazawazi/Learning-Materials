@@ -6914,10 +6914,14 @@
         },
         {
             "area": 5,
+            "business": {
+                "type": 1
+            },
+            "dynamic_load": true,
             "id": 133104445,
             "is_replaceable": {
                 "new_bin_only": true,
-                "value": false,
+                "value": true,
                 "version": 0
             },
             "pos": {
@@ -12880,6 +12884,38 @@
                 "x": 899.911,
                 "y": 277.872,
                 "z": 333.09
+            }
+        },
+        {
+            "area": 5,
+            "id": 133104830,
+            "is_replaceable": {
+                "new_bin_only": true,
+                "value": false,
+                "version": 0
+            },
+            "pos": {
+                "x": 938.465,
+                "y": 212.78,
+                "z": 332.468
+            }
+        },
+        {
+            "area": 5,
+            "business": {
+                "type": 1
+            },
+            "dynamic_load": true,
+            "id": 133104832,
+            "is_replaceable": {
+                "new_bin_only": true,
+                "value": true,
+                "version": 0
+            },
+            "pos": {
+                "x": 888.955,
+                "y": 257.265,
+                "z": 323.977
             }
         },
         {

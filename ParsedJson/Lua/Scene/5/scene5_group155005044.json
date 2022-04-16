@@ -85,6 +85,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Jiguan",
             "no_refresh": true,
             "value": 0

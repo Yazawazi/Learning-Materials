@@ -72,6 +72,38 @@
             "variables": []
         }
     ],
+    "suites": [
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [
+                227003
+            ],
+            "triggers": [
+                "QUEST_FINISH_227002",
+                "ENTER_REGION_227003"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [
+                227001
+            ],
+            "triggers": [
+                "ENTER_REGION_227001"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
+        }
+    ],
     "triggers": [
         {
             "action": "action_EVENT_ENTER_REGION_227001",

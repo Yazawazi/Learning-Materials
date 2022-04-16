@@ -61,6 +61,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "var",
             "no_refresh": true,
             "value": 0

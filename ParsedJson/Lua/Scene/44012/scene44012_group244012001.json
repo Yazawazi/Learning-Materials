@@ -365,21 +365,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "IS_IN_LIMIT_TIME",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "monster_count",
             "no_refresh": false,
             "value": 7
         },
         {
+            "configId": 3,
             "name": "wave1_count",
             "no_refresh": false,
             "value": 3
         },
         {
+            "configId": 4,
             "name": "wave2_count",
             "no_refresh": false,
             "value": 4

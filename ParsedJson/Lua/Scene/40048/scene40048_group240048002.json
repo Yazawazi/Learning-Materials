@@ -1284,76 +1284,91 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "wall3",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 2,
             "name": "wall4",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "wall5",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 4,
             "name": "wall6",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "wall7",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 6,
             "name": "wall9",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 7,
             "name": "wall70",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 8,
             "name": "wall90",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 9,
             "name": "gadget1",
             "no_refresh": false,
             "value": 4
         },
         {
+            "configId": 10,
             "name": "gadget2",
             "no_refresh": false,
             "value": 4
         },
         {
+            "configId": 11,
             "name": "gadget3",
             "no_refresh": false,
             "value": 4
         },
         {
+            "configId": 12,
             "name": "gadget4",
             "no_refresh": false,
             "value": 4
         },
         {
+            "configId": 13,
             "name": "point",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 14,
             "name": "wall40",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 15,
             "name": "wall1",
             "no_refresh": false,
             "value": 0

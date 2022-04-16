@@ -443,16 +443,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "count",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "right",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "end",
             "no_refresh": true,
             "value": 0

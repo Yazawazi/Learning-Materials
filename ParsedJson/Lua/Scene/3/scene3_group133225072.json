@@ -557,11 +557,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "chestState",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "suiteBySeq",
             "no_refresh": true,
             "value": 0

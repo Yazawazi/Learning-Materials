@@ -298,11 +298,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "RainState",
             "no_refresh": false,
             "value": 5
         },
         {
+            "configId": 2,
             "name": "monster_die",
             "no_refresh": false,
             "value": 0

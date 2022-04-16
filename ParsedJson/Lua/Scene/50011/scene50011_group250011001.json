@@ -416,6 +416,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "DeadMonster",
             "no_refresh": false,
             "value": 0

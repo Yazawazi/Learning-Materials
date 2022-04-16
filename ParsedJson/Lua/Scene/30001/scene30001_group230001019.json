@@ -580,36 +580,43 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "grouplevel1",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "grouplevel3",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "grouplevel5",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "grouplevel7",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "grouplevel9",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "grouplevel12",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "grouplevel14",
             "no_refresh": false,
             "value": 0

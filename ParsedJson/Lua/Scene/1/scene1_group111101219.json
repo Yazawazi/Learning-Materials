@@ -164,6 +164,7 @@
     "triggers": [],
     "variables": [
         {
+            "configId": 1,
             "name": "Finished",
             "no_refresh": true,
             "value": 0

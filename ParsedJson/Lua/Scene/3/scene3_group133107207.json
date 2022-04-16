@@ -123,6 +123,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "letter",
             "no_refresh": true,
             "value": 0

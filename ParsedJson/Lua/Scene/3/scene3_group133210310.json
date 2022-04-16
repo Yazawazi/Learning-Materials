@@ -92,16 +92,19 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "GadgetActive",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "GadgetState",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "QuestFinish",
                     "no_refresh": true,
                     "value": 0
@@ -128,20 +131,52 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "GadgetActive",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "GadgetState",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "QuestFinish",
                     "no_refresh": true,
                     "value": 0
                 }
+            ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [
+                310001,
+                310005,
+                310007
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_START_310004",
+                "QUEST_FINISH_310006"
+            ]
+        },
+        {
+            "gadgets": [
+                310001,
+                310007
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_START_310004",
+                "QUEST_FINISH_310006"
             ]
         }
     ],
@@ -185,16 +220,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "GadgetActive",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "GadgetState",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "QuestFinish",
             "no_refresh": true,
             "value": 0

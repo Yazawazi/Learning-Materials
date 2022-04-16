@@ -87,21 +87,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "gameplayState",
             "no_refresh": true,
             "value": 1
         },
         {
+            "configId": 2,
             "name": "activepairscount",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "uniqe_id_01",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "uniqe_id_02",
             "no_refresh": false,
             "value": 0

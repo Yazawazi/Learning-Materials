@@ -315,6 +315,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Boss",
             "no_refresh": false,
             "value": 0

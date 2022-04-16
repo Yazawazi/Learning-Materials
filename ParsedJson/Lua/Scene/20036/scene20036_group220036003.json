@@ -397,11 +397,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "puzzle_count",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "puzzle_flag",
             "no_refresh": false,
             "value": 0

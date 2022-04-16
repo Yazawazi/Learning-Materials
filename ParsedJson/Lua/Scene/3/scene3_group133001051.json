@@ -904,51 +904,61 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "ovenATemp",
             "no_refresh": false,
             "value": 46
         },
         {
+            "configId": 2,
             "name": "ovenBTemp",
             "no_refresh": false,
             "value": 35
         },
         {
+            "configId": 3,
             "name": "ovenCTemp",
             "no_refresh": false,
             "value": 56
         },
         {
+            "configId": 4,
             "name": "curPos",
             "no_refresh": false,
             "value": 2
         },
         {
+            "configId": 5,
             "name": "fireDirection",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "ovenATempDirection",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "ovenBTempDirection",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 8,
             "name": "ovenCTempDirection",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 9,
             "name": "startOrNot",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 10,
             "name": "failTimes",
             "no_refresh": true,
             "value": 0

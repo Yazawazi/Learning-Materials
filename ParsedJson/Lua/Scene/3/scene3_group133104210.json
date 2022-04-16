@@ -155,11 +155,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "isActive",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "isFinished",
             "no_refresh": true,
             "value": 0

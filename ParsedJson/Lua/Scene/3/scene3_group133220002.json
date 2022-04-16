@@ -328,16 +328,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "reminder",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "first",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "finish",
             "no_refresh": true,
             "value": 0

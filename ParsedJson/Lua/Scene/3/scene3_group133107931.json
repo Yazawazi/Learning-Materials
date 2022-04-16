@@ -152,6 +152,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "hasKilledMonster",
             "no_refresh": true,
             "value": 0

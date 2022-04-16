@@ -274,21 +274,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "gears",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "g1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "g2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "g3",
             "no_refresh": true,
             "value": 0

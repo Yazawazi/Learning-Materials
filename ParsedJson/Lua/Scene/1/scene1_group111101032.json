@@ -143,6 +143,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "isStartMoving",
             "no_refresh": false,
             "value": 0

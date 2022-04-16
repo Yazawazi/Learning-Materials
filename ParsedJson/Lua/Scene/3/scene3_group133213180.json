@@ -282,41 +282,49 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "entered",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "finished1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "finished2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "finished3",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "finished4",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "finished5",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "globalfinish1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 8,
             "name": "globalfinish2",
             "no_refresh": true,
             "value": 0

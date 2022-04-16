@@ -195,6 +195,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Sculpture_State",
             "no_refresh": true,
             "value": 0

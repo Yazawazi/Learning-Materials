@@ -115,7 +115,7 @@
             "drop_id": 1000100,
             "isElite": true,
             "level": 1,
-            "monster_id": 23010101,
+            "monster_id": 23010601,
             "pos": {
                 "x": -4475.442,
                 "y": 200.944,
@@ -159,7 +159,7 @@
             "drop_id": 1000100,
             "isElite": true,
             "level": 1,
-            "monster_id": 23010201,
+            "monster_id": 23010301,
             "pos": {
                 "x": -4487.508,
                 "y": 200,
@@ -364,6 +364,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "hasStarted",
             "no_refresh": true,
             "value": 0

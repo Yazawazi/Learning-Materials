@@ -144,26 +144,31 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Point_Value",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Temp_Point_Value",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "isFinished",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "TriggerCount",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "CreateTag",
             "no_refresh": true,
             "value": 0

@@ -182,18 +182,6 @@
         "ALL": 1,
         "SINGLE": 0
     },
-    "ActorType": {
-        "BASE_ENTITY": 1,
-        "CUTSCENE_ACTOR": 7,
-        "GADGET_ACTOR": 5,
-        "GLOBAL_ACTOR": 4,
-        "INTERACTION_ACTOR": 8,
-        "INVALID": 0,
-        "NPCGLOBAL_ACTOR": 9,
-        "NPC_ACTOR": 2,
-        "QUEST_ACTOR": 3,
-        "SUB_GLOBAL_ACTOR": 6
-    },
     "AddActionType": {
         "Idle": 0,
         "ResetGlobalValue": 1
@@ -2163,10 +2151,6 @@
         "TeleportBegin": 10,
         "TeleportEnd": 11
     },
-    "NarratorState": {
-        "ING": 0,
-        "PAUSING": 1
-    },
     "NavType": {
         "None": 0,
         "Obstacle": 1
@@ -3197,6 +3181,9 @@
         "LEVEL_3": 3,
         "LEVEL_NONE": 0
     },
+    "a": {
+        "__bor": 3
+    },
     "actorData": {
         "GetByGadgetRewindData": "WARN: Lua function omitted from the dump",
         "GetByNpcRewindData": "WARN: Lua function omitted from the dump"
@@ -3367,6 +3354,7 @@
             "ClearInfo": "WARN: Lua function omitted from the dump",
             "ClearLookAt": "WARN: Lua function omitted from the dump",
             "ClearNarratorTask": "WARN: Lua function omitted from the dump",
+            "ClearNpcFollowTask": "WARN: Lua function omitted from the dump",
             "ClearNpcSpeechBubble": "WARN: Lua function omitted from the dump",
             "ClearNpcs": "WARN: Lua function omitted from the dump",
             "ClearOnCollisionEnter": "WARN: Lua function omitted from the dump",
@@ -3738,6 +3726,8 @@
             "NextMove": "WARN: Lua function omitted from the dump",
             "Normallize": "WARN: Lua function omitted from the dump",
             "NotifyTo": "WARN: Lua function omitted from the dump",
+            "NpcFollowTask": "WARN: Lua function omitted from the dump",
+            "NpcFollowTaskWithParams": "WARN: Lua function omitted from the dump",
             "NpcLinBeFollowTask": "WARN: Lua function omitted from the dump",
             "NpcLinCheer": "WARN: Lua function omitted from the dump",
             "NpcLinPauseAndCallPlayer": "WARN: Lua function omitted from the dump",

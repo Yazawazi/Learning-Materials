@@ -342,11 +342,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "destroyed",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "reached",
             "no_refresh": false,
             "value": 0

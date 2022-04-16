@@ -445,6 +445,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "isoff",
             "no_refresh": false,
             "value": 0

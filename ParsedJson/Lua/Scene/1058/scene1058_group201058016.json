@@ -523,6 +523,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "startChallenge",
             "no_refresh": false,
             "value": 0

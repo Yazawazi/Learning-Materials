@@ -134,6 +134,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Gadget_Count",
                     "no_refresh": true,
                     "value": 0
@@ -179,6 +180,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Gadget_Count",
                     "no_refresh": true,
                     "value": 0
@@ -210,11 +212,66 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Gadget_Count",
                     "no_refresh": true,
                     "value": 4
                 }
             ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [
+                346001,
+                346002,
+                346003,
+                346004
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "GROUP_LOAD_346018"
+            ]
+        },
+        {
+            "gadgets": [
+                346001,
+                346002,
+                346003,
+                346004
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "GADGET_STATE_CHANGE_346005",
+                "GADGET_STATE_CHANGE_346006",
+                "GADGET_STATE_CHANGE_346007",
+                "GADGET_STATE_CHANGE_346008",
+                "GADGET_STATE_CHANGE_346009",
+                "GADGET_STATE_CHANGE_346010",
+                "GADGET_STATE_CHANGE_346011",
+                "GADGET_STATE_CHANGE_346012",
+                "VARIABLE_CHANGE_346013",
+                "TIME_AXIS_PASS_346014",
+                "TIME_AXIS_PASS_346015",
+                "TIME_AXIS_PASS_346016",
+                "TIME_AXIS_PASS_346017"
+            ]
+        },
+        {
+            "gadgets": [
+                346001,
+                346002,
+                346003,
+                346004
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [
@@ -346,6 +403,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Gadget_Count",
             "no_refresh": true,
             "value": 0

@@ -414,26 +414,31 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "fin",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "count",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "aka",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "aoi",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "rua",
             "no_refresh": true,
             "value": 0

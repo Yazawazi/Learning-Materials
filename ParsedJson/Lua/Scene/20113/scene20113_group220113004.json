@@ -383,6 +383,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "key_downfloor",
             "no_refresh": false,
             "value": 0

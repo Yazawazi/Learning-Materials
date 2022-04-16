@@ -144,6 +144,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "133001925",
             "no_refresh": false,
             "value": 0

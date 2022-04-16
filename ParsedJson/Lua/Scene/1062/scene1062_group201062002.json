@@ -594,6 +594,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "key",
             "no_refresh": false,
             "value": 0

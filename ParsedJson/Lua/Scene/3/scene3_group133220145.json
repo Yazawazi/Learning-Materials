@@ -2,6 +2,29 @@
     "action_EVENT_ANY_MONSTER_DIE_145004": "WARN: Lua function omitted from the dump",
     "condition_EVENT_ANY_MONSTER_DIE_145004": "WARN: Lua function omitted from the dump",
     "gadgets": [],
+    "garbages": {
+        "monsters": [
+            {
+                "area_id": 11,
+                "config_id": 145002,
+                "disableWander": true,
+                "drop_tag": "\u5148\u9063\u961f",
+                "level": 1,
+                "monster_id": 23010301,
+                "pos": {
+                    "x": -2443.179,
+                    "y": 225.838,
+                    "z": -4193.365
+                },
+                "pose_id": 9011,
+                "rot": {
+                    "x": 0,
+                    "y": 211.998,
+                    "z": 0
+                }
+            }
+        ]
+    },
     "init_config": {
         "end_suite": 0,
         "rand_suite": false,
@@ -16,33 +39,14 @@
             "level": 1,
             "monster_id": 23010501,
             "pos": {
-                "x": -2448.271,
-                "y": 226.48,
-                "z": -4204.861
+                "x": -2443.287,
+                "y": 225.901,
+                "z": -4193.346
             },
             "pose_id": 9001,
             "rot": {
                 "x": 0,
                 "y": 220.027,
-                "z": 0
-            }
-        },
-        {
-            "area_id": 11,
-            "config_id": 145002,
-            "disableWander": true,
-            "drop_tag": "\u5148\u9063\u961f",
-            "level": 1,
-            "monster_id": 23010301,
-            "pos": {
-                "x": -2443.179,
-                "y": 225.838,
-                "z": -4193.365
-            },
-            "pose_id": 9011,
-            "rot": {
-                "x": 0,
-                "y": 211.998,
                 "z": 0
             }
         },
@@ -68,7 +72,7 @@
             "config_id": 145005,
             "drop_tag": "\u5148\u9063\u961f",
             "level": 1,
-            "monster_id": 23010201,
+            "monster_id": 23010401,
             "pos": {
                 "x": -2451.242,
                 "y": 225.686,
@@ -88,14 +92,14 @@
             "level": 1,
             "monster_id": 23010601,
             "pos": {
-                "x": -2456.498,
-                "y": 225.967,
-                "z": -4195.664
+                "x": -2442.701,
+                "y": 226.513,
+                "z": -4202.671
             },
             "pose_id": 9002,
             "rot": {
                 "x": 0,
-                "y": 252.523,
+                "y": 282.208,
                 "z": 0
             }
         }
@@ -107,7 +111,6 @@
             "gadgets": [],
             "monsters": [
                 145001,
-                145002,
                 145012
             ],
             "rand_weight": 100,

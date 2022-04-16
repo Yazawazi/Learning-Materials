@@ -143,6 +143,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Boss_Die",
             "no_refresh": false,
             "value": 0

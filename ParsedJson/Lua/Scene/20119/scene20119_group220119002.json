@@ -264,6 +264,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "stairs1",
             "no_refresh": false,
             "value": 1

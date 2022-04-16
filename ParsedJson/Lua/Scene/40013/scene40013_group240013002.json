@@ -64,7 +64,7 @@
             },
             "rot": {
                 "x": 0,
-                "y": 90.537,
+                "y": 90.538,
                 "z": 0
             }
         },
@@ -388,6 +388,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Boss",
             "no_refresh": false,
             "value": 0

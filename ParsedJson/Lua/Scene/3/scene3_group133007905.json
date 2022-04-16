@@ -60,6 +60,7 @@
     "triggers": [],
     "variables": [
         {
+            "configId": 1,
             "name": "finish",
             "no_refresh": true,
             "value": 0

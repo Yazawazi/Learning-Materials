@@ -89,6 +89,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "SummonWave",
             "no_refresh": false,
             "value": 2

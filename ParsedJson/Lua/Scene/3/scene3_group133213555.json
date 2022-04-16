@@ -534,6 +534,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "sneak_first",
             "no_refresh": true,
             "value": 0

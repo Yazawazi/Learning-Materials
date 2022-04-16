@@ -183,21 +183,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "sort",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "gear_reset",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "v_error",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "trigger_output",
             "no_refresh": false,
             "value": 0

@@ -43,10 +43,23 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "GadgetCreate",
                     "no_refresh": true,
                     "value": 0
                 }
+            ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "VARIABLE_CHANGE_299002",
+                "PLATFORM_REACH_POINT_299003"
             ]
         }
     ],
@@ -72,6 +85,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "GadgetCreate",
             "no_refresh": true,
             "value": 0

@@ -237,26 +237,31 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Rune_01",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Rune_02",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "Rune_03",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "Rune_04",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "Rune_05",
             "no_refresh": true,
             "value": 0

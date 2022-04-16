@@ -102,6 +102,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Key",
             "no_refresh": false,
             "value": 0

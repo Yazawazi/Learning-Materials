@@ -1,0 +1,41 @@
+{
+    "gadgets": [],
+    "init_config": {
+        "end_suite": 0,
+        "rand_suite": false,
+        "suite": 1
+    },
+    "monsters": [],
+    "npcs": [
+        {
+            "area_id": 300,
+            "config_id": 660001,
+            "npc_id": 30181,
+            "pos": {
+                "x": 947.008,
+                "y": 724.706,
+                "z": 342.612
+            },
+            "rot": {
+                "x": 0,
+                "y": 199.52,
+                "z": 0
+            }
+        }
+    ],
+    "regions": [],
+    "suites": [
+        {
+            "gadgets": [],
+            "monsters": [],
+            "npcs": [
+                660001
+            ],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
+        }
+    ],
+    "triggers": [],
+    "variables": []
+}

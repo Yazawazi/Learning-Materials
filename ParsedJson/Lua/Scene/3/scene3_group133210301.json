@@ -103,16 +103,19 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "GadgetCreate",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "Talked",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "AllSuccess",
                     "no_refresh": true,
                     "value": 0
@@ -142,16 +145,19 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "GadgetCreate",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "Talked",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "AllSuccess",
                     "no_refresh": true,
                     "value": 0
@@ -168,16 +174,19 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "GadgetCreate",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "Talked",
                     "no_refresh": true,
                     "value": 1
                 },
                 {
+                    "configId": 3,
                     "name": "AllSuccess",
                     "no_refresh": true,
                     "value": 0
@@ -192,21 +201,65 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "GadgetCreate",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "Talked",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "AllSuccess",
                     "no_refresh": true,
                     "value": 0
                 }
             ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [
+                301001
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "VARIABLE_CHANGE_301004"
+            ]
+        },
+        {
+            "gadgets": [
+                301005
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "PLATFORM_REACH_POINT_301003",
+                "VARIABLE_CHANGE_301007"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "VARIABLE_CHANGE_301007"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [
@@ -237,16 +290,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "GadgetCreate",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Talked",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "AllSuccess",
             "no_refresh": true,
             "value": 0

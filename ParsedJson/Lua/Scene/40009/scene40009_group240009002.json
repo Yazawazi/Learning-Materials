@@ -488,6 +488,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "jgCount",
             "no_refresh": false,
             "value": 0

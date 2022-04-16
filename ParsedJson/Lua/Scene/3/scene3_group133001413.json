@@ -7074,11 +7074,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "interact_flag",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "GM_Mode",
             "no_refresh": true,
             "value": 0

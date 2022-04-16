@@ -320,11 +320,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "CHEST_CREATED",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "KILL",
             "no_refresh": true,
             "value": 0

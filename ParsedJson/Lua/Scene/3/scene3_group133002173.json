@@ -243,21 +243,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "t1386",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "t1385",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "t1387",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "isoff",
             "no_refresh": true,
             "value": 0

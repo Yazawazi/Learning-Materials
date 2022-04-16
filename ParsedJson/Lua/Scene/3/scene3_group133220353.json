@@ -548,6 +548,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "beHitTimes",
             "no_refresh": false,
             "value": 0

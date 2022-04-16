@@ -974,66 +974,79 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "A",
             "no_refresh": false,
             "value": 2
         },
         {
+            "configId": 2,
             "name": "B",
             "no_refresh": false,
             "value": 2
         },
         {
+            "configId": 3,
             "name": "C",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 4,
             "name": "D",
             "no_refresh": false,
             "value": 2
         },
         {
+            "configId": 5,
             "name": "Lamp",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "Yes",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "Start",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 8,
             "name": "Challenge",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 9,
             "name": "L1",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 10,
             "name": "L2",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 11,
             "name": "L3",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 12,
             "name": "L4",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 13,
             "name": "Finish",
             "no_refresh": false,
             "value": 0

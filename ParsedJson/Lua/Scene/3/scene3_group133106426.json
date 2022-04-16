@@ -836,21 +836,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "CookingCamp",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "AlchemyCamp",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "WeaponCamp",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "AllCleared",
             "no_refresh": true,
             "value": 0

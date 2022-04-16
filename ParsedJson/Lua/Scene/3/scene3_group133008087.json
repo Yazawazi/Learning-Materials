@@ -252,11 +252,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "activateCount",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "isGearOperated",
             "no_refresh": true,
             "value": 0

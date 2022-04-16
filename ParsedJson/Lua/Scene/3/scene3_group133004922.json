@@ -150,6 +150,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "CampClear",
             "no_refresh": true,
             "value": 0

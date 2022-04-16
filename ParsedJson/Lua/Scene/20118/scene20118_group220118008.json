@@ -505,6 +505,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "isEscape",
             "no_refresh": false,
             "value": 0

@@ -105,6 +105,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "quest",
             "no_refresh": true,
             "value": 0

@@ -147,11 +147,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "open",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "opendoor",
             "no_refresh": true,
             "value": 0

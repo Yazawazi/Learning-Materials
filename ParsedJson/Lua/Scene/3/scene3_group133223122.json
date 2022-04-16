@@ -543,16 +543,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "EnergyBall_Succ_Count",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "mission_progress",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "FeatherCount",
             "no_refresh": true,
             "value": 0

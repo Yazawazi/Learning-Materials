@@ -82,6 +82,44 @@
             "variables": []
         }
     ],
+    "suites": [
+        {
+            "ban_refresh": true,
+            "gadgets": [
+                17001
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_START_17006",
+                "GROUP_LOAD_17007"
+            ]
+        },
+        {
+            "gadgets": [
+                17001
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "GROUP_LOAD_17002",
+                "SELECT_OPTION_17003",
+                "QUEST_START_17004",
+                "QUEST_FINISH_17005",
+                "QUEST_START_17008",
+                "GADGET_CREATE_17009"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
+        }
+    ],
     "triggers": [
         {
             "action": "action_EVENT_GROUP_LOAD_17002",

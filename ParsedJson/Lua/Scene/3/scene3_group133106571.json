@@ -184,6 +184,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "barrierDestroyed",
             "no_refresh": true,
             "value": 0

@@ -12,7 +12,7 @@
             "level": 1,
             "pos": {
                 "x": 0.127,
-                "y": 0.11,
+                "y": -0.051,
                 "z": -0.046
             },
             "rot": {
@@ -74,6 +74,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "wave",
             "no_refresh": false,
             "value": 0

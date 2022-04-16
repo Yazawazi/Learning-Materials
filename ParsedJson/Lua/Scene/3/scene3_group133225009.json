@@ -1092,16 +1092,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "finalWave",
             "no_refresh": false,
             "value": 3
         },
         {
+            "configId": 2,
             "name": "refreshMonster",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "isTimeout",
             "no_refresh": false,
             "value": 0

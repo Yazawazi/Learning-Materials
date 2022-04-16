@@ -190,21 +190,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "GadgetArrive1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "GadgetArrive2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "Talked",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "RemindTalked",
             "no_refresh": true,
             "value": 0

@@ -153,6 +153,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "total_count",
             "no_refresh": false,
             "value": 0

@@ -259,6 +259,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "isSpawn",
             "no_refresh": false,
             "value": 0

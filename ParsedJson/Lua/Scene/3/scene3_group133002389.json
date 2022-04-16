@@ -506,6 +506,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "slimeNum",
             "no_refresh": false,
             "value": 0

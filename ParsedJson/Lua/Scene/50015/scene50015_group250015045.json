@@ -1216,11 +1216,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "hasStarted",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "hasFlipped",
             "no_refresh": false,
             "value": 0

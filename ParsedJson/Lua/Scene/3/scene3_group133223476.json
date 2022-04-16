@@ -205,6 +205,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "feather_count",
             "no_refresh": true,
             "value": 0

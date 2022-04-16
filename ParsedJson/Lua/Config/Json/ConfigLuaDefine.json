@@ -7,18 +7,6 @@
         "ALL": 1,
         "SINGLE": 0
     },
-    "ActorType": {
-        "BASE_ENTITY": 1,
-        "CUTSCENE_ACTOR": 7,
-        "GADGET_ACTOR": 5,
-        "GLOBAL_ACTOR": 4,
-        "INTERACTION_ACTOR": 8,
-        "INVALID": 0,
-        "NPCGLOBAL_ACTOR": 9,
-        "NPC_ACTOR": 2,
-        "QUEST_ACTOR": 3,
-        "SUB_GLOBAL_ACTOR": 6
-    },
     "BeFollowState": {
         "FAILED": 4,
         "ING": 0,
@@ -49,10 +37,6 @@
         "SPEECH_BUBBLE": 7,
         "STEER": 6,
         "THREAT": 2
-    },
-    "NarratorState": {
-        "ING": 0,
-        "PAUSING": 1
     },
     "QState": {
         "ACCEPTED": 0,

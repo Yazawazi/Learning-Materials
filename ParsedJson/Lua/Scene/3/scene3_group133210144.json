@@ -289,11 +289,13 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "active_count",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "Reminder",
                     "no_refresh": true,
                     "value": 0
@@ -340,11 +342,13 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "active_count",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "Reminder",
                     "no_refresh": true,
                     "value": 0
@@ -384,16 +388,74 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "active_count",
                     "no_refresh": true,
                     "value": 6
                 },
                 {
+                    "configId": 2,
                     "name": "Reminder",
                     "no_refresh": true,
                     "value": 1
                 }
             ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [
+                144015,
+                144016,
+                144017,
+                144018,
+                144019,
+                144020
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [
+                144003
+            ],
+            "triggers": [
+                "QUEST_START_144001",
+                "ENTER_REGION_144003"
+            ]
+        },
+        {
+            "gadgets": [
+                144009,
+                144010,
+                144011,
+                144012,
+                144013,
+                144014
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [
+                144003
+            ],
+            "triggers": [
+                "ENTER_REGION_144003",
+                "GADGET_STATE_CHANGE_144006",
+                "TIME_AXIS_PASS_144007",
+                "VARIABLE_CHANGE_144008"
+            ]
+        },
+        {
+            "gadgets": [
+                144009,
+                144010,
+                144011,
+                144012,
+                144013,
+                144014
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [
@@ -472,11 +534,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "active_count",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Reminder",
             "no_refresh": true,
             "value": 0

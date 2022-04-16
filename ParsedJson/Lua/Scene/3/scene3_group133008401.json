@@ -686,66 +686,79 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "done",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "A",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "B",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "C",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "D",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "Aout",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "Bout",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 8,
             "name": "Cout",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 9,
             "name": "Dout",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 10,
             "name": "First",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 11,
             "name": "X",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 12,
             "name": "Y",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 13,
             "name": "Z",
             "no_refresh": false,
             "value": 0

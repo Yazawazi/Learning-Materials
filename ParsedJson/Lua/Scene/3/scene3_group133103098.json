@@ -20,6 +20,7 @@
     "triggers": [],
     "variables": [
         {
+            "configId": 1,
             "name": "State_Flag",
             "no_refresh": true,
             "value": 0

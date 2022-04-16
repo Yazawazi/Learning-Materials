@@ -186,16 +186,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "gameplayState",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "wallCurPos",
             "no_refresh": true,
             "value": 1
         },
         {
+            "configId": 3,
             "name": "isMoving",
             "no_refresh": false,
             "value": 0

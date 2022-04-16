@@ -252,6 +252,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "default",
             "no_refresh": true,
             "value": 0

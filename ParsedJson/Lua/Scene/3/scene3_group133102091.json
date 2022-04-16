@@ -364,11 +364,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "fin1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "fin2",
             "no_refresh": true,
             "value": 0

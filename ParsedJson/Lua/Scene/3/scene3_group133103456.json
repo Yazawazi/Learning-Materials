@@ -115,6 +115,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "seals",
             "no_refresh": true,
             "value": 0

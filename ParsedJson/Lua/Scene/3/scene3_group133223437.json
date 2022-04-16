@@ -191,36 +191,43 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "isFinished",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "isMoving",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "currentRouteIndex",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "nextRouteIndex",
                     "no_refresh": false,
                     "value": 1
                 },
                 {
+                    "configId": 5,
                     "name": "isstart",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 6,
                     "name": "currentPathNodeIndex",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 7,
                     "name": "featherfinish",
                     "no_refresh": false,
                     "value": 0
@@ -261,40 +268,79 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "isFinished",
                     "no_refresh": true,
                     "value": 1
                 },
                 {
+                    "configId": 2,
                     "name": "isMoving",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "currentRouteIndex",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "nextRouteIndex",
                     "no_refresh": false,
                     "value": 1
                 },
                 {
+                    "configId": 5,
                     "name": "isstart",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 6,
                     "name": "currentPathNodeIndex",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 7,
                     "name": "featherfinish",
                     "no_refresh": false,
                     "value": 0
                 }
+            ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [
+                437001,
+                437007,
+                437008,
+                437009
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "PLATFORM_REACH_POINT_437003",
+                "AVATAR_NEAR_PLATFORM_437004",
+                "GROUP_REFRESH_437006"
+            ]
+        },
+        {
+            "gadgets": [
+                437002,
+                437010,
+                437011,
+                437012
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "GADGET_STATE_CHANGE_437005"
             ]
         }
     ],
@@ -337,36 +383,43 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "isFinished",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "isMoving",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "currentRouteIndex",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "nextRouteIndex",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 5,
             "name": "isstart",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "currentPathNodeIndex",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "featherfinish",
             "no_refresh": true,
             "value": 0

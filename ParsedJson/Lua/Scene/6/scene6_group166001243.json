@@ -165,6 +165,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "drop",
             "no_refresh": false,
             "value": 0

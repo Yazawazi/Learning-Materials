@@ -160,6 +160,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "sword_01",
             "no_refresh": true,
             "value": 0

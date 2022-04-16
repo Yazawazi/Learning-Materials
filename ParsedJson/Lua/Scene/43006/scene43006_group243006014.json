@@ -51,6 +51,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "AvatarDie",
             "no_refresh": false,
             "value": 0

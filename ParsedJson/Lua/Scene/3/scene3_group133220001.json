@@ -247,6 +247,7 @@
     "triggers": [],
     "variables": [
         {
+            "configId": 1,
             "name": "fhotofin",
             "no_refresh": false,
             "value": 0

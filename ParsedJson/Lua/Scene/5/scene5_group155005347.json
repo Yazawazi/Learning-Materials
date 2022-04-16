@@ -219,6 +219,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "reachPoint",
             "no_refresh": true,
             "value": 0

@@ -134,6 +134,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "QuestVar1",
             "no_refresh": false,
             "value": 0

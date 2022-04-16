@@ -1099,76 +1099,91 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "isObstacle1Available",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 2,
             "name": "isObstacle2Available",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 3,
             "name": "isObstacle3Available",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 4,
             "name": "isObstacle4Available",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 5,
             "name": "isObstacle4_1Available",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 6,
             "name": "isObstacle4_2Available",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 7,
             "name": "isObstacle5Available",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 8,
             "name": "isObstacle6Available",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 9,
             "name": "hasReachedObstacle1",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 10,
             "name": "hasReachedObstacle2",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 11,
             "name": "hasReachedObstacle3",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 12,
             "name": "hasReachedObstacle4",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 13,
             "name": "hasReachedObstacle5",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 14,
             "name": "hasReachedObstacle6",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 15,
             "name": "deadTrapMonsters",
             "no_refresh": false,
             "value": 0

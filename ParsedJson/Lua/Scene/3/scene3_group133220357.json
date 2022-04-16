@@ -450,51 +450,61 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "successed",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "challenge_state",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "current_stone",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "starter_id",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 5,
                     "name": "start_enter",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 6,
                     "name": "open",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 7,
                     "name": "stone1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 8,
                     "name": "stone2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 9,
                     "name": "stone3",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 10,
                     "name": "stone4",
                     "no_refresh": true,
                     "value": 0
@@ -588,51 +598,61 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "successed",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "challenge_state",
                     "no_refresh": false,
                     "value": 1
                 },
                 {
+                    "configId": 3,
                     "name": "current_stone",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "starter_id",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 5,
                     "name": "start_enter",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 6,
                     "name": "open",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 7,
                     "name": "stone1",
                     "no_refresh": true,
                     "value": 1
                 },
                 {
+                    "configId": 8,
                     "name": "stone2",
                     "no_refresh": true,
                     "value": 1
                 },
                 {
+                    "configId": 9,
                     "name": "stone3",
                     "no_refresh": true,
                     "value": 1
                 },
                 {
+                    "configId": 10,
                     "name": "stone4",
                     "no_refresh": true,
                     "value": 1
@@ -655,55 +675,147 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "successed",
                     "no_refresh": true,
                     "value": 1
                 },
                 {
+                    "configId": 2,
                     "name": "challenge_state",
                     "no_refresh": false,
                     "value": 2
                 },
                 {
+                    "configId": 3,
                     "name": "current_stone",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "starter_id",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 5,
                     "name": "start_enter",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 6,
                     "name": "open",
                     "no_refresh": true,
                     "value": 1
                 },
                 {
+                    "configId": 7,
                     "name": "stone1",
                     "no_refresh": true,
                     "value": 1
                 },
                 {
+                    "configId": 8,
                     "name": "stone2",
                     "no_refresh": true,
                     "value": 1
                 },
                 {
+                    "configId": 9,
                     "name": "stone3",
                     "no_refresh": true,
                     "value": 1
                 },
                 {
+                    "configId": 10,
                     "name": "stone4",
                     "no_refresh": true,
                     "value": 1
                 }
+            ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [
+                357001,
+                357002,
+                357003,
+                357004,
+                357006,
+                357007,
+                357008,
+                357009,
+                357011,
+                357012,
+                357013,
+                357014,
+                357016,
+                357017,
+                357018,
+                357019,
+                357031
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "VARIABLE_CHANGE_357005",
+                "VARIABLE_CHANGE_357020",
+                "VARIABLE_CHANGE_357021",
+                "VARIABLE_CHANGE_357022",
+                "VARIABLE_CHANGE_357023",
+                "GADGET_STATE_CHANGE_357035",
+                "GROUP_LOAD_357040"
+            ]
+        },
+        {
+            "gadgets": [
+                357001,
+                357002,
+                357003,
+                357004,
+                357006,
+                357007,
+                357008,
+                357009,
+                357011,
+                357012,
+                357013,
+                357014,
+                357016,
+                357017,
+                357018,
+                357019,
+                357031
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [
+                357027
+            ],
+            "triggers": [
+                "GADGET_STATE_CHANGE_357010",
+                "GROUP_LOAD_357015",
+                "LEAVE_REGION_357027",
+                "VARIABLE_CHANGE_357028",
+                "GROUP_LOAD_357032",
+                "TIME_AXIS_PASS_357033",
+                "TIME_AXIS_PASS_357034"
+            ]
+        },
+        {
+            "gadgets": [
+                357031
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "VARIABLE_CHANGE_357028",
+                "GROUP_LOAD_357032"
             ]
         }
     ],
@@ -836,51 +948,61 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "successed",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "challenge_state",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "current_stone",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "starter_id",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "start_enter",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "open",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "stone1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 8,
             "name": "stone2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 9,
             "name": "stone3",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 10,
             "name": "stone4",
             "no_refresh": true,
             "value": 0

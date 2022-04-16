@@ -57,6 +57,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "gameplayState",
                     "no_refresh": true,
                     "value": 0
@@ -78,6 +79,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "gameplayState",
                     "no_refresh": true,
                     "value": 0
@@ -101,11 +103,44 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "gameplayState",
                     "no_refresh": true,
                     "value": 0
                 }
             ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_START_49002"
+            ]
+        },
+        {
+            "gadgets": [
+                49007
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_START_49006"
+            ]
+        },
+        {
+            "gadgets": [
+                49001,
+                49007
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [
@@ -130,6 +165,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "gameplayState",
             "no_refresh": true,
             "value": 0

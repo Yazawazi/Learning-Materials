@@ -108,6 +108,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "QuestState",
                     "no_refresh": true,
                     "value": 0
@@ -136,6 +137,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "QuestState",
                     "no_refresh": true,
                     "value": 1
@@ -157,10 +159,54 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "QuestState",
                     "no_refresh": true,
                     "value": 2
                 }
+            ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [
+                71001
+            ],
+            "monsters": [],
+            "npcs": [
+                71002
+            ],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_START_71003"
+            ]
+        },
+        {
+            "gadgets": [
+                71001,
+                71007
+            ],
+            "monsters": [],
+            "npcs": [
+                71002
+            ],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "GADGET_CREATE_71005",
+                "SELECT_OPTION_71006"
+            ]
+        },
+        {
+            "gadgets": [
+                71008
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "GADGET_STATE_CHANGE_71009"
             ]
         }
     ],
@@ -202,6 +248,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "QuestState",
             "no_refresh": true,
             "value": 0

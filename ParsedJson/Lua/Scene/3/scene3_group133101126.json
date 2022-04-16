@@ -129,6 +129,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "flag",
             "no_refresh": true,
             "value": 0

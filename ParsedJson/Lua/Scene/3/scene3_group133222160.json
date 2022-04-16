@@ -186,11 +186,13 @@
     "triggers": [],
     "variables": [
         {
+            "configId": 1,
             "name": "count1",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "count2",
             "no_refresh": false,
             "value": 0

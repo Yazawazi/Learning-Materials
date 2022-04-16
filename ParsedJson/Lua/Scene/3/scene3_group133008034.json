@@ -249,6 +249,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "kill",
             "no_refresh": false,
             "value": 0

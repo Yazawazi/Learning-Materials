@@ -455,26 +455,31 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "count",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "count_2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "open",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "end",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "sequence",
             "no_refresh": true,
             "value": 0

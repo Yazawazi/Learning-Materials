@@ -135,6 +135,46 @@
             "variables": []
         }
     ],
+    "suites": [
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [
+                225007
+            ],
+            "triggers": [
+                "QUEST_START_225006",
+                "ENTER_REGION_225007"
+            ]
+        },
+        {
+            "gadgets": [
+                225001
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [
+                225005
+            ],
+            "triggers": [
+                "GADGET_CREATE_225003",
+                "SELECT_OPTION_225004",
+                "ENTER_REGION_225005"
+            ]
+        },
+        {
+            "gadgets": [
+                225002
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "GADGET_STATE_CHANGE_225008"
+            ]
+        }
+    ],
     "triggers": [
         {
             "action": "action_EVENT_GADGET_CREATE_225003",

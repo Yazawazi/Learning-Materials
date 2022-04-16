@@ -267,6 +267,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "gadget_start",
             "no_refresh": true,
             "value": 0

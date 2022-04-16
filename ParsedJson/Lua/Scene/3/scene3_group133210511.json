@@ -61,21 +61,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Statue1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Statue2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "Statue3",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "Statue4",
             "no_refresh": true,
             "value": 0

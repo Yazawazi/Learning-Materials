@@ -105,21 +105,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Notified",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Seed",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "reminder_can_trigger",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "feather_use_reminder",
             "no_refresh": true,
             "value": 0

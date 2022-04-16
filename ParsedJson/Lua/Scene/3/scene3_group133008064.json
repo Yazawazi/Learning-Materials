@@ -333,16 +333,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "day",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "yesterdayBehavior",
             "no_refresh": true,
             "value": 1
         },
         {
+            "configId": 3,
             "name": "prizeGiven",
             "no_refresh": true,
             "value": 0

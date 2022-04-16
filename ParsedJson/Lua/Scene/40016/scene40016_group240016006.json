@@ -436,26 +436,31 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "change1",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "change2",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "change3",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "change4",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "change5",
             "no_refresh": false,
             "value": 0

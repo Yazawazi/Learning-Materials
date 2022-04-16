@@ -606,7 +606,7 @@
             },
             "rot": {
                 "x": 358.967,
-                "y": 28.89,
+                "y": 28.891,
                 "z": 259.932
             }
         },
@@ -932,16 +932,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Badass_Lighting",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Badass_Ice",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "Switch",
             "no_refresh": false,
             "value": 0

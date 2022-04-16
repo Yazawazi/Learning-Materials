@@ -81,11 +81,13 @@
     "triggers": [],
     "variables": [
         {
+            "configId": 1,
             "name": "Notified",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Seed",
             "no_refresh": true,
             "value": 0

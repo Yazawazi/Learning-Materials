@@ -408,36 +408,43 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "talk",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "current_idx",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "killed",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "quest_finished",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "quest_accept",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "explore",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "talk_see_monster",
             "no_refresh": true,
             "value": 0

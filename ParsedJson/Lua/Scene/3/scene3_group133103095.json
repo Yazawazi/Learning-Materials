@@ -1103,56 +1103,67 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "ovenATemp",
             "no_refresh": false,
             "value": 50
         },
         {
+            "configId": 2,
             "name": "ovenBTemp",
             "no_refresh": false,
             "value": 50
         },
         {
+            "configId": 3,
             "name": "ovenCTemp",
             "no_refresh": false,
             "value": 50
         },
         {
+            "configId": 4,
             "name": "curPos",
             "no_refresh": false,
             "value": 2
         },
         {
+            "configId": 5,
             "name": "fireDirection",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "ovenATempDirection",
             "no_refresh": false,
             "value": 2
         },
         {
+            "configId": 7,
             "name": "ovenBTempDirection",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 8,
             "name": "ovenCTempDirection",
             "no_refresh": false,
             "value": 2
         },
         {
+            "configId": 9,
             "name": "startOrNot",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 10,
             "name": "isRightBtnPressed",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 11,
             "name": "isLeftBtnPressed",
             "no_refresh": false,
             "value": 0

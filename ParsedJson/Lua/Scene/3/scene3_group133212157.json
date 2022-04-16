@@ -186,6 +186,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "quest_finish",
             "no_refresh": true,
             "value": 0

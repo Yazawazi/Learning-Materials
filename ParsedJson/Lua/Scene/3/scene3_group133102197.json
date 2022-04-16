@@ -83,6 +83,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "fished",
             "no_refresh": true,
             "value": 0

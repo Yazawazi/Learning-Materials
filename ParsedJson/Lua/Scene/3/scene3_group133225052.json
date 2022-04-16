@@ -218,16 +218,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "reminder_trigger",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "enterFog",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "triggerTalk",
             "no_refresh": true,
             "value": 0

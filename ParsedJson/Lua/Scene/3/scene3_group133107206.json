@@ -234,11 +234,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "letter1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "letter2",
             "no_refresh": true,
             "value": 0

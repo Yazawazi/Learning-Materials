@@ -313,6 +313,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Chest_Open",
                     "no_refresh": true,
                     "value": 0
@@ -362,6 +363,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Chest_Open",
                     "no_refresh": true,
                     "value": 0
@@ -392,6 +394,7 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Chest_Open",
                     "no_refresh": true,
                     "value": 0
@@ -413,6 +416,7 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Chest_Open",
                     "no_refresh": true,
                     "value": 0
@@ -429,10 +433,80 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Chest_Open",
                     "no_refresh": true,
                     "value": 0
                 }
+            ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [
+                209001,
+                209023
+            ],
+            "triggers": [
+                "ENTER_REGION_209001",
+                "QUEST_START_209002",
+                "ENTER_REGION_209023"
+            ]
+        },
+        {
+            "gadgets": [
+                209003,
+                209004,
+                209005,
+                209006,
+                209013,
+                209014,
+                209015
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "GADGET_STATE_CHANGE_209007",
+                "VARIABLE_CHANGE_209009",
+                "GADGET_STATE_CHANGE_209010",
+                "GADGET_STATE_CHANGE_209011",
+                "GADGET_STATE_CHANGE_209012"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [
+                209016,
+                209017,
+                209018,
+                209019,
+                209020
+            ],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
+        },
+        {
+            "gadgets": [],
+            "monsters": [
+                209021,
+                209022
+            ],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_START_209024"
             ]
         }
     ],
@@ -524,6 +598,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Chest_Open",
             "no_refresh": true,
             "value": 0

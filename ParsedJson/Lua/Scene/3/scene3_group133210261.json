@@ -289,46 +289,55 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Gadget_Count",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "Statue_Rotate1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "Statue_Rotated1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "Statue_Rotate2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 5,
                     "name": "Statue_Rotated2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 6,
                     "name": "Statue_Rotate3",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 7,
                     "name": "Statue_Rotated3",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 8,
                     "name": "Success",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 9,
                     "name": "Times",
                     "no_refresh": true,
                     "value": 0
@@ -420,46 +429,55 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Gadget_Count",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "Statue_Rotate1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "Statue_Rotated1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "Statue_Rotate2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 5,
                     "name": "Statue_Rotated2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 6,
                     "name": "Statue_Rotate3",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 7,
                     "name": "Statue_Rotated3",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 8,
                     "name": "Success",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 9,
                     "name": "Times",
                     "no_refresh": true,
                     "value": 0
@@ -511,50 +529,163 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Gadget_Count",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "Statue_Rotate1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "Statue_Rotated1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "Statue_Rotate2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 5,
                     "name": "Statue_Rotated2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 6,
                     "name": "Statue_Rotate3",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 7,
                     "name": "Statue_Rotated3",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 8,
                     "name": "Success",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 9,
                     "name": "Times",
                     "no_refresh": true,
                     "value": 0
                 }
+            ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [
+                261001,
+                261002,
+                261003,
+                261004,
+                261005,
+                261006,
+                261007,
+                261008
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [
+                261050
+            ],
+            "triggers": [
+                "QUEST_START_261043",
+                "SELECT_OPTION_261049",
+                "ENTER_REGION_261050"
+            ]
+        },
+        {
+            "gadgets": [
+                261001,
+                261002,
+                261003,
+                261004,
+                261005,
+                261006,
+                261007,
+                261008
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [
+                261050
+            ],
+            "triggers": [
+                "SELECT_OPTION_261009",
+                "GADGET_STATE_CHANGE_261010",
+                "GADGET_STATE_CHANGE_261011",
+                "TIME_AXIS_PASS_261012",
+                "TIME_AXIS_PASS_261013",
+                "GADGET_CREATE_261014",
+                "SELECT_OPTION_261015",
+                "TIME_AXIS_PASS_261016",
+                "TIME_AXIS_PASS_261017",
+                "SELECT_OPTION_261018",
+                "GADGET_CREATE_261019",
+                "GADGET_STATE_CHANGE_261020",
+                "GADGET_CREATE_261021",
+                "GADGET_STATE_CHANGE_261022",
+                "GADGET_STATE_CHANGE_261023",
+                "TIME_AXIS_PASS_261024",
+                "VARIABLE_CHANGE_261025",
+                "VARIABLE_CHANGE_261026",
+                "SELECT_OPTION_261027",
+                "VARIABLE_CHANGE_261028",
+                "VARIABLE_CHANGE_261029",
+                "TIME_AXIS_PASS_261030",
+                "GADGET_STATE_CHANGE_261031",
+                "GADGET_STATE_CHANGE_261032",
+                "GADGET_CREATE_261033",
+                "SELECT_OPTION_261034",
+                "VARIABLE_CHANGE_261035",
+                "VARIABLE_CHANGE_261036",
+                "TIME_AXIS_PASS_261037",
+                "GADGET_STATE_CHANGE_261038",
+                "GADGET_STATE_CHANGE_261039",
+                "GADGET_CREATE_261040",
+                "VARIABLE_CHANGE_261041",
+                "VARIABLE_CHANGE_261042",
+                "QUEST_START_261044",
+                "VARIABLE_CHANGE_261045",
+                "SELECT_OPTION_261046",
+                "GADGET_STATE_CHANGE_261047",
+                "GADGET_STATE_CHANGE_261048",
+                "ENTER_REGION_261050",
+                "TIME_AXIS_PASS_261051"
+            ]
+        },
+        {
+            "gadgets": [
+                261001,
+                261002,
+                261003,
+                261004,
+                261005,
+                261006,
+                261007,
+                261008
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [
+                261050
+            ],
+            "triggers": [
+                "ENTER_REGION_261050"
             ]
         }
     ],
@@ -946,46 +1077,55 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Gadget_Count",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Statue_Rotate1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "Statue_Rotated1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "Statue_Rotate2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "Statue_Rotated2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "Statue_Rotate3",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "Statue_Rotated3",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 8,
             "name": "Success",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 9,
             "name": "Times",
             "no_refresh": true,
             "value": 0

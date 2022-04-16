@@ -558,21 +558,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "findpoint",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "samandie",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "4001002",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 4,
             "name": "findpoint2",
             "no_refresh": false,
             "value": 0

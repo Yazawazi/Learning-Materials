@@ -136,16 +136,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "isoff",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "windon1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "windon2",
             "no_refresh": true,
             "value": 0

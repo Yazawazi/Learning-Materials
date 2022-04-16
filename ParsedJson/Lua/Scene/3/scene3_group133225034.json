@@ -78,11 +78,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Seed",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Notified",
             "no_refresh": false,
             "value": 0

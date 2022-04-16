@@ -304,6 +304,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "ifreachedhilltop",
             "no_refresh": false,
             "value": 0

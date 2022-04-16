@@ -289,6 +289,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "FishKilled",
             "no_refresh": false,
             "value": 0

@@ -125,6 +125,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "save",
             "no_refresh": true,
             "value": 0

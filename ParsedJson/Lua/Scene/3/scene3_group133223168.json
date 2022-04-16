@@ -71,26 +71,31 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "isMoving",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "currentPathNodeID",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "nextRouteIndex",
                     "no_refresh": false,
                     "value": 1
                 },
                 {
+                    "configId": 4,
                     "name": "isstart",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 5,
                     "name": "loopCount",
                     "no_refresh": true,
                     "value": 0
@@ -105,31 +110,57 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "isMoving",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "currentPathNodeID",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "nextRouteIndex",
                     "no_refresh": false,
                     "value": 1
                 },
                 {
+                    "configId": 4,
                     "name": "isstart",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 5,
                     "name": "loopCount",
                     "no_refresh": true,
                     "value": 0
                 }
             ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [
+                168001
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "PLATFORM_REACH_POINT_168003",
+                "AVATAR_NEAR_PLATFORM_168004"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [
@@ -154,26 +185,31 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "isMoving",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "currentPathNodeID",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "nextRouteIndex",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 4,
             "name": "isstart",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "loopCount",
             "no_refresh": true,
             "value": 0

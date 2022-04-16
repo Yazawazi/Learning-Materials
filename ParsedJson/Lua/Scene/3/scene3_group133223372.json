@@ -137,11 +137,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Finished",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Decal_Start",
             "no_refresh": true,
             "value": 0

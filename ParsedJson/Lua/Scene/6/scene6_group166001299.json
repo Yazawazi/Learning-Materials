@@ -184,6 +184,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "door",
             "no_refresh": true,
             "value": 0

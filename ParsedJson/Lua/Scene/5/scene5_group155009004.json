@@ -487,36 +487,43 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "gameplayState",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "battle_01",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "battle_02",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "battle_03",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "battle_04",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "battleState",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "battleindex",
             "no_refresh": false,
             "value": 1

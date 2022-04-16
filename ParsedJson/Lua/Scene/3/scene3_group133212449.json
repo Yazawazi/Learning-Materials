@@ -131,6 +131,7 @@
     "triggers": [],
     "variables": [
         {
+            "configId": 1,
             "name": "active_count",
             "no_refresh": false,
             "value": 0

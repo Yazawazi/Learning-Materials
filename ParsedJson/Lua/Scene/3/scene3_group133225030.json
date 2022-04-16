@@ -189,26 +189,31 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Finished",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "FailCount",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "TsurumiStone",
             "no_refresh": true,
             "value": 1
         },
         {
+            "configId": 4,
             "name": "reminder_can_trigger",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "isQuestNotify",
             "no_refresh": true,
             "value": 0

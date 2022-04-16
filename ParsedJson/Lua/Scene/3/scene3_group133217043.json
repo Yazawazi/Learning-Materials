@@ -352,6 +352,79 @@
             }
         }
     ],
+    "garbages": {
+        "monsters": [
+            {
+                "area_id": 14,
+                "config_id": 43039,
+                "drop_id": 1000100,
+                "level": 1,
+                "monster_id": 21010701,
+                "pos": {
+                    "x": -4332.445,
+                    "y": 215.444,
+                    "z": -3874.635
+                },
+                "rot": {
+                    "x": 0,
+                    "y": 246.857,
+                    "z": 0
+                }
+            },
+            {
+                "area_id": 14,
+                "config_id": 43042,
+                "drop_id": 1000100,
+                "level": 1,
+                "monster_id": 21011601,
+                "pos": {
+                    "x": -4270.874,
+                    "y": 207.411,
+                    "z": -3862.379
+                },
+                "rot": {
+                    "x": 0,
+                    "y": 234.762,
+                    "z": 0
+                }
+            },
+            {
+                "area_id": 14,
+                "config_id": 43043,
+                "drop_id": 1000100,
+                "level": 1,
+                "monster_id": 21010601,
+                "pos": {
+                    "x": -4274.133,
+                    "y": 209.621,
+                    "z": -3881.929
+                },
+                "rot": {
+                    "x": 0,
+                    "y": 285.77,
+                    "z": 0
+                }
+            },
+            {
+                "area_id": 14,
+                "config_id": 43044,
+                "drop_id": 1000100,
+                "level": 1,
+                "monster_id": 21020201,
+                "pos": {
+                    "x": -4213.836,
+                    "y": 200.934,
+                    "z": -3877.538
+                },
+                "pose_id": 401,
+                "rot": {
+                    "x": 0,
+                    "y": 253.216,
+                    "z": 0
+                }
+            }
+        ]
+    },
     "init_config": {
         "end_suite": 7,
         "rand_suite": false,
@@ -380,7 +453,7 @@
             "config_id": 43002,
             "drop_id": 1000100,
             "level": 1,
-            "monster_id": 21011002,
+            "monster_id": 21011001,
             "pos": {
                 "x": -4283.931,
                 "y": 215.053,
@@ -464,27 +537,10 @@
         },
         {
             "area_id": 14,
-            "config_id": 43039,
-            "drop_id": 1000100,
-            "level": 1,
-            "monster_id": 21010701,
-            "pos": {
-                "x": -4332.445,
-                "y": 215.444,
-                "z": -3874.635
-            },
-            "rot": {
-                "x": 0,
-                "y": 246.857,
-                "z": 0
-            }
-        },
-        {
-            "area_id": 14,
             "config_id": 43040,
             "drop_id": 1000100,
             "level": 1,
-            "monster_id": 21010502,
+            "monster_id": 21010501,
             "pos": {
                 "x": -4299.016,
                 "y": 212.457,
@@ -511,58 +567,6 @@
             "rot": {
                 "x": 0,
                 "y": 285.77,
-                "z": 0
-            }
-        },
-        {
-            "area_id": 14,
-            "config_id": 43042,
-            "drop_id": 1000100,
-            "level": 1,
-            "monster_id": 21011601,
-            "pos": {
-                "x": -4270.874,
-                "y": 207.411,
-                "z": -3862.379
-            },
-            "rot": {
-                "x": 0,
-                "y": 234.762,
-                "z": 0
-            }
-        },
-        {
-            "area_id": 14,
-            "config_id": 43043,
-            "drop_id": 1000100,
-            "level": 1,
-            "monster_id": 21010601,
-            "pos": {
-                "x": -4274.133,
-                "y": 209.621,
-                "z": -3881.929
-            },
-            "rot": {
-                "x": 0,
-                "y": 285.77,
-                "z": 0
-            }
-        },
-        {
-            "area_id": 14,
-            "config_id": 43044,
-            "drop_id": 1000100,
-            "level": 1,
-            "monster_id": 21020201,
-            "pos": {
-                "x": -4213.836,
-                "y": 200.934,
-                "z": -3877.538
-            },
-            "pose_id": 401,
-            "rot": {
-                "x": 0,
-                "y": 253.216,
                 "z": 0
             }
         }
@@ -647,8 +651,7 @@
             "gadgets": [],
             "monsters": [
                 43001,
-                43038,
-                43039
+                43038
             ],
             "rand_weight": 100,
             "regions": [],
@@ -672,9 +675,7 @@
             ],
             "monsters": [
                 43003,
-                43041,
-                43042,
-                43043
+                43041
             ],
             "rand_weight": 100,
             "regions": [
@@ -688,8 +689,7 @@
         {
             "gadgets": [],
             "monsters": [
-                43004,
-                43044
+                43004
             ],
             "rand_weight": 100,
             "regions": [],
@@ -845,11 +845,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "challengeSuccess",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "challengeStart",
             "no_refresh": false,
             "value": 0

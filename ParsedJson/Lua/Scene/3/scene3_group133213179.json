@@ -1,6 +1,7 @@
 {
     "action_EVENT_CHALLENGE_FAIL_179022": "WARN: Lua function omitted from the dump",
     "action_EVENT_CHALLENGE_SUCCESS_179021": "WARN: Lua function omitted from the dump",
+    "action_EVENT_ENTER_REGION_179023": "WARN: Lua function omitted from the dump",
     "action_EVENT_ENTER_REGION_179024": "WARN: Lua function omitted from the dump",
     "action_EVENT_ENTER_REGION_179026": "WARN: Lua function omitted from the dump",
     "action_EVENT_ENTER_REGION_179028": "WARN: Lua function omitted from the dump",
@@ -795,7 +796,7 @@
             "trigger_count": 0
         },
         {
-            "action": "",
+            "action": "action_EVENT_ENTER_REGION_179023",
             "condition": "condition_EVENT_ENTER_REGION_179023",
             "config_id": 1179023,
             "event": 4,
@@ -831,6 +832,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "hasStarted",
             "no_refresh": false,
             "value": 0

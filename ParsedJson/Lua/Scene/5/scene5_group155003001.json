@@ -46,6 +46,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "IslandActive",
             "no_refresh": true,
             "value": 0

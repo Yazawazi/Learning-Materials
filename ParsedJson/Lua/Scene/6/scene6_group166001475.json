@@ -667,31 +667,37 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "right",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "left",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "tright",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "tleft",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "done",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "phase",
             "no_refresh": true,
             "value": 0

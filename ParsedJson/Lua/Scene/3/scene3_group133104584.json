@@ -383,51 +383,61 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "questStart",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "uniqueColorCount",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "curColor01",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "curColor02",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "curColor03",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "curColor04",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "curColor05",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 8,
             "name": "curColor06",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 9,
             "name": "isFinished",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 10,
             "name": "correct",
             "no_refresh": true,
             "value": 0

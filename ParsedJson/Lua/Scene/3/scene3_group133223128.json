@@ -157,16 +157,19 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "finish",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "target_routeIndex",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "isMoving",
                     "no_refresh": false,
                     "value": 0
@@ -198,21 +201,59 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "finish",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "target_routeIndex",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "isMoving",
                     "no_refresh": false,
                     "value": 0
                 }
             ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [
+                128001,
+                128002,
+                128003,
+                128004,
+                128006
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "VARIABLE_CHANGE_128005",
+                "GROUP_LOAD_128007",
+                "GADGET_STATE_CHANGE_128008",
+                "GADGET_STATE_CHANGE_128009",
+                "GADGET_STATE_CHANGE_128010",
+                "GADGET_STATE_CHANGE_128011",
+                "PLATFORM_REACH_POINT_128020"
+            ]
+        },
+        {
+            "gadgets": [
+                128001,
+                128002,
+                128003,
+                128004
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [
@@ -281,16 +322,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "finish",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "target_routeIndex",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "isMoving",
             "no_refresh": false,
             "value": 0

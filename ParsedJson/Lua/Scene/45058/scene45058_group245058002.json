@@ -929,6 +929,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "guide_quest_finish",
             "no_refresh": true,
             "value": 0

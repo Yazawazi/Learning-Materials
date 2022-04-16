@@ -251,31 +251,37 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "activecount",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "Rune_01",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "Rune_02",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "Rune_03",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 5,
                     "name": "Rune_04",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 6,
                     "name": "Rune_05",
                     "no_refresh": true,
                     "value": 0
@@ -332,31 +338,37 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "activecount",
                     "no_refresh": true,
                     "value": 5
                 },
                 {
+                    "configId": 2,
                     "name": "Rune_01",
                     "no_refresh": true,
                     "value": 1
                 },
                 {
+                    "configId": 3,
                     "name": "Rune_02",
                     "no_refresh": true,
                     "value": 1
                 },
                 {
+                    "configId": 4,
                     "name": "Rune_03",
                     "no_refresh": true,
                     "value": 1
                 },
                 {
+                    "configId": 5,
                     "name": "Rune_04",
                     "no_refresh": true,
                     "value": 1
                 },
                 {
+                    "configId": 6,
                     "name": "Rune_05",
                     "no_refresh": true,
                     "value": 1
@@ -393,31 +405,37 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "activecount",
                     "no_refresh": true,
                     "value": 5
                 },
                 {
+                    "configId": 2,
                     "name": "Rune_01",
                     "no_refresh": true,
                     "value": 1
                 },
                 {
+                    "configId": 3,
                     "name": "Rune_02",
                     "no_refresh": true,
                     "value": 1
                 },
                 {
+                    "configId": 4,
                     "name": "Rune_03",
                     "no_refresh": true,
                     "value": 1
                 },
                 {
+                    "configId": 5,
                     "name": "Rune_04",
                     "no_refresh": true,
                     "value": 1
                 },
                 {
+                    "configId": 6,
                     "name": "Rune_05",
                     "no_refresh": true,
                     "value": 1
@@ -443,35 +461,125 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "activecount",
                     "no_refresh": true,
                     "value": 5
                 },
                 {
+                    "configId": 2,
                     "name": "Rune_01",
                     "no_refresh": true,
                     "value": 1
                 },
                 {
+                    "configId": 3,
                     "name": "Rune_02",
                     "no_refresh": true,
                     "value": 1
                 },
                 {
+                    "configId": 4,
                     "name": "Rune_03",
                     "no_refresh": true,
                     "value": 1
                 },
                 {
+                    "configId": 5,
                     "name": "Rune_04",
                     "no_refresh": true,
                     "value": 1
                 },
                 {
+                    "configId": 6,
                     "name": "Rune_05",
                     "no_refresh": true,
                     "value": 1
                 }
+            ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [
+                11001,
+                11002,
+                11004,
+                11005,
+                11006,
+                11007,
+                11008,
+                11013
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "VARIABLE_CHANGE_11003",
+                "VARIABLE_CHANGE_11009",
+                "VARIABLE_CHANGE_11010",
+                "VARIABLE_CHANGE_11011",
+                "VARIABLE_CHANGE_11012",
+                "GROUP_LOAD_11014",
+                "QUEST_START_11015",
+                "QUEST_START_11020"
+            ]
+        },
+        {
+            "gadgets": [
+                11001,
+                11002,
+                11004,
+                11005,
+                11006,
+                11007,
+                11008,
+                11013
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [
+                11023,
+                11024
+            ],
+            "triggers": [
+                "SELECT_OPTION_11016",
+                "QUEST_START_11017",
+                "GROUP_LOAD_11021",
+                "ENTER_REGION_11023",
+                "LEAVE_REGION_11024"
+            ]
+        },
+        {
+            "gadgets": [
+                11001,
+                11002,
+                11013
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [
+                11023,
+                11024
+            ],
+            "triggers": [
+                "GADGET_STATE_CHANGE_11018",
+                "QUEST_START_11019",
+                "GROUP_LOAD_11022",
+                "ENTER_REGION_11023",
+                "LEAVE_REGION_11024"
+            ]
+        },
+        {
+            "gadgets": [
+                11001,
+                11013
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "GROUP_LOAD_11022"
             ]
         }
     ],
@@ -623,31 +731,37 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "activecount",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Rune_01",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "Rune_02",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "Rune_03",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "Rune_04",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "Rune_05",
             "no_refresh": true,
             "value": 0

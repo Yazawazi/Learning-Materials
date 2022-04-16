@@ -462,6 +462,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "pos_count",
             "no_refresh": false,
             "value": 0

@@ -1594,6 +1594,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "fight_first",
             "no_refresh": true,
             "value": 0

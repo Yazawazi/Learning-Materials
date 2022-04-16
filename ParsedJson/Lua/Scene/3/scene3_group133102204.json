@@ -20,6 +20,7 @@
     "triggers": [],
     "variables": [
         {
+            "configId": 1,
             "name": "burntThorns",
             "no_refresh": false,
             "value": 0

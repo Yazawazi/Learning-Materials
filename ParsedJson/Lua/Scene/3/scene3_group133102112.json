@@ -577,11 +577,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "is_in_replacement",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "first_see",
             "no_refresh": true,
             "value": 1

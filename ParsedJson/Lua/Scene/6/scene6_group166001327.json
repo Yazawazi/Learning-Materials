@@ -802,31 +802,37 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Progress_Var",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Battle_Var",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "RoomClear_1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "RoomClear_2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "RoomClear_3",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "RoomClear_4",
             "no_refresh": true,
             "value": 0

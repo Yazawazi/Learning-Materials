@@ -1102,46 +1102,55 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "killed",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "wave2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "wave3",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "gears",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "waterlevel",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "waterlevel2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "statue1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 8,
             "name": "statue2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 9,
             "name": "statue3",
             "no_refresh": true,
             "value": 0

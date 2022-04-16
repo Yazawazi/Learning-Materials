@@ -161,6 +161,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "get1",
             "no_refresh": false,
             "value": 1

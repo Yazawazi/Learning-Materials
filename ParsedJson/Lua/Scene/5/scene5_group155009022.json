@@ -109,6 +109,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "gameplayState",
             "no_refresh": true,
             "value": 0

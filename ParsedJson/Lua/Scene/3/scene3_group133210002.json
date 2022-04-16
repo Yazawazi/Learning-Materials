@@ -414,31 +414,37 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "sort",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "gear_reset",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "v_error",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "trigger_output",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "GadgetState",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "Success",
             "no_refresh": true,
             "value": 0

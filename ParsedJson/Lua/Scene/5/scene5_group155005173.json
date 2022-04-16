@@ -187,11 +187,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "isfinished",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "count",
             "no_refresh": true,
             "value": 0

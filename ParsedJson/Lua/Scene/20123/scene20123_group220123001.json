@@ -366,11 +366,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "stage",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 2,
             "name": "Light",
             "no_refresh": false,
             "value": 0

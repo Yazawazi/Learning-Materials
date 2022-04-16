@@ -277,16 +277,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "TargetActive",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "FakeActive",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "isFinished",
             "no_refresh": true,
             "value": 0

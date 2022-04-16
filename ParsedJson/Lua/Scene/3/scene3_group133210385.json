@@ -104,6 +104,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Questfinish",
             "no_refresh": true,
             "value": 0

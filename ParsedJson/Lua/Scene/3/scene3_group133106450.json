@@ -1075,21 +1075,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "questFinish",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "lowChestOpened",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "mediumChestOpened",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "highChestOpened",
             "no_refresh": true,
             "value": 0

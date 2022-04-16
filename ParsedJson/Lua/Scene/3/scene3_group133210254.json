@@ -89,6 +89,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "GadgetChange",
             "no_refresh": true,
             "value": 0

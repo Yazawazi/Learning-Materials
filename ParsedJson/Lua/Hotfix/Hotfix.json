@@ -15,6 +15,9 @@
         "Pos": "WARN: Lua function omitted from the dump",
         "Rad2Deg": "WARN: Lua function omitted from the dump"
     },
+    "a": {
+        "__bor": 3
+    },
     "inspect": "WARN: Lua function omitted from the dump",
     "util": {
         "async_to_sync": "WARN: Lua function omitted from the dump",

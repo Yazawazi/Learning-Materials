@@ -1081,6 +1081,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "IS_BOSS_DEAD",
             "no_refresh": true,
             "value": 0

@@ -239,6 +239,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "suitState",
             "no_refresh": false,
             "value": 1

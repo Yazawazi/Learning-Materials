@@ -262,6 +262,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "chest_opened",
             "no_refresh": false,
             "value": 0

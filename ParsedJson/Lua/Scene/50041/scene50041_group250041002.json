@@ -1282,6 +1282,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "WindFloraNum",
             "no_refresh": false,
             "value": 1

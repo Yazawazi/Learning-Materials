@@ -604,11 +604,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "active_count",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "monster_killed",
             "no_refresh": true,
             "value": 0

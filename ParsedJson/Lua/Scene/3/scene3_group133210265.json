@@ -108,6 +108,7 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "start",
                     "no_refresh": true,
                     "value": 0
@@ -143,6 +144,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "start",
                     "no_refresh": true,
                     "value": 0
@@ -174,11 +176,52 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "start",
                     "no_refresh": true,
                     "value": 3
                 }
             ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
+        },
+        {
+            "gadgets": [
+                265001,
+                265002,
+                265003
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "VARIABLE_CHANGE_265005",
+                "GADGET_STATE_CHANGE_265006",
+                "GADGET_STATE_CHANGE_265007",
+                "GADGET_STATE_CHANGE_265008",
+                "GADGET_STATE_CHANGE_265009",
+                "GADGET_STATE_CHANGE_265010",
+                "GADGET_STATE_CHANGE_265011"
+            ]
+        },
+        {
+            "gadgets": [
+                265001,
+                265002,
+                265003,
+                265004
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [
@@ -247,6 +290,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "start",
             "no_refresh": true,
             "value": 0

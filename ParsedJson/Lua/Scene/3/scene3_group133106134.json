@@ -415,6 +415,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "questFinished",
             "no_refresh": true,
             "value": 0

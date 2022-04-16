@@ -432,6 +432,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "dir",
             "no_refresh": false,
             "value": 0

@@ -240,6 +240,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Done",
             "no_refresh": true,
             "value": 0

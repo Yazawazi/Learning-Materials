@@ -496,16 +496,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "_stage1_monster",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "_stage2_monster",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "_stage3_monster",
             "no_refresh": false,
             "value": 0

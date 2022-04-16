@@ -3029,21 +3029,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "debrisCount",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "notified",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "rafts",
             "no_refresh": false,
             "value": 15
         },
         {
+            "configId": 4,
             "name": "addedrafts",
             "no_refresh": false,
             "value": 0

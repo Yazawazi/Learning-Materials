@@ -123,6 +123,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "hasEnteredArea",
             "no_refresh": false,
             "value": 0

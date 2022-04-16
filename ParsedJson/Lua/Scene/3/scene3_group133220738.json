@@ -93,6 +93,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "katana",
             "no_refresh": true,
             "value": 0

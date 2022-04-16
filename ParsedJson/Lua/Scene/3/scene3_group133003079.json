@@ -190,21 +190,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "TriggerState_44",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 2,
             "name": "TriggerState_45",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 3,
             "name": "TriggerState_46",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 4,
             "name": "TriggerState_47",
             "no_refresh": false,
             "value": 1

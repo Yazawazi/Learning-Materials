@@ -187,16 +187,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Quest 1 State",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Quest 2 State",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "Lamp State",
             "no_refresh": true,
             "value": 1

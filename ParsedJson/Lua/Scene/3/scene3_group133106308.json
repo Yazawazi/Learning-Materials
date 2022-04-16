@@ -243,6 +243,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "thiefNum",
             "no_refresh": false,
             "value": 0

@@ -812,6 +812,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "wave",
             "no_refresh": false,
             "value": 0

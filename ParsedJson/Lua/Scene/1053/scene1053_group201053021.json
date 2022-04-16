@@ -324,46 +324,55 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "icon1Appear",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "icon2Appear",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "icon3Appear",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "icon4Appear",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "default",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "icon5Appear",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "icon6Appear",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 8,
             "name": "icon7Appear",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 9,
             "name": "icon8Appear",
             "no_refresh": false,
             "value": 0

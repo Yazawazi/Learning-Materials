@@ -463,36 +463,43 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "1_die",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "2_die",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "3_die",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "4_die",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "5_die",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "6_die",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "7_die",
             "no_refresh": false,
             "value": 0

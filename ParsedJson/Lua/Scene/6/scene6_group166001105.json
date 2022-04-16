@@ -198,6 +198,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "done",
             "no_refresh": false,
             "value": 0

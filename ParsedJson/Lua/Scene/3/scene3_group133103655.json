@@ -140,16 +140,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Sub",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Quest_Finish",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "Gate_Change",
             "no_refresh": true,
             "value": 0

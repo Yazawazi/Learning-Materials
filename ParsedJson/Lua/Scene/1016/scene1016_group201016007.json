@@ -189,6 +189,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Die",
             "no_refresh": false,
             "value": 0

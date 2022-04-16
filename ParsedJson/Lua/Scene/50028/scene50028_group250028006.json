@@ -200,6 +200,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "arrive",
             "no_refresh": false,
             "value": 0

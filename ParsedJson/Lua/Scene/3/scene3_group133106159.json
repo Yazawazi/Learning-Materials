@@ -186,6 +186,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "HoleHasShowed",
             "no_refresh": false,
             "value": 0

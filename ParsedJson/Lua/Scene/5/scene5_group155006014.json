@@ -54,16 +54,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "isFinish",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "gourp_id",
             "no_refresh": true,
             "value": 155006014
         },
         {
+            "configId": 3,
             "name": "activecount",
             "no_refresh": true,
             "value": 0

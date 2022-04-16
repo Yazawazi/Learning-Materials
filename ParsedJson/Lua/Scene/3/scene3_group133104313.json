@@ -302,26 +302,31 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "activeCount",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "isActive",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "incorrect",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "isfinish",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "activeCountDummy",
             "no_refresh": true,
             "value": 0

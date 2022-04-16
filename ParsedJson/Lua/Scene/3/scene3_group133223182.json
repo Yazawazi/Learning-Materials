@@ -88,11 +88,13 @@
     "triggers": [],
     "variables": [
         {
+            "configId": 1,
             "name": "trigger",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "finish",
             "no_refresh": true,
             "value": 0

@@ -112,6 +112,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "WaterDown",
             "no_refresh": true,
             "value": 0

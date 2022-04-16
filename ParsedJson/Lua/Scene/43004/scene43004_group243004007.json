@@ -836,21 +836,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "f1",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "f2",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "f3",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "f4",
             "no_refresh": false,
             "value": 0

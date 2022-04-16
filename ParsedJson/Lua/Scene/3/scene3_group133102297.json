@@ -455,21 +455,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "isAcceptQuest",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "isFindBridge",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "isDefeatEnemies",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "isFinished",
             "no_refresh": true,
             "value": 0

@@ -46,6 +46,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "MonsCount",
                     "no_refresh": true,
                     "value": 0
@@ -65,11 +66,32 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "MonsCount",
                     "no_refresh": true,
                     "value": 0
                 }
             ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "VARIABLE_CHANGE_432001"
+            ]
+        },
+        {
+            "gadgets": [
+                432002
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [
@@ -85,6 +107,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "MonsCount",
             "no_refresh": true,
             "value": 0

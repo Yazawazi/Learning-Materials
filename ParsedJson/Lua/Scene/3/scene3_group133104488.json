@@ -1,5 +1,6 @@
 {
     "action_EVENT_GADGET_CREATE_488003": "WARN: Lua function omitted from the dump",
+    "action_EVENT_GADGET_STATE_CHANGE_488016": "WARN: Lua function omitted from the dump",
     "action_EVENT_SELECT_OPTION_488014": "WARN: Lua function omitted from the dump",
     "action_EVENT_SELECT_OPTION_488015": "WARN: Lua function omitted from the dump",
     "action_EVENT_VARIABLE_CHANGE_488017": "WARN: Lua function omitted from the dump",
@@ -305,26 +306,31 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "isActive",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "incorrect",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "correct",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "activeCount",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "isFinished",
             "no_refresh": true,
             "value": 0

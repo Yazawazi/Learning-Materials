@@ -254,6 +254,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "IS_IN_LIMIT_TIME",
             "no_refresh": false,
             "value": 0

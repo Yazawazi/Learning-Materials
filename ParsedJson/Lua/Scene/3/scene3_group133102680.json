@@ -226,16 +226,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "correct",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "incorrect",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "count",
             "no_refresh": true,
             "value": 0

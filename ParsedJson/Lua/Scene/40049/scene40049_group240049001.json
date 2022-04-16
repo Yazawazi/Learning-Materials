@@ -702,6 +702,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "OneTimeDungeon",
             "no_refresh": false,
             "value": 0

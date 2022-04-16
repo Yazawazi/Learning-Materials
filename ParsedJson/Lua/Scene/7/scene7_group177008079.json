@@ -225,6 +225,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "ismoving",
             "no_refresh": false,
             "value": 0

@@ -1380,6 +1380,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "SEED_NUM",
             "no_refresh": false,
             "value": 0

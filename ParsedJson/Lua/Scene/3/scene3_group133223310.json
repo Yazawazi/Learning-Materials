@@ -33,6 +33,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "can_trigger",
             "no_refresh": true,
             "value": 0

@@ -554,66 +554,79 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "PlatPoint1",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "PlatPoint2",
             "no_refresh": false,
             "value": 76002
         },
         {
+            "configId": 3,
             "name": "PlatPoint3",
             "no_refresh": false,
             "value": 76003
         },
         {
+            "configId": 4,
             "name": "PlatPoint4",
             "no_refresh": false,
             "value": 76001
         },
         {
+            "configId": 5,
             "name": "PlatPoint5",
             "no_refresh": false,
             "value": 76006
         },
         {
+            "configId": 6,
             "name": "PlatPoint6",
             "no_refresh": false,
             "value": 76005
         },
         {
+            "configId": 7,
             "name": "PlatPoint7",
             "no_refresh": false,
             "value": 76004
         },
         {
+            "configId": 8,
             "name": "PlatPoint8",
             "no_refresh": false,
             "value": 76007
         },
         {
+            "configId": 9,
             "name": "PlatPoint9",
             "no_refresh": false,
             "value": 76008
         },
         {
+            "configId": 10,
             "name": "PuzzleFlag",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 11,
             "name": "stageflag",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 12,
             "name": "doorflag",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 13,
             "name": "questflag",
             "no_refresh": true,
             "value": 0

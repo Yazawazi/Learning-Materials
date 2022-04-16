@@ -52,6 +52,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Success",
                     "no_refresh": true,
                     "value": 0
@@ -66,11 +67,32 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Success",
                     "no_refresh": true,
                     "value": 0
                 }
             ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [
+                119001
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "VARIABLE_CHANGE_119002"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [
@@ -85,6 +107,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Success",
             "no_refresh": true,
             "value": 0

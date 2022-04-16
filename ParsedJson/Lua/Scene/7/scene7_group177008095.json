@@ -52,6 +52,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Light",
             "no_refresh": true,
             "value": 0

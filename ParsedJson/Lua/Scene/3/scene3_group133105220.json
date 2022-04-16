@@ -491,6 +491,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Challenge_Flag",
             "no_refresh": false,
             "value": 0

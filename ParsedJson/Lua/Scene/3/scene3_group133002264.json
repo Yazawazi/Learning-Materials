@@ -109,6 +109,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "ison",
             "no_refresh": false,
             "value": 0

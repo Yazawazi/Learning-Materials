@@ -1201,6 +1201,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "tool_trigger",
             "no_refresh": false,
             "value": 0

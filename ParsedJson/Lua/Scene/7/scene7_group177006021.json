@@ -303,11 +303,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "flag",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "state",
             "no_refresh": true,
             "value": 0

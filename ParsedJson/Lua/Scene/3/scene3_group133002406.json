@@ -597,26 +597,31 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "currentPointIndex",
             "no_refresh": true,
             "value": -1
         },
         {
+            "configId": 2,
             "name": "lastRefreshTime",
             "no_refresh": true,
             "value": -1
         },
         {
+            "configId": 3,
             "name": "currentHiliPosition",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "isFirstLoad",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "isDead",
             "no_refresh": true,
             "value": 0

@@ -893,6 +893,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Fire",
             "no_refresh": false,
             "value": 0

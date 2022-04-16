@@ -172,6 +172,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Pick",
             "no_refresh": true,
             "value": 0

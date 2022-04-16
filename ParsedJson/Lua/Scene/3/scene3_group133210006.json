@@ -244,6 +244,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "QuestStart",
                     "no_refresh": true,
                     "value": 0
@@ -281,6 +282,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "QuestStart",
                     "no_refresh": true,
                     "value": 0
@@ -314,6 +316,7 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "QuestStart",
                     "no_refresh": true,
                     "value": 0
@@ -328,6 +331,7 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "QuestStart",
                     "no_refresh": true,
                     "value": 2
@@ -342,11 +346,67 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "QuestStart",
                     "no_refresh": true,
                     "value": 0
                 }
             ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "VARIABLE_CHANGE_6004",
+                "GROUP_LOAD_6011"
+            ]
+        },
+        {
+            "gadgets": [
+                6002,
+                6012,
+                6013,
+                6014,
+                6016
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "ANY_GADGET_DIE_6005"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [
+                6001,
+                6006,
+                6007,
+                6008,
+                6009,
+                6010
+            ],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [
@@ -379,6 +439,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "QuestStart",
             "no_refresh": true,
             "value": 0

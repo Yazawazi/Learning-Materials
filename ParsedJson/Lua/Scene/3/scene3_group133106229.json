@@ -579,21 +579,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "start",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "ison",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "windon",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "start2",
             "no_refresh": true,
             "value": 0

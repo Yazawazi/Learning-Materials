@@ -291,6 +291,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "check",
             "no_refresh": false,
             "value": 0

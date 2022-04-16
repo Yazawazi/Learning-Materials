@@ -833,46 +833,55 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "State_Floor_1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "State_Floor_2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "State_Floor_3",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "Door_Open_1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "Door_Open_2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "Door_Open_3",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "Right_Floor_1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 8,
             "name": "Right_Floor_2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 9,
             "name": "Right_Floor_3",
             "no_refresh": true,
             "value": 0

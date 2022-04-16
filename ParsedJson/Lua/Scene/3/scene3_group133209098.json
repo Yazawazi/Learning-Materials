@@ -119,6 +119,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "check3",
             "no_refresh": false,
             "value": 0

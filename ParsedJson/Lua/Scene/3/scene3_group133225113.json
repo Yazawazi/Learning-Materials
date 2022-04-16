@@ -221,16 +221,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Seed",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Notified",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "finish",
             "no_refresh": true,
             "value": 0

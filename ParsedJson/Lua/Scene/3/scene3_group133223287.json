@@ -202,6 +202,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "gather_count",
             "no_refresh": true,
             "value": 0

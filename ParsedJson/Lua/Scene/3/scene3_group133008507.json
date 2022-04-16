@@ -187,6 +187,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "is_active",
             "no_refresh": true,
             "value": 0

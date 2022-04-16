@@ -615,6 +615,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "remainingSlate",
             "no_refresh": true,
             "value": 3

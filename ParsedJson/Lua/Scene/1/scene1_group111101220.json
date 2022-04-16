@@ -45,6 +45,7 @@
     "triggers": [],
     "variables": [
         {
+            "configId": 1,
             "name": "Seed",
             "no_refresh": true,
             "value": 10

@@ -143,6 +143,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "isfail",
             "no_refresh": false,
             "value": 0

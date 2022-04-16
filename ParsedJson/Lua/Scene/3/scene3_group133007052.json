@@ -169,6 +169,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "dvalin_progress",
             "no_refresh": true,
             "value": 0

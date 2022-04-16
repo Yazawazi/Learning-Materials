@@ -1177,11 +1177,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "test1",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "test2",
             "no_refresh": false,
             "value": 0

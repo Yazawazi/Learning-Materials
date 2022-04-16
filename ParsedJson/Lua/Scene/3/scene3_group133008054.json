@@ -290,6 +290,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "canopen",
             "no_refresh": true,
             "value": 0

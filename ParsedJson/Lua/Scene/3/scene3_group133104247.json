@@ -20,6 +20,7 @@
     "triggers": [],
     "variables": [
         {
+            "configId": 1,
             "name": "num",
             "no_refresh": false,
             "value": 0

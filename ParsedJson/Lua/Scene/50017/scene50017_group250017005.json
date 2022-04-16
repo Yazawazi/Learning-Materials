@@ -10,7 +10,7 @@
             "level": 1,
             "pos": {
                 "x": -0.017,
-                "y": 0.057,
+                "y": -0.363,
                 "z": -0.072
             },
             "rot": {
@@ -30,9 +30,7 @@
     "regions": [],
     "suites": [
         {
-            "gadgets": [
-                5001
-            ],
+            "gadgets": [],
             "monsters": [],
             "rand_weight": 100,
             "regions": [],
@@ -40,6 +38,15 @@
                 "GADGET_CREATE_5002",
                 "SELECT_OPTION_5003"
             ]
+        },
+        {
+            "gadgets": [
+                5001
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [

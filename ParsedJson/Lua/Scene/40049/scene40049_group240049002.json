@@ -32,6 +32,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Settle",
             "no_refresh": false,
             "value": 0

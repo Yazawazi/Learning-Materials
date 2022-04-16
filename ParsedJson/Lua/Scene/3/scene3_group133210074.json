@@ -206,6 +206,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "WaterDown",
                     "no_refresh": true,
                     "value": 0
@@ -252,6 +253,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "WaterDown",
                     "no_refresh": true,
                     "value": 1
@@ -266,11 +268,52 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "WaterDown",
                     "no_refresh": true,
                     "value": 0
                 }
             ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [
+                74001,
+                74007
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "VARIABLE_CHANGE_74002",
+                "PLATFORM_REACH_POINT_74005",
+                "GROUP_LOAD_74012"
+            ]
+        },
+        {
+            "gadgets": [
+                74003,
+                74008,
+                74009,
+                74010,
+                74011
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "VARIABLE_CHANGE_74004",
+                "PLATFORM_REACH_POINT_74006",
+                "GROUP_LOAD_74013"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [
@@ -327,6 +370,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "WaterDown",
             "no_refresh": true,
             "value": 0

@@ -557,6 +557,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "CameraActive",
             "no_refresh": false,
             "value": 0

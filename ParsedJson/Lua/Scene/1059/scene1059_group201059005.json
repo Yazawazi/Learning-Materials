@@ -223,6 +223,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Weather",
             "no_refresh": false,
             "value": 0

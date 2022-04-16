@@ -75,6 +75,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "stage",
             "no_refresh": false,
             "value": 0

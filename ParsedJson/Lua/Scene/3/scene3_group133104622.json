@@ -695,16 +695,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "wave1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "wave2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "wave3",
             "no_refresh": true,
             "value": 0

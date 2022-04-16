@@ -252,6 +252,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "youla",
             "no_refresh": false,
             "value": 0

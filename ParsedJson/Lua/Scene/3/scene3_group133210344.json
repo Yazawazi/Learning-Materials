@@ -141,6 +141,37 @@
             "variables": []
         }
     ],
+    "suites": [
+        {
+            "gadgets": [
+                344001,
+                344002,
+                344003
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [
+                344004,
+                344006
+            ],
+            "triggers": [
+                "ENTER_REGION_344004",
+                "SELECT_OPTION_344005",
+                "LEAVE_REGION_344006"
+            ]
+        },
+        {
+            "gadgets": [
+                344001,
+                344002,
+                344003
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
+        }
+    ],
     "triggers": [
         {
             "action": "action_EVENT_ENTER_REGION_344004",

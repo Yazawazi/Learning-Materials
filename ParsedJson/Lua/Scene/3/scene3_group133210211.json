@@ -691,21 +691,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "StateChange",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "queststart",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "queststate",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "Reminder",
             "no_refresh": true,
             "value": 0

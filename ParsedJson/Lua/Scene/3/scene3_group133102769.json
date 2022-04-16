@@ -10,6 +10,7 @@
     "LF_Log": "WARN: Lua function omitted from the dump",
     "LF_Manage_OceanId_Replacement": "WARN: Lua function omitted from the dump",
     "LF_Notify_Platform_Sink": "WARN: Lua function omitted from the dump",
+    "LF_Platform_Arrival": "WARN: Lua function omitted from the dump",
     "LF_Recover_Platform": "WARN: Lua function omitted from the dump",
     "LF_Remove_Extra_Suite": "WARN: Lua function omitted from the dump",
     "LF_Reset_Platform": "WARN: Lua function omitted from the dump",
@@ -28,6 +29,7 @@
     "action_EVENT_GROUP_REFRESH_769053": "WARN: Lua function omitted from the dump",
     "action_EVENT_GROUP_WILL_UNLOAD_769061": "WARN: Lua function omitted from the dump",
     "action_EVENT_LEAVE_REGION_769060": "WARN: Lua function omitted from the dump",
+    "action_EVENT_PLATFORM_ARRIVAL_769070": "WARN: Lua function omitted from the dump",
     "action_EVENT_SELECT_OPTION_769067": "WARN: Lua function omitted from the dump",
     "action_EVENT_TIME_AXIS_PASS_769056": "WARN: Lua function omitted from the dump",
     "action_EVENT_VARIABLE_CHANGE_769029": "WARN: Lua function omitted from the dump",
@@ -1106,7 +1108,8 @@
                 "ENTER_REGION_769059",
                 "LEAVE_REGION_769060",
                 "GROUP_WILL_UNLOAD_769061",
-                "VARIABLE_CHANGE_769068"
+                "VARIABLE_CHANGE_769068",
+                "PLATFORM_ARRIVAL_769070"
             ]
         },
         {
@@ -1421,75 +1424,97 @@
             "name": "VARIABLE_CHANGE_769069",
             "source": "monster_wave",
             "trigger_count": 0
+        },
+        {
+            "action": "action_EVENT_PLATFORM_ARRIVAL_769070",
+            "condition": "",
+            "config_id": 1769070,
+            "name": "PLATFORM_ARRIVAL_769070",
+            "source": "",
+            "trigger_count": 0
         }
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "next_monster1",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "next_monster2",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "summon_platform1",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "summon_platform2",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "platform1",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "platform2",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "platform3",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 8,
             "name": "platform4",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 9,
             "name": "boss_exist",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 10,
             "name": "stage",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 11,
             "name": "REGION_EID",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 12,
             "name": "auth_uid_p1",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 13,
             "name": "auth_uid_p2",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 14,
             "name": "is_in_replacement",
             "no_refresh": true,
             "value": 0

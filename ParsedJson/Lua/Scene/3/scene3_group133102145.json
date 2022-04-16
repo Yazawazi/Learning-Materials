@@ -160,6 +160,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Switch",
             "no_refresh": false,
             "value": 0

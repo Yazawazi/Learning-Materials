@@ -325,21 +325,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "challengeStart",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "challengeSuccess",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "hasReward",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "giveReward",
             "no_refresh": false,
             "value": 0

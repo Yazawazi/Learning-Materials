@@ -125,6 +125,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "chestActive",
             "no_refresh": true,
             "value": 0

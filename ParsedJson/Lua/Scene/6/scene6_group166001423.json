@@ -344,16 +344,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "State_Flag",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "done",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "act",
             "no_refresh": true,
             "value": 0

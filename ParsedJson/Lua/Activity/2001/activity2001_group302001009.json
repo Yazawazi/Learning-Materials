@@ -298,11 +298,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "isDone",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "testV",
             "no_refresh": false,
             "value": 0

@@ -250,11 +250,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "State_Flag",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Finish",
             "no_refresh": true,
             "value": 0

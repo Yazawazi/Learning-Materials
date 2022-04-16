@@ -248,21 +248,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "v980",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "v981",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "v982",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "v983",
             "no_refresh": true,
             "value": 0

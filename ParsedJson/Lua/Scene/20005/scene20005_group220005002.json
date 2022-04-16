@@ -393,6 +393,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "iskill",
             "no_refresh": true,
             "value": 0

@@ -380,6 +380,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "num_1",
             "no_refresh": false,
             "value": 0

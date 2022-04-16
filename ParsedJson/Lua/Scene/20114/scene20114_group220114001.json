@@ -789,6 +789,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "LaSignora_weather",
             "no_refresh": false,
             "value": 1

@@ -358,11 +358,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "is_4009",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "is_4013",
             "no_refresh": true,
             "value": 0

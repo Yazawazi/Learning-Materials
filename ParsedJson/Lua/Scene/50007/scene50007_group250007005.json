@@ -411,6 +411,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "deadmonstercount",
             "no_refresh": false,
             "value": 0

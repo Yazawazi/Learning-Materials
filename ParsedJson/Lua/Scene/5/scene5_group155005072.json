@@ -203,11 +203,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Door01",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Door02",
             "no_refresh": true,
             "value": 0

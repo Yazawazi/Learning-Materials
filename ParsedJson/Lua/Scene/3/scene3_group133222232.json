@@ -479,21 +479,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "FightFinish",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "One",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "Two",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "Three",
             "no_refresh": true,
             "value": 0

@@ -1,5 +1,4 @@
 {
-    "action_EVENT_QUEST_FINISH_248022": "WARN: Lua function omitted from the dump",
     "action_EVENT_QUEST_START_248011": "WARN: Lua function omitted from the dump",
     "gadgets": [
         {
@@ -557,9 +556,7 @@
             ],
             "rand_weight": 100,
             "regions": [],
-            "triggers": [
-                "QUEST_FINISH_248022"
-            ]
+            "triggers": []
         }
     ],
     "triggers": [
@@ -570,15 +567,6 @@
             "event": 28,
             "name": "QUEST_START_248011",
             "source": "800708"
-        },
-        {
-            "action": "action_EVENT_QUEST_FINISH_248022",
-            "condition": "",
-            "config_id": 1248022,
-            "event": 21,
-            "name": "QUEST_FINISH_248022",
-            "source": "800708",
-            "trigger_count": 0
         }
     ],
     "variables": []

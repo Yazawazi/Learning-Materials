@@ -1695,21 +1695,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "challengeSuccess",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "challengeStart",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "dieoralive",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "challenging",
             "no_refresh": false,
             "value": 0

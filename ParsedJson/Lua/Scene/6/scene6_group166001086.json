@@ -637,11 +637,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "leave",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "done",
             "no_refresh": true,
             "value": 0

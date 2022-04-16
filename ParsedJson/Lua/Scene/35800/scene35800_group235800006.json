@@ -5062,6 +5062,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "suites_index",
             "no_refresh": false,
             "value": 0

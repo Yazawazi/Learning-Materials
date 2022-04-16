@@ -382,6 +382,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "reminder_count",
             "no_refresh": false,
             "value": 0

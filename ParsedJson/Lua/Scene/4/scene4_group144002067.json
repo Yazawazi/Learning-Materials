@@ -1335,21 +1335,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "monster_tide",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "time_out",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "monster_tide2",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "monster_tide3",
             "no_refresh": false,
             "value": 0

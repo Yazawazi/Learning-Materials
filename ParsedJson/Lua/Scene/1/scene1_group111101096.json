@@ -1097,11 +1097,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "hoop1Pos",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "hoop2Pos",
             "no_refresh": false,
             "value": 0

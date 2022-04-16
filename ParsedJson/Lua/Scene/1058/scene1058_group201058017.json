@@ -58,6 +58,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "showGuidePoint1",
             "no_refresh": false,
             "value": 0

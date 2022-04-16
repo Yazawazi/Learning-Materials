@@ -765,11 +765,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "tryTimes",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "iceBreak",
             "no_refresh": true,
             "value": 0

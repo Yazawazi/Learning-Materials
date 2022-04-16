@@ -229,6 +229,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "complete",
             "no_refresh": false,
             "value": 0

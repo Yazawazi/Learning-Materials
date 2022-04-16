@@ -728,86 +728,103 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "count",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "DefeatGurdian",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "isAcceptQuest",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "noQuestCount",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "findAllClue",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "ActiveGurdian",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "findAllClueAndFinishTalk",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 8,
             "name": "isFinished",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 9,
             "name": "Region_Fire",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 10,
             "name": "Region_Wind",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 11,
             "name": "Region_Water",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 12,
             "name": "Region_Thunder",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 13,
             "name": "Region_Center",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 14,
             "name": "TurnOffTrigger",
             "no_refresh": true,
             "value": 99
         },
         {
+            "configId": 15,
             "name": "Temp_GadgetID",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 16,
             "name": "Unlock_Water",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 17,
             "name": "AnyGurdianDie",
             "no_refresh": true,
             "value": 0

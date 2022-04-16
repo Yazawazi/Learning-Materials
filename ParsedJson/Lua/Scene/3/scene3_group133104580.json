@@ -867,41 +867,49 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Quest_Stage",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "tablet1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "tablet2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "tablet3",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "tablet4",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "tablet5",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "tablet6",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 8,
             "name": "tablet7",
             "no_refresh": true,
             "value": 0

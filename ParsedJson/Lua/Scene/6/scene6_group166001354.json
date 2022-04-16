@@ -234,16 +234,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "lineA",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "lineB",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "kill",
             "no_refresh": true,
             "value": 0

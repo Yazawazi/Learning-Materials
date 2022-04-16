@@ -162,6 +162,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "point1",
             "no_refresh": false,
             "value": 0

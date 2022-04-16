@@ -1381,41 +1381,49 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "seals",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "flare",
             "no_refresh": true,
             "value": 1
         },
         {
+            "configId": 3,
             "name": "flareactive",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "crane1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "crane2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "crane3",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "cstart",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 8,
             "name": "finish",
             "no_refresh": true,
             "value": 0

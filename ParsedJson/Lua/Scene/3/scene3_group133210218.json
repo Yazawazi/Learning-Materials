@@ -327,26 +327,31 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "active_count",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "SeelieMove1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "SeelieMove2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "SeelieMove3",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 5,
                     "name": "SeelieMove4",
                     "no_refresh": true,
                     "value": 0
@@ -443,26 +448,31 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "active_count",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "SeelieMove1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "SeelieMove2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "SeelieMove3",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 5,
                     "name": "SeelieMove4",
                     "no_refresh": true,
                     "value": 0
@@ -485,30 +495,95 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "active_count",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "SeelieMove1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "SeelieMove2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "SeelieMove3",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 5,
                     "name": "SeelieMove4",
                     "no_refresh": true,
                     "value": 0
                 }
+            ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_START_218014"
+            ]
+        },
+        {
+            "gadgets": [
+                218001,
+                218002,
+                218003,
+                218004,
+                218015,
+                218016,
+                218017,
+                218018
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [
+                218010,
+                218012,
+                218019,
+                218020,
+                218021,
+                218022
+            ],
+            "triggers": [
+                "GADGET_STATE_CHANGE_218006",
+                "VARIABLE_CHANGE_218007",
+                "GADGET_STATE_CHANGE_218009",
+                "ENTER_REGION_218010",
+                "ENTER_REGION_218012",
+                "ENTER_REGION_218019",
+                "ENTER_REGION_218020",
+                "ENTER_REGION_218021",
+                "ENTER_REGION_218022",
+                "PLATFORM_REACH_POINT_218023",
+                "PLATFORM_REACH_POINT_218024",
+                "PLATFORM_REACH_POINT_218025",
+                "PLATFORM_REACH_POINT_218026"
+            ]
+        },
+        {
+            "gadgets": [
+                218005
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "GADGET_STATE_CHANGE_218009",
+                "QUEST_START_218027"
             ]
         }
     ],
@@ -648,26 +723,31 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "active_count",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "SeelieMove1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "SeelieMove2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "SeelieMove3",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "SeelieMove4",
             "no_refresh": true,
             "value": 0

@@ -27,6 +27,7 @@
     "triggers": [],
     "variables": [
         {
+            "configId": 1,
             "name": "fire",
             "no_refresh": false,
             "value": 0

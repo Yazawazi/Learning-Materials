@@ -640,21 +640,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "count",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "dead",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "reminder",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "big",
             "no_refresh": true,
             "value": 0

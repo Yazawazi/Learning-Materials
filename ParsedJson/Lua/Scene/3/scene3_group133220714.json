@@ -92,6 +92,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "win",
             "no_refresh": true,
             "value": 0

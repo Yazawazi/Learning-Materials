@@ -247,6 +247,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "133212246",
                     "no_refresh": false,
                     "value": 0
@@ -272,6 +273,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "133212246",
                     "no_refresh": false,
                     "value": 0
@@ -293,6 +295,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "133212246",
                     "no_refresh": false,
                     "value": 0
@@ -307,11 +310,63 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "133212246",
                     "no_refresh": false,
                     "value": 0
                 }
             ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [
+                246002,
+                246003,
+                246004,
+                246005,
+                246011,
+                246012,
+                246013
+            ],
+            "monsters": [
+                246001
+            ],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "ANY_MONSTER_DIE_246009"
+            ]
+        },
+        {
+            "gadgets": [
+                246006,
+                246008
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "GADGET_STATE_CHANGE_246010"
+            ]
+        },
+        {
+            "gadgets": [
+                246007
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "GADGET_STATE_CHANGE_246014"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [
@@ -342,6 +397,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "133212246",
             "no_refresh": false,
             "value": 0

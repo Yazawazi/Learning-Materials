@@ -232,21 +232,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "gadget_Teleport_1_isActive",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "gadget_Teleport_2_isActive",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "gadget_Teleport_3_isActive",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "gadget_Teleport_4_isActive",
             "no_refresh": false,
             "value": 0

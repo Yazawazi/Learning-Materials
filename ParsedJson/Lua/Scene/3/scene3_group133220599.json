@@ -290,6 +290,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "chest",
             "no_refresh": false,
             "value": 0

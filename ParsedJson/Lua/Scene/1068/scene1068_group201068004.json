@@ -113,6 +113,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "questFinishCount",
             "no_refresh": true,
             "value": 0

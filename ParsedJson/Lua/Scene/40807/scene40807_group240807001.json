@@ -443,6 +443,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "challenge",
             "no_refresh": false,
             "value": 0

@@ -122,6 +122,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "done",
             "no_refresh": true,
             "value": 0

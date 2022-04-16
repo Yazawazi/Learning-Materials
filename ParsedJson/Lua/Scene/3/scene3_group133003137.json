@@ -20,11 +20,13 @@
     "triggers": [],
     "variables": [
         {
+            "configId": 1,
             "name": "ison",
             "no_refresh": true,
             "value": 1
         },
         {
+            "configId": 2,
             "name": "bomb",
             "no_refresh": false,
             "value": 0

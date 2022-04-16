@@ -68,6 +68,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "hasEntered",
             "no_refresh": false,
             "value": 0

@@ -196,11 +196,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "index",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "remove",
             "no_refresh": true,
             "value": 0

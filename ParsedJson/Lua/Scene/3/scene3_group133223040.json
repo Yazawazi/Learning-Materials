@@ -131,26 +131,31 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "isMoving",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "nextRouteIndex",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 3,
             "name": "currentPathNodeID",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "selfLooping",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 5,
             "name": "markFinish",
             "no_refresh": true,
             "value": 0

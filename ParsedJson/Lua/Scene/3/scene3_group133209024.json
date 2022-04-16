@@ -730,26 +730,31 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "isObstacle1Available",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 2,
             "name": "isObstacle0Available",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 3,
             "name": "gadget1",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 4,
             "name": "gadget2",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 5,
             "name": "monster3",
             "no_refresh": false,
             "value": 1

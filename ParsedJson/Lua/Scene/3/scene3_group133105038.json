@@ -890,16 +890,19 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "times",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "correct",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "camera",
                     "no_refresh": false,
                     "value": 0
@@ -1084,16 +1087,19 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "times",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "correct",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "camera",
                     "no_refresh": false,
                     "value": 0
@@ -1162,16 +1168,19 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "times",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "correct",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "camera",
                     "no_refresh": false,
                     "value": 0
@@ -1231,16 +1240,19 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "times",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "correct",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "camera",
                     "no_refresh": false,
                     "value": 0
@@ -1292,21 +1304,181 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "times",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "correct",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "camera",
                     "no_refresh": false,
                     "value": 0
                 }
             ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [
+                38002,
+                38005,
+                38007,
+                38048,
+                38050,
+                38052,
+                38054,
+                38055,
+                38056,
+                38057,
+                38064,
+                38068
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_FINISH_38012",
+                "ANY_GADGET_DIE_38035",
+                "ANY_GADGET_DIE_38039",
+                "ANY_GADGET_DIE_38040",
+                "ANY_GADGET_DIE_38041"
+            ]
+        },
+        {
+            "gadgets": [
+                38002,
+                38003,
+                38005,
+                38007,
+                38014,
+                38017,
+                38018,
+                38019,
+                38020,
+                38021,
+                38022,
+                38023,
+                38024,
+                38025,
+                38026,
+                38027,
+                38028,
+                38030,
+                38032,
+                38033,
+                38044,
+                38045,
+                38046,
+                38048,
+                38050,
+                38052,
+                38054,
+                38055,
+                38056,
+                38057,
+                38059,
+                38060,
+                38061,
+                38062,
+                38064,
+                38068
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [
+                38029,
+                38047
+            ],
+            "triggers": [
+                "GADGET_STATE_CHANGE_38011",
+                "GADGET_STATE_CHANGE_38015",
+                "GADGET_STATE_CHANGE_38016",
+                "ENTER_REGION_38029",
+                "GADGET_STATE_CHANGE_38031",
+                "QUEST_START_38034",
+                "ANY_GADGET_DIE_38035",
+                "GADGET_STATE_CHANGE_38036",
+                "GADGET_STATE_CHANGE_38037",
+                "GADGET_STATE_CHANGE_38038",
+                "ANY_GADGET_DIE_38039",
+                "ANY_GADGET_DIE_38040",
+                "ANY_GADGET_DIE_38041",
+                "VARIABLE_CHANGE_38042",
+                "VARIABLE_CHANGE_38043",
+                "ENTER_REGION_38047",
+                "ANY_MONSTER_DIE_38058",
+                "GADGET_STATE_CHANGE_38063",
+                "GADGET_STATE_CHANGE_38065",
+                "GADGET_STATE_CHANGE_38066",
+                "GADGET_STATE_CHANGE_38067"
+            ]
+        },
+        {
+            "gadgets": [
+                38005,
+                38007,
+                38008,
+                38048,
+                38049,
+                38051,
+                38053,
+                38055,
+                38056,
+                38057,
+                38064
+            ],
+            "monsters": [
+                38009,
+                38010
+            ],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_FINISH_38013"
+            ]
+        },
+        {
+            "gadgets": [
+                38005,
+                38007,
+                38008,
+                38048,
+                38049,
+                38051,
+                38053,
+                38055,
+                38056,
+                38057,
+                38064
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
+        },
+        {
+            "gadgets": [
+                38008,
+                38048,
+                38049,
+                38051,
+                38053,
+                38055,
+                38056,
+                38057,
+                38064
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [
@@ -1514,16 +1686,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "times",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "correct",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "camera",
             "no_refresh": false,
             "value": 0

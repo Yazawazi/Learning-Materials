@@ -486,26 +486,31 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "flag",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "PuzzleFinish",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "number",
             "no_refresh": true,
             "value": 3
         },
         {
+            "configId": 4,
             "name": "challenge",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "monster",
             "no_refresh": true,
             "value": 8

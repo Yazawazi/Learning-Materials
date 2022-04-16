@@ -1,3 +1,22 @@
 {
-    "groups": []
+    "groups": [
+        {
+            "area": 300,
+            "business": {
+                "type": 4
+            },
+            "dynamic_load": true,
+            "id": 166003001,
+            "is_replaceable": {
+                "new_bin_only": true,
+                "value": false,
+                "version": 0
+            },
+            "pos": {
+                "x": 945.487,
+                "y": 723.03,
+                "z": 343.272
+            }
+        }
+    ]
 }

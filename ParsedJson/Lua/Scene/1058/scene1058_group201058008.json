@@ -619,31 +619,37 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "stage1",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "stage1state",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 3,
             "name": "stage2",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "stage2state",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 5,
             "name": "stage3",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "stage3state",
             "no_refresh": false,
             "value": 1

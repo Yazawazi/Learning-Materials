@@ -397,6 +397,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "gravity_check",
             "no_refresh": false,
             "value": 0

@@ -144,41 +144,49 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "isFinished",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "isMoving",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "currentRouteIndex",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "nextRouteIndex",
                     "no_refresh": false,
                     "value": 1
                 },
                 {
+                    "configId": 5,
                     "name": "isstart",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 6,
                     "name": "currentPathNodeIndex",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 7,
                     "name": "next_baton_start",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 8,
                     "name": "ReachPoint",
                     "no_refresh": true,
                     "value": 0
@@ -210,41 +218,49 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "isFinished",
                     "no_refresh": true,
                     "value": 1
                 },
                 {
+                    "configId": 2,
                     "name": "isMoving",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "currentRouteIndex",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "nextRouteIndex",
                     "no_refresh": false,
                     "value": 1
                 },
                 {
+                    "configId": 5,
                     "name": "isstart",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 6,
                     "name": "currentPathNodeIndex",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 7,
                     "name": "next_baton_start",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 8,
                     "name": "ReachPoint",
                     "no_refresh": true,
                     "value": 0
@@ -283,46 +299,92 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "isFinished",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "isMoving",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "currentRouteIndex",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "nextRouteIndex",
                     "no_refresh": false,
                     "value": 1
                 },
                 {
+                    "configId": 5,
                     "name": "isstart",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 6,
                     "name": "currentPathNodeIndex",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 7,
                     "name": "next_baton_start",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 8,
                     "name": "ReachPoint",
                     "no_refresh": true,
                     "value": 0
                 }
             ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "VARIABLE_CHANGE_270004",
+                "GROUP_LOAD_270005"
+            ]
+        },
+        {
+            "gadgets": [
+                270001
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "PLATFORM_REACH_POINT_270002",
+                "AVATAR_NEAR_PLATFORM_270003",
+                "GROUP_LOAD_270010",
+                "VARIABLE_CHANGE_270011"
+            ]
+        },
+        {
+            "gadgets": [
+                270006,
+                270007,
+                270008,
+                270009
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [
@@ -381,41 +443,49 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "isFinished",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "isMoving",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "currentRouteIndex",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "nextRouteIndex",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 5,
             "name": "isstart",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "currentPathNodeIndex",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "next_baton_start",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 8,
             "name": "ReachPoint",
             "no_refresh": true,
             "value": 0

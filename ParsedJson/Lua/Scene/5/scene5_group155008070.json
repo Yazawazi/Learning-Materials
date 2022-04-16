@@ -127,16 +127,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "gameplayState",
             "no_refresh": true,
             "value": 1
         },
         {
+            "configId": 2,
             "name": "iswallmatch",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "isNight",
             "no_refresh": false,
             "value": 0

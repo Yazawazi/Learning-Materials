@@ -79,6 +79,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "down",
             "no_refresh": false,
             "value": 0

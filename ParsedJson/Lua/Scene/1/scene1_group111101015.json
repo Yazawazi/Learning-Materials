@@ -318,6 +318,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "deadMonster",
             "no_refresh": false,
             "value": 0

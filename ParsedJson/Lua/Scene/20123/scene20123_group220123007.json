@@ -996,41 +996,49 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Wall1",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 2,
             "name": "Wall2",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 3,
             "name": "Wall3",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 4,
             "name": "Wall4",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 5,
             "name": "Wall5",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 6,
             "name": "Wall6",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 7,
             "name": "Block4",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 8,
             "name": "Block6",
             "no_refresh": false,
             "value": 1

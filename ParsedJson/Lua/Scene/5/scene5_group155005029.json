@@ -20,6 +20,7 @@
     "triggers": [],
     "variables": [
         {
+            "configId": 1,
             "name": "SittingBit",
             "no_refresh": true,
             "value": 0

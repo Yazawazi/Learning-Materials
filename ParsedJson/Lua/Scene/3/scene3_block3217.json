@@ -3696,9 +3696,9 @@
             "area": 14,
             "id": 133217323,
             "is_replaceable": {
-                "new_bin_only": true,
-                "value": false,
-                "version": 0
+                "new_bin_only": false,
+                "value": true,
+                "version": 1
             },
             "pos": {
                 "x": -4484.48,

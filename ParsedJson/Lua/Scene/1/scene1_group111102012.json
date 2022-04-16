@@ -148,6 +148,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "GMTEST",
             "no_refresh": false,
             "value": 0

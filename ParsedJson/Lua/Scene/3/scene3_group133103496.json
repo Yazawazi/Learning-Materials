@@ -380,11 +380,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Unlocked",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "TreasureBox",
             "no_refresh": true,
             "value": 0

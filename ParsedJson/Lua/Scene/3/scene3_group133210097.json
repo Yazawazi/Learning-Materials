@@ -262,6 +262,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "GadgetCreate",
             "no_refresh": true,
             "value": 0

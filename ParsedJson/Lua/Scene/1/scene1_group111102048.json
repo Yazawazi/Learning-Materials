@@ -51,6 +51,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "test",
             "no_refresh": false,
             "value": 0

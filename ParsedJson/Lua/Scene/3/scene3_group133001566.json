@@ -177,6 +177,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "prekill",
             "no_refresh": false,
             "value": 0

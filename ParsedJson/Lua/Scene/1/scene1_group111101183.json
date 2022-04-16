@@ -427,31 +427,37 @@
     "triggers": [],
     "variables": [
         {
+            "configId": 1,
             "name": "Pillar01",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 2,
             "name": "Pillar02",
             "no_refresh": false,
             "value": 2
         },
         {
+            "configId": 3,
             "name": "Pillar03",
             "no_refresh": false,
             "value": 3
         },
         {
+            "configId": 4,
             "name": "Pillar04",
             "no_refresh": false,
             "value": 4
         },
         {
+            "configId": 5,
             "name": "Pillar05",
             "no_refresh": false,
             "value": 5
         },
         {
+            "configId": 6,
             "name": "Finished",
             "no_refresh": true,
             "value": 0

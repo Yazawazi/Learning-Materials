@@ -120,11 +120,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "gear_can_trigger",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Gate_Open",
             "no_refresh": true,
             "value": 0

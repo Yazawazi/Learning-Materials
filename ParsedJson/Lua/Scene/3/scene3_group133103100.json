@@ -376,6 +376,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "killwindslamu",
             "no_refresh": false,
             "value": 0

@@ -384,6 +384,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "index",
             "no_refresh": true,
             "value": 0

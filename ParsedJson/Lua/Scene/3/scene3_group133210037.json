@@ -124,6 +124,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Gadget_Count",
                     "no_refresh": true,
                     "value": 0
@@ -155,6 +156,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Gadget_Count",
                     "no_refresh": true,
                     "value": 0
@@ -183,6 +185,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Gadget_Count",
                     "no_refresh": true,
                     "value": 0
@@ -210,6 +213,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Gadget_Count",
                     "no_refresh": true,
                     "value": 2
@@ -244,6 +248,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Gadget_Count",
                     "no_refresh": true,
                     "value": 0
@@ -269,11 +274,111 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Gadget_Count",
                     "no_refresh": true,
                     "value": 0
                 }
             ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [
+                37006,
+                37008
+            ],
+            "monsters": [],
+            "npcs": [
+                37019
+            ],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_START_37011"
+            ]
+        },
+        {
+            "gadgets": [
+                37006,
+                37008
+            ],
+            "monsters": [],
+            "npcs": [
+                37019
+            ],
+            "rand_weight": 100,
+            "regions": [
+                37010
+            ],
+            "triggers": [
+                "QUEST_FINISH_37005",
+                "ENTER_REGION_37010",
+                "QUEST_START_37012"
+            ]
+        },
+        {
+            "gadgets": [
+                37006,
+                37008
+            ],
+            "monsters": [],
+            "npcs": [
+                37019
+            ],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_START_37003",
+                "VARIABLE_CHANGE_37015"
+            ]
+        },
+        {
+            "gadgets": [
+                37006,
+                37008
+            ],
+            "monsters": [],
+            "npcs": [
+                37019
+            ],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_START_37007"
+            ]
+        },
+        {
+            "gadgets": [
+                37004,
+                37006,
+                37008
+            ],
+            "monsters": [],
+            "npcs": [
+                37019
+            ],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "SELECT_OPTION_37001",
+                "GADGET_CREATE_37002",
+                "QUEST_FINISH_37009",
+                "GADGET_STATE_CHANGE_37018"
+            ]
+        },
+        {
+            "gadgets": [
+                37006,
+                37008
+            ],
+            "monsters": [],
+            "npcs": [
+                37019
+            ],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [
@@ -377,6 +482,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Gadget_Count",
             "no_refresh": true,
             "value": 0

@@ -140,6 +140,44 @@
             "variables": []
         }
     ],
+    "suites": [
+        {
+            "gadgets": [
+                14002,
+                14003
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "CHALLENGE_SUCCESS_14005",
+                "CHALLENGE_FAIL_14006",
+                "GADGET_STATE_CHANGE_14007",
+                "GADGET_STATE_CHANGE_14008",
+                "GADGET_CREATE_14009",
+                "SELECT_OPTION_14010"
+            ]
+        },
+        {
+            "gadgets": [
+                14001,
+                14004
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
+        },
+        {
+            "gadgets": [
+                14002
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
+        }
+    ],
     "triggers": [
         {
             "action": "action_EVENT_CHALLENGE_SUCCESS_14005",

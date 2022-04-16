@@ -743,21 +743,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "isall",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "2174",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "2173",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "iskill",
             "no_refresh": false,
             "value": 0

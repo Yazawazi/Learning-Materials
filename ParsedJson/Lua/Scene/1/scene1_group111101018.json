@@ -141,6 +141,38 @@
             "variables": []
         }
     ],
+    "suites": [
+        {
+            "gadgets": [
+                18004
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [
+                18005
+            ],
+            "triggers": [
+                "ENTER_REGION_18005",
+                "ANY_MONSTER_DIE_18006",
+                "GADGET_STATE_CHANGE_18007"
+            ]
+        },
+        {
+            "gadgets": [
+                18004
+            ],
+            "monsters": [
+                18001,
+                18002,
+                18003
+            ],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "ANY_MONSTER_DIE_18006"
+            ]
+        }
+    ],
     "triggers": [
         {
             "action": "action_EVENT_ENTER_REGION_18005",

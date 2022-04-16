@@ -1,6 +1,7 @@
 {
     "action_EVENT_ENTER_REGION_230001": "WARN: Lua function omitted from the dump",
     "action_EVENT_GADGET_CREATE_230005": "WARN: Lua function omitted from the dump",
+    "action_EVENT_GADGET_STATE_CHANGE_230006": "WARN: Lua function omitted from the dump",
     "action_EVENT_GROUP_LOAD_318": "WARN: Lua function omitted from the dump",
     "action_EVENT_QUEST_FINISH_315": "WARN: Lua function omitted from the dump",
     "action_EVENT_SEAL_BATTLE_END_303": "WARN: Lua function omitted from the dump",
@@ -273,26 +274,31 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Quest_Flag",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "first_touch_done",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "seal_battle_done",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "Point_Value",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "Temp_Point_Value",
             "no_refresh": true,
             "value": 0

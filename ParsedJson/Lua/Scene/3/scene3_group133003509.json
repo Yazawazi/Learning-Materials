@@ -776,6 +776,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "diedShamanNum",
             "no_refresh": false,
             "value": 0

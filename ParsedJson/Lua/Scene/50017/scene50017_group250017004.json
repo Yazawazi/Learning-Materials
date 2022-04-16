@@ -43,6 +43,13 @@
     "regions": [],
     "suites": [
         {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
+        },
+        {
             "gadgets": [
                 4001,
                 4002

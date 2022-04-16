@@ -66,6 +66,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Notify",
             "no_refresh": true,
             "value": 0

@@ -124,6 +124,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "dead",
             "no_refresh": false,
             "value": 1

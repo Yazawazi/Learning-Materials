@@ -87,26 +87,31 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Gadget_Count1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "Gadget_Count2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "Gadget_Count3",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "Gadget_Count4",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 5,
                     "name": "Success",
                     "no_refresh": true,
                     "value": 0
@@ -126,26 +131,31 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Gadget_Count1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "Gadget_Count2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "Gadget_Count3",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "Gadget_Count4",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 5,
                     "name": "Success",
                     "no_refresh": true,
                     "value": 0
@@ -170,26 +180,31 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Gadget_Count1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "Gadget_Count2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "Gadget_Count3",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "Gadget_Count4",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 5,
                     "name": "Success",
                     "no_refresh": true,
                     "value": 0
@@ -217,26 +232,31 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Gadget_Count1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "Gadget_Count2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "Gadget_Count3",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "Gadget_Count4",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 5,
                     "name": "Success",
                     "no_refresh": true,
                     "value": 0
@@ -256,31 +276,95 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Gadget_Count1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "Gadget_Count2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "Gadget_Count3",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "Gadget_Count4",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 5,
                     "name": "Success",
                     "no_refresh": true,
                     "value": 0
                 }
             ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [
+                100001
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_START_100026"
+            ]
+        },
+        {
+            "gadgets": [
+                100001
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
+        },
+        {
+            "gadgets": [
+                100001
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_START_100004",
+                "TIME_AXIS_PASS_100007",
+                "VARIABLE_CHANGE_100008",
+                "VARIABLE_CHANGE_100027"
+            ]
+        },
+        {
+            "gadgets": [
+                100001,
+                100005
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "GADGET_CREATE_100003",
+                "SELECT_OPTION_100006",
+                "GADGET_STATE_CHANGE_100032"
+            ]
+        },
+        {
+            "gadgets": [
+                100001
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [
@@ -364,26 +448,31 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Gadget_Count1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Gadget_Count2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "Gadget_Count3",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "Gadget_Count4",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "Success",
             "no_refresh": true,
             "value": 0

@@ -555,61 +555,73 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Water",
             "no_refresh": false,
             "value": 100
         },
         {
+            "configId": 2,
             "name": "Fire",
             "no_refresh": false,
             "value": 100
         },
         {
+            "configId": 3,
             "name": "Electric",
             "no_refresh": false,
             "value": 100
         },
         {
+            "configId": 4,
             "name": "Ice",
             "no_refresh": false,
             "value": 100
         },
         {
+            "configId": 5,
             "name": "Wind",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "Rock",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "Grass",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 8,
             "name": "timer_extra",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 9,
             "name": "timer_counter",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 10,
             "name": "stage_counter",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 11,
             "name": "elem_counter",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 12,
             "name": "stage_bonus_suite",
             "no_refresh": false,
             "value": 0

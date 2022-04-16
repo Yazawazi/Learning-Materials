@@ -205,11 +205,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "gameplayState",
             "no_refresh": true,
             "value": 1
         },
         {
+            "configId": 2,
             "name": "rot_state",
             "no_refresh": true,
             "value": 0

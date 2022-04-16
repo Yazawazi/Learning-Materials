@@ -135,11 +135,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "wishIndex",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "isActive",
             "no_refresh": true,
             "value": 0

@@ -102,6 +102,29 @@
             "variables": []
         }
     ],
+    "suites": [
+        {
+            "gadgets": [
+                449001,
+                449004
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "GADGET_STATE_CHANGE_449002"
+            ]
+        },
+        {
+            "gadgets": [
+                449003
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
+        }
+    ],
     "triggers": [
         {
             "action": "action_EVENT_GADGET_STATE_CHANGE_449002",

@@ -104,6 +104,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "GadgetState",
             "no_refresh": true,
             "value": 0

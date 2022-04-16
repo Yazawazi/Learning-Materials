@@ -53,6 +53,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Finish",
             "no_refresh": false,
             "value": 0

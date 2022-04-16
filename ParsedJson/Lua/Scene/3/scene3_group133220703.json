@@ -518,6 +518,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Endflag_battle",
             "no_refresh": true,
             "value": 0

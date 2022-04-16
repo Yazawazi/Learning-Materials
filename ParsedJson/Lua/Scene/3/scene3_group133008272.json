@@ -485,11 +485,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "ison",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "killed",
             "no_refresh": true,
             "value": 0

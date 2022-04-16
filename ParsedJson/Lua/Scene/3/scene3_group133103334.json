@@ -374,21 +374,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "zhenjun1",
             "no_refresh": true,
             "value": 1
         },
         {
+            "configId": 2,
             "name": "zhenjun2",
             "no_refresh": true,
             "value": 1
         },
         {
+            "configId": 3,
             "name": "zhenjun3",
             "no_refresh": true,
             "value": 1
         },
         {
+            "configId": 4,
             "name": "EnableOption",
             "no_refresh": true,
             "value": 0

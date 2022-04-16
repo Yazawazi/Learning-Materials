@@ -145,6 +145,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "reminder",
             "no_refresh": true,
             "value": 0

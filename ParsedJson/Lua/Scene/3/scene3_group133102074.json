@@ -135,6 +135,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "deathcount",
             "no_refresh": false,
             "value": 0

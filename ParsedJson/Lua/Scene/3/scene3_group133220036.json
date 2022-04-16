@@ -564,16 +564,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "var_right",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "puzzle_done",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "reminder",
             "no_refresh": true,
             "value": 0

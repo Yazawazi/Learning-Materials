@@ -210,6 +210,63 @@
             "variables": []
         }
     ],
+    "suites": [
+        {
+            "gadgets": [
+                30001
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_FINISH_30004",
+                "QUEST_START_30007",
+                "QUEST_START_30013"
+            ]
+        },
+        {
+            "gadgets": [
+                30001,
+                30006
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_START_30002",
+                "SELECT_OPTION_30005",
+                "GADGET_CREATE_30010",
+                "QUEST_START_30013"
+            ]
+        },
+        {
+            "gadgets": [
+                30001,
+                30012
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [
+                30003
+            ],
+            "triggers": [
+                "ENTER_REGION_30003",
+                "TIME_AXIS_PASS_30009",
+                "QUEST_START_30011"
+            ]
+        },
+        {
+            "gadgets": [
+                30008
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "TIME_AXIS_PASS_30009"
+            ]
+        }
+    ],
     "triggers": [
         {
             "action": "action_EVENT_QUEST_START_30002",

@@ -1433,6 +1433,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "challengeSuccess",
             "no_refresh": false,
             "value": 0

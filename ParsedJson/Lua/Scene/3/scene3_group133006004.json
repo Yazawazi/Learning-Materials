@@ -440,11 +440,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "windcore2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "count2",
             "no_refresh": true,
             "value": 0

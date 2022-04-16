@@ -66,6 +66,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "door_open",
             "no_refresh": true,
             "value": 0

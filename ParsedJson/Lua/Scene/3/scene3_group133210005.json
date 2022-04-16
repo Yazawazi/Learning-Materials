@@ -120,6 +120,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "QuestStart",
                     "no_refresh": true,
                     "value": 0
@@ -153,6 +154,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "QuestStart",
                     "no_refresh": true,
                     "value": 1
@@ -167,6 +169,7 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "QuestStart",
                     "no_refresh": true,
                     "value": 2
@@ -181,11 +184,51 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "QuestStart",
                     "no_refresh": true,
                     "value": 0
                 }
             ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "VARIABLE_CHANGE_5001"
+            ]
+        },
+        {
+            "gadgets": [
+                5002,
+                5003,
+                5005,
+                5007
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "ANY_GADGET_DIE_5004"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [
@@ -209,6 +252,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "QuestStart",
             "no_refresh": true,
             "value": 0

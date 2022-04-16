@@ -472,6 +472,113 @@
             "variables": []
         }
     ],
+    "suites": [
+        {
+            "gadgets": [
+                73001,
+                73002,
+                73003,
+                73004,
+                73005
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_FINISH_73013"
+            ]
+        },
+        {
+            "gadgets": [
+                73002,
+                73003,
+                73004,
+                73005,
+                73006
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_FINISH_73014"
+            ]
+        },
+        {
+            "gadgets": [
+                73003,
+                73004,
+                73005,
+                73006,
+                73007
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_FINISH_73015"
+            ]
+        },
+        {
+            "gadgets": [
+                73005,
+                73006,
+                73007,
+                73008,
+                73009
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_FINISH_73016"
+            ]
+        },
+        {
+            "gadgets": [
+                73006,
+                73007,
+                73008,
+                73009,
+                73010,
+                73011
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_FINISH_73017"
+            ]
+        },
+        {
+            "gadgets": [
+                73006,
+                73007,
+                73008,
+                73009,
+                73010
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_FINISH_73018"
+            ]
+        },
+        {
+            "gadgets": [
+                73006,
+                73007,
+                73008,
+                73009,
+                73010,
+                73012
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
+        }
+    ],
     "triggers": [
         {
             "action": "action_EVENT_QUEST_FINISH_73013",

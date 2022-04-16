@@ -372,21 +372,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "SealGear",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Gear1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "Gear2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "Gear3",
             "no_refresh": true,
             "value": 0

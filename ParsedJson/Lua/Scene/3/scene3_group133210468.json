@@ -52,6 +52,7 @@
     "triggers": [],
     "variables": [
         {
+            "configId": 1,
             "name": "success",
             "no_refresh": true,
             "value": 0

@@ -243,11 +243,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "quest_accept",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "explore",
             "no_refresh": true,
             "value": 0

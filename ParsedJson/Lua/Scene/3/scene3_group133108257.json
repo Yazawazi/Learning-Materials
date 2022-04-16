@@ -262,21 +262,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "picked",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "pick1",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "pick2",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "pick3",
             "no_refresh": false,
             "value": 0

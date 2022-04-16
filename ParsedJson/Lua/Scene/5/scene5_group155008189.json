@@ -222,11 +222,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "gameplayState",
             "no_refresh": true,
             "value": 1
         },
         {
+            "configId": 2,
             "name": "enemyspawned",
             "no_refresh": false,
             "value": 0

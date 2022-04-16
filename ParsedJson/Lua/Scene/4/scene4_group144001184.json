@@ -279,6 +279,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "tophill",
             "no_refresh": false,
             "value": 0

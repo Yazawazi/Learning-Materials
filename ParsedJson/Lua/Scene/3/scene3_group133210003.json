@@ -221,11 +221,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Times",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "GadgetState",
             "no_refresh": true,
             "value": 0

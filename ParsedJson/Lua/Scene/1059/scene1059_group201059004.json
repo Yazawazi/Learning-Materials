@@ -964,41 +964,49 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "guihuo_2",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "loop0",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "loop1",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "loop2",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "loop3",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "Enterloop",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "revivetest",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 8,
             "name": "loop3_bool",
             "no_refresh": false,
             "value": 0

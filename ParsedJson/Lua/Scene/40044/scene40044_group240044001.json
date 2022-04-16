@@ -337,6 +337,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "battle",
             "no_refresh": false,
             "value": 0

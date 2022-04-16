@@ -9294,6 +9294,24 @@
                 "type": 1
             },
             "dynamic_load": true,
+            "id": 133106624,
+            "is_replaceable": {
+                "new_bin_only": true,
+                "value": false,
+                "version": 0
+            },
+            "pos": {
+                "x": -758.47,
+                "y": 204.832,
+                "z": 1473.444
+            }
+        },
+        {
+            "area": 19,
+            "business": {
+                "type": 1
+            },
+            "dynamic_load": true,
             "id": 133106625,
             "is_replaceable": {
                 "new_bin_only": true,

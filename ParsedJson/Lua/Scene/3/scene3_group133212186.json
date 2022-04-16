@@ -882,16 +882,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "isObstacle1Available",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 2,
             "name": "isObstacle2Available",
             "no_refresh": false,
             "value": 2
         },
         {
+            "configId": 3,
             "name": "isObstacle3Available",
             "no_refresh": false,
             "value": 2

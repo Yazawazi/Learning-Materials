@@ -264,6 +264,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "collector_should_unlock",
             "no_refresh": true,
             "value": 0

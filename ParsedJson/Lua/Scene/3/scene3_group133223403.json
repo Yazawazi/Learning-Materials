@@ -484,16 +484,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Finished",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "isNeedNotify",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 3,
             "name": "isQuestNotify",
             "no_refresh": true,
             "value": 0

@@ -262,11 +262,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "END",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "START",
             "no_refresh": false,
             "value": 0

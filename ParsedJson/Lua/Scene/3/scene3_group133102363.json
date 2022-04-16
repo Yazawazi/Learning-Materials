@@ -218,11 +218,13 @@
     "triggers": [],
     "variables": [
         {
+            "configId": 1,
             "name": "destroycount",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "isFinished",
             "no_refresh": true,
             "value": 0

@@ -176,6 +176,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "chestopened",
             "no_refresh": true,
             "value": 0

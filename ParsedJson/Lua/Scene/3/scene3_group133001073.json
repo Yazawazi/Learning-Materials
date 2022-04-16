@@ -628,6 +628,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "allow_spawn_mon",
             "no_refresh": false,
             "value": 0

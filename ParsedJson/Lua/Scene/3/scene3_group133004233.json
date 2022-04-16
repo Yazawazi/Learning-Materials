@@ -64,11 +64,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "num_1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "num_2",
             "no_refresh": true,
             "value": 0

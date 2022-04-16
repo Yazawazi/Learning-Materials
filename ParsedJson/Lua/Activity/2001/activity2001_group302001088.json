@@ -107,16 +107,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "isDone",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "difficulty",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "isShow",
             "no_refresh": false,
             "value": 0

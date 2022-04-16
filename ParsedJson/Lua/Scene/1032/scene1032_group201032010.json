@@ -147,31 +147,37 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "test",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "isFirstEntry",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 3,
             "name": "test_re",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "test_enter_region",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "isSlipDie",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "test_slip_enter_region",
             "no_refresh": false,
             "value": 0

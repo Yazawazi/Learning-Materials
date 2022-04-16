@@ -727,11 +727,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "isObstacle2Available",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 2,
             "name": "isObstacle3Available",
             "no_refresh": false,
             "value": 2

@@ -485,6 +485,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "dooropen",
             "no_refresh": false,
             "value": 0

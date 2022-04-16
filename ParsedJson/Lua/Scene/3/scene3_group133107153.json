@@ -396,6 +396,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "fin",
             "no_refresh": true,
             "value": 0

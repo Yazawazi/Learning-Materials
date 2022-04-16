@@ -125,6 +125,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "questfinish",
                     "no_refresh": true,
                     "value": 0
@@ -145,6 +146,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "questfinish",
                     "no_refresh": true,
                     "value": 0
@@ -177,6 +179,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "questfinish",
                     "no_refresh": true,
                     "value": 0
@@ -191,11 +194,60 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "questfinish",
                     "no_refresh": true,
                     "value": 0
                 }
             ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_START_217001"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [
+                217010
+            ],
+            "triggers": [
+                "TIME_AXIS_PASS_217008",
+                "TIME_AXIS_PASS_217009",
+                "ENTER_REGION_217010"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [
+                217004,
+                217005,
+                217006,
+                217007
+            ],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "ANY_MONSTER_DIE_217002",
+                "ANY_MONSTER_DIE_217003",
+                "ANY_MONSTER_DIE_217011",
+                "QUEST_FINISH_217012"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [
@@ -269,6 +321,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "questfinish",
             "no_refresh": true,
             "value": 0

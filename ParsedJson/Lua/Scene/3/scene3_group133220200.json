@@ -92,6 +92,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "HasPlayedCS",
             "no_refresh": true,
             "value": 0

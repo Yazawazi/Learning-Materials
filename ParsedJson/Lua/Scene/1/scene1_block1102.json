@@ -85,6 +85,20 @@
             "refresh_id": 1
         },
         {
+            "id": 111102020,
+            "is_replaceable": {
+                "new_bin_only": true,
+                "value": false,
+                "version": 0
+            },
+            "pos": {
+                "x": 1524.83,
+                "y": 271.268,
+                "z": -1546.467
+            },
+            "refresh_id": 1
+        },
+        {
             "id": 111102037,
             "is_replaceable": {
                 "new_bin_only": true,
@@ -113,6 +127,34 @@
             "refresh_id": 1001
         },
         {
+            "id": 111102044,
+            "is_replaceable": {
+                "new_bin_only": true,
+                "value": false,
+                "version": 0
+            },
+            "pos": {
+                "x": 1256.401,
+                "y": 330.027,
+                "z": -1888.699
+            },
+            "refresh_id": 1001
+        },
+        {
+            "id": 111102045,
+            "is_replaceable": {
+                "new_bin_only": true,
+                "value": false,
+                "version": 0
+            },
+            "pos": {
+                "x": 1263.51,
+                "y": 321.64,
+                "z": -1852.608
+            },
+            "refresh_id": 1002
+        },
+        {
             "id": 111102048,
             "is_replaceable": {
                 "new_bin_only": true,
@@ -123,6 +165,34 @@
                 "x": 1216.648,
                 "y": 312.397,
                 "z": -1295.334
+            },
+            "refresh_id": 1
+        },
+        {
+            "id": 111102055,
+            "is_replaceable": {
+                "new_bin_only": true,
+                "value": false,
+                "version": 0
+            },
+            "pos": {
+                "x": 1407.647,
+                "y": 303.59,
+                "z": -1286.705
+            },
+            "refresh_id": 1001
+        },
+        {
+            "id": 111102059,
+            "is_replaceable": {
+                "new_bin_only": true,
+                "value": true,
+                "version": 0
+            },
+            "pos": {
+                "x": 1997.679,
+                "y": 198.407,
+                "z": -1311.949
             },
             "refresh_id": 1
         }

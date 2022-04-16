@@ -27,26 +27,31 @@
     "triggers": [],
     "variables": [
         {
+            "configId": 1,
             "name": "door1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "door2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "door3",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "door4",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "isoff",
             "no_refresh": true,
             "value": 0

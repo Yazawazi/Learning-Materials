@@ -93,31 +93,37 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "902001",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 2,
             "name": "902002",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 3,
             "name": "902004",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 4,
             "name": "902005",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 5,
             "name": "902006",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 6,
             "name": "133104446",
             "no_refresh": false,
             "value": 0

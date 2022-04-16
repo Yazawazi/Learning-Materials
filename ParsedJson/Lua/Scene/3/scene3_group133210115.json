@@ -139,6 +139,60 @@
             "variables": []
         }
     ],
+    "suites": [
+        {
+            "ban_refresh": true,
+            "gadgets": [
+                115003
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_START_115008"
+            ]
+        },
+        {
+            "ban_refresh": true,
+            "gadgets": [
+                115003
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [
+                115001
+            ],
+            "triggers": [
+                "ENTER_REGION_115001",
+                "QUEST_START_115006",
+                "QUEST_FINISH_115009"
+            ]
+        },
+        {
+            "gadgets": [
+                115003,
+                115005
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "GADGET_CREATE_115002",
+                "SELECT_OPTION_115004",
+                "GADGET_STATE_CHANGE_115007",
+                "QUEST_FINISH_115011"
+            ]
+        },
+        {
+            "gadgets": [
+                115003
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
+        }
+    ],
     "triggers": [
         {
             "action": "action_EVENT_ENTER_REGION_115001",

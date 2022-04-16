@@ -205,6 +205,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "success",
             "no_refresh": false,
             "value": 0

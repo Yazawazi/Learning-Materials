@@ -154,6 +154,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "interact_count",
             "no_refresh": false,
             "value": 0

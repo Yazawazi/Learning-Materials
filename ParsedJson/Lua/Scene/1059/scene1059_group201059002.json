@@ -812,21 +812,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "guihuo_1",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Refresh1",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "Refresh2",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "Dead",
             "no_refresh": false,
             "value": 0

@@ -1,5 +1,6 @@
 {
     "action_EVENT_GADGET_CREATE_307": "WARN: Lua function omitted from the dump",
+    "action_EVENT_GADGET_STATE_CHANGE_304": "WARN: Lua function omitted from the dump",
     "action_EVENT_GROUP_LOAD_319": "WARN: Lua function omitted from the dump",
     "action_EVENT_QUEST_FINISH_310": "WARN: Lua function omitted from the dump",
     "condition_EVENT_GADGET_CREATE_307": "WARN: Lua function omitted from the dump",
@@ -161,16 +162,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Point_Value",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Temp_Point_Value",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "Quest_Flag",
             "no_refresh": true,
             "value": 0

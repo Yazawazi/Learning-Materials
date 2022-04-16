@@ -1227,11 +1227,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "windcore1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "count1",
             "no_refresh": true,
             "value": 0

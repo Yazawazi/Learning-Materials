@@ -237,26 +237,31 @@
     "triggers": [],
     "variables": [
         {
+            "configId": 1,
             "name": "ChallengeState",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "ChallengeLevel",
             "no_refresh": true,
             "value": 1
         },
         {
+            "configId": 3,
             "name": "pos_x",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "pos_y",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "pos_z",
             "no_refresh": true,
             "value": 0

@@ -124,16 +124,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "ActiveCount",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "QuestFinish1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "QuestFinish2",
             "no_refresh": true,
             "value": 0

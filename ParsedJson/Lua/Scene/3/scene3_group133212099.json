@@ -151,6 +151,7 @@
     "triggers": [],
     "variables": [
         {
+            "configId": 1,
             "name": "fix",
             "no_refresh": false,
             "value": 0

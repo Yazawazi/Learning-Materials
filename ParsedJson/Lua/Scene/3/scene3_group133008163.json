@@ -417,16 +417,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "value_1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "value_2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "play_done",
             "no_refresh": true,
             "value": 0

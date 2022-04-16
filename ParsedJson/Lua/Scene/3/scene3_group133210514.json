@@ -475,46 +475,55 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "ActiveCount1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "ActiveCount2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "ActiveCount3",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "ActiveCount4",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 5,
                     "name": "Success",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 6,
                     "name": "reminder",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 7,
                     "name": "Monster1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 8,
                     "name": "Monster2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 9,
                     "name": "Monster3",
                     "no_refresh": true,
                     "value": 0
@@ -540,46 +549,55 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "ActiveCount1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "ActiveCount2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "ActiveCount3",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "ActiveCount4",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 5,
                     "name": "Success",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 6,
                     "name": "reminder",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 7,
                     "name": "Monster1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 8,
                     "name": "Monster2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 9,
                     "name": "Monster3",
                     "no_refresh": true,
                     "value": 0
@@ -605,46 +623,55 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "ActiveCount1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "ActiveCount2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "ActiveCount3",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "ActiveCount4",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 5,
                     "name": "Success",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 6,
                     "name": "reminder",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 7,
                     "name": "Monster1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 8,
                     "name": "Monster2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 9,
                     "name": "Monster3",
                     "no_refresh": true,
                     "value": 0
@@ -670,46 +697,55 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "ActiveCount1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "ActiveCount2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "ActiveCount3",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "ActiveCount4",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 5,
                     "name": "Success",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 6,
                     "name": "reminder",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 7,
                     "name": "Monster1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 8,
                     "name": "Monster2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 9,
                     "name": "Monster3",
                     "no_refresh": true,
                     "value": 0
@@ -726,46 +762,55 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "ActiveCount1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "ActiveCount2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "ActiveCount3",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "ActiveCount4",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 5,
                     "name": "Success",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 6,
                     "name": "reminder",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 7,
                     "name": "Monster1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 8,
                     "name": "Monster2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 9,
                     "name": "Monster3",
                     "no_refresh": true,
                     "value": 0
@@ -780,46 +825,55 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "ActiveCount1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "ActiveCount2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "ActiveCount3",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "ActiveCount4",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 5,
                     "name": "Success",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 6,
                     "name": "reminder",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 7,
                     "name": "Monster1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 8,
                     "name": "Monster2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 9,
                     "name": "Monster3",
                     "no_refresh": true,
                     "value": 0
@@ -834,46 +888,55 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "ActiveCount1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "ActiveCount2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "ActiveCount3",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "ActiveCount4",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 5,
                     "name": "Success",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 6,
                     "name": "reminder",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 7,
                     "name": "Monster1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 8,
                     "name": "Monster2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 9,
                     "name": "Monster3",
                     "no_refresh": true,
                     "value": 0
@@ -888,51 +951,147 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "ActiveCount1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "ActiveCount2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "ActiveCount3",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "ActiveCount4",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 5,
                     "name": "Success",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 6,
                     "name": "reminder",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 7,
                     "name": "Monster1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 8,
                     "name": "Monster2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 9,
                     "name": "Monster3",
                     "no_refresh": true,
                     "value": 0
                 }
             ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "VARIABLE_CHANGE_514001",
+                "VARIABLE_CHANGE_514002",
+                "VARIABLE_CHANGE_514003",
+                "VARIABLE_CHANGE_514017",
+                "VARIABLE_CHANGE_514018"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [
+                514015,
+                514016
+            ],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "ANY_MONSTER_DIE_514032",
+                "ANY_MONSTER_DIE_514033",
+                "VARIABLE_CHANGE_514034"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [
+                514011,
+                514012
+            ],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "ANY_MONSTER_DIE_514035",
+                "ANY_MONSTER_DIE_514036",
+                "VARIABLE_CHANGE_514037"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [
+                514013,
+                514014
+            ],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "ANY_MONSTER_DIE_514038",
+                "ANY_MONSTER_DIE_514039",
+                "VARIABLE_CHANGE_514040"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "MONSTER_TIDE_DIE_514028"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [
@@ -1074,46 +1233,55 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "ActiveCount1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "ActiveCount2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "ActiveCount3",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "ActiveCount4",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "Success",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "reminder",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "Monster1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 8,
             "name": "Monster2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 9,
             "name": "Monster3",
             "no_refresh": true,
             "value": 0

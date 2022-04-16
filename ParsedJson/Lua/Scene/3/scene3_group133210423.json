@@ -407,16 +407,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Success",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "StartTalk",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "EndTalk",
             "no_refresh": true,
             "value": 0

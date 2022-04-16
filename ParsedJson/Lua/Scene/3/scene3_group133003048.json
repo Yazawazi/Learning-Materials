@@ -764,26 +764,31 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "save",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "IS_BOSS1_DEAD",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "IS_BOSS2_DEAD",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "OverKey",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "stage",
             "no_refresh": true,
             "value": 1

@@ -484,11 +484,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "salvageCounter",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "curPos",
             "no_refresh": true,
             "value": 0

@@ -362,26 +362,31 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "ROUND",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "IS_IN_LIMIT_TIME",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "FIRST_WAVE_MONSTER_AFFIX",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "SECOND_WAVE_MONSTER_AFFIX",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "THIRD_WAVE_MONSTER_AFFIX",
             "no_refresh": false,
             "value": 0

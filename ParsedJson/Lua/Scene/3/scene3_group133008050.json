@@ -827,36 +827,43 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "reach_point_count",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "option_50015_active",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "option_50016_active",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "option_50017_active",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "reach_point_count_option_50015",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "reach_point_count_option_50016",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "reach_point_count_option_50017",
             "no_refresh": true,
             "value": 0

@@ -128,6 +128,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "unlockOperator",
             "no_refresh": false,
             "value": 0

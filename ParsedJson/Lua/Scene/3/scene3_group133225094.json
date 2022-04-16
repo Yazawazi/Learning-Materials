@@ -347,36 +347,43 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "stone_progress",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Finished",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "TsurumiStone",
             "no_refresh": true,
             "value": 1
         },
         {
+            "configId": 4,
             "name": "StoneCanPlace_A",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "StoneCanPlace_B",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "StoneCanPlace_C",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "isQuestNotify",
             "no_refresh": true,
             "value": 0

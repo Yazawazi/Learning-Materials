@@ -91,6 +91,48 @@
             "variables": []
         }
     ],
+    "suites": [
+        {
+            "gadgets": [
+                16002
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_START_16001"
+            ]
+        },
+        {
+            "gadgets": [
+                16002
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "GADGET_STATE_CHANGE_16003",
+                "QUEST_FINISH_16005"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "GROUP_LOAD_16004",
+                "QUEST_FINISH_16005"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
+        }
+    ],
     "triggers": [
         {
             "action": "action_EVENT_QUEST_START_16001",

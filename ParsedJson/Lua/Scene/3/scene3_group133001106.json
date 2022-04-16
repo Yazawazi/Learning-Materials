@@ -280,6 +280,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "SEAL_RESULT",
             "no_refresh": false,
             "value": 0

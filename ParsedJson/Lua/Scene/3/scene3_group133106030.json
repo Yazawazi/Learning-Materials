@@ -261,11 +261,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "hasTriggered",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "achieved",
             "no_refresh": true,
             "value": 0

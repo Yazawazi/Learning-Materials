@@ -251,6 +251,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "KillNum",
             "no_refresh": false,
             "value": 1

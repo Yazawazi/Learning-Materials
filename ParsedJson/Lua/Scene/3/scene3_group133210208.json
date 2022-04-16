@@ -183,6 +183,72 @@
             "variables": []
         }
     ],
+    "suites": [
+        {
+            "gadgets": [
+                208007
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_START_208001"
+            ]
+        },
+        {
+            "gadgets": [
+                208007
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [
+                208021
+            ],
+            "triggers": [
+                "QUEST_START_208020",
+                "ENTER_REGION_208021"
+            ]
+        },
+        {
+            "gadgets": [
+                208004,
+                208007
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "GADGET_CREATE_208002",
+                "SELECT_OPTION_208003",
+                "CHALLENGE_SUCCESS_208005",
+                "CHALLENGE_FAIL_208006"
+            ]
+        },
+        {
+            "gadgets": [
+                208009
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [
+                208008
+            ],
+            "triggers": [
+                "ENTER_REGION_208008"
+            ]
+        },
+        {
+            "gadgets": [
+                208007
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_START_208010"
+            ]
+        }
+    ],
     "triggers": [
         {
             "action": "action_EVENT_QUEST_START_208001",

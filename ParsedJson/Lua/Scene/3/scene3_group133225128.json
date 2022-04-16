@@ -173,11 +173,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "stone_progress",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "start",
             "no_refresh": true,
             "value": 0

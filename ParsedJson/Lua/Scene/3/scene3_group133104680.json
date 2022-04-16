@@ -357,6 +357,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "finished",
             "no_refresh": true,
             "value": 0

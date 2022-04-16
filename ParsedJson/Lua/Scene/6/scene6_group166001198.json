@@ -610,6 +610,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Destroy_Var",
             "no_refresh": false,
             "value": 0

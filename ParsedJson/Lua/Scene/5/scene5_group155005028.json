@@ -69,6 +69,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "unlockteleport",
                     "no_refresh": true,
                     "value": 0
@@ -85,10 +86,36 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "unlockteleport",
                     "no_refresh": true,
                     "value": 0
                 }
+            ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [
+                28002,
+                28005
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_START_28001",
+                "TIME_AXIS_PASS_28003",
+                "QUEST_START_28004"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "GROUP_LOAD_28006"
             ]
         }
     ],
@@ -132,6 +159,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "unlockteleport",
             "no_refresh": true,
             "value": 0

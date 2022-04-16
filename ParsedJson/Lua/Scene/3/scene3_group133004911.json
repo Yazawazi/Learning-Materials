@@ -77,6 +77,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "AnyTrigger",
             "no_refresh": false,
             "value": 0

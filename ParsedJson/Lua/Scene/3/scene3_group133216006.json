@@ -208,21 +208,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "succ",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "challenge_finish_1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "challenge_finish_2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "challenge_finish_3",
             "no_refresh": true,
             "value": 0

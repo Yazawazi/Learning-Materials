@@ -529,16 +529,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Total",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Key",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "C1",
             "no_refresh": false,
             "value": 0

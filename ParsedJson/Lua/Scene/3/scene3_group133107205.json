@@ -251,21 +251,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "mine1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "mine2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "mine3",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "mine4",
             "no_refresh": true,
             "value": 0

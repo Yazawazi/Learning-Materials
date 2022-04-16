@@ -686,16 +686,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Challenge_Flag",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Challenge_Endpoint_Available",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "Challenge_Log",
             "no_refresh": false,
             "value": 0

@@ -146,6 +146,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "is_rollback",
             "no_refresh": true,
             "value": 0

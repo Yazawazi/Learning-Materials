@@ -348,26 +348,31 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "FinishTemp",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Sun",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "Moon",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "Star",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "Quest",
             "no_refresh": true,
             "value": 0

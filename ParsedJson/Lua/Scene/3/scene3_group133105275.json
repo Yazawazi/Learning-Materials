@@ -923,51 +923,61 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "isObstacle1Available",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 2,
             "name": "isObstacle2Available",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 3,
             "name": "isObstacle3Available",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 4,
             "name": "isObstacle4Available",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 5,
             "name": "isObstacle5Available",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 6,
             "name": "hasReachedObstacle1",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "hasReachedObstacle2",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 8,
             "name": "hasReachedObstacle3",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 9,
             "name": "hasReachedObstacle4",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 10,
             "name": "hasReachedObstacle5",
             "no_refresh": false,
             "value": 0

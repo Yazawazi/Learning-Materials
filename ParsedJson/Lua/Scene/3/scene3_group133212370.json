@@ -254,11 +254,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "gadget_start",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "finish",
             "no_refresh": true,
             "value": 0

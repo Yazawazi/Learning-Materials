@@ -186,16 +186,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "group_1_progress",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "group_2_progress",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "group_3_progress",
             "no_refresh": true,
             "value": 0

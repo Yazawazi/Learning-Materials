@@ -56,6 +56,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "pos",
             "no_refresh": false,
             "value": 0

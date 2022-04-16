@@ -99,36 +99,43 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "isFinished",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "isMoving",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "currentRouteIndex",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "nextRouteIndex",
                     "no_refresh": false,
                     "value": 1
                 },
                 {
+                    "configId": 5,
                     "name": "isstart",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 6,
                     "name": "currentPathNodeIndex",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 7,
                     "name": "OnerouteSuc",
                     "no_refresh": true,
                     "value": 0
@@ -158,36 +165,43 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "isFinished",
                     "no_refresh": true,
                     "value": 1
                 },
                 {
+                    "configId": 2,
                     "name": "isMoving",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "currentRouteIndex",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "nextRouteIndex",
                     "no_refresh": false,
                     "value": 1
                 },
                 {
+                    "configId": 5,
                     "name": "isstart",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 6,
                     "name": "currentPathNodeIndex",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 7,
                     "name": "OnerouteSuc",
                     "no_refresh": true,
                     "value": 1
@@ -218,41 +232,79 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "isFinished",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "isMoving",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "currentRouteIndex",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "nextRouteIndex",
                     "no_refresh": false,
                     "value": 1
                 },
                 {
+                    "configId": 5,
                     "name": "isstart",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 6,
                     "name": "currentPathNodeIndex",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 7,
                     "name": "OnerouteSuc",
                     "no_refresh": true,
                     "value": 1
                 }
             ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
+        },
+        {
+            "gadgets": [
+                127001
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "PLATFORM_REACH_POINT_127004",
+                "AVATAR_NEAR_PLATFORM_127005"
+            ]
+        },
+        {
+            "gadgets": [
+                127002,
+                127003
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [
@@ -277,36 +329,43 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "isFinished",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "isMoving",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "currentRouteIndex",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "nextRouteIndex",
             "no_refresh": false,
             "value": 1
         },
         {
+            "configId": 5,
             "name": "isstart",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "currentPathNodeIndex",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "OnerouteSuc",
             "no_refresh": true,
             "value": 0

@@ -70,6 +70,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "count",
             "no_refresh": false,
             "value": 0

@@ -37,6 +37,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "replayWaiting",
                     "no_refresh": false,
                     "value": 0
@@ -57,6 +58,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "replayWaiting",
                     "no_refresh": false,
                     "value": 0
@@ -71,11 +73,43 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "replayWaiting",
                     "no_refresh": false,
                     "value": 0
                 }
             ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "QUEST_START_166001"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [
+                166002
+            ],
+            "triggers": [
+                "ENTER_REGION_166002",
+                "TIME_AXIS_PASS_166003",
+                "QUEST_START_166004"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [
@@ -118,6 +152,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "replayWaiting",
             "no_refresh": false,
             "value": 0

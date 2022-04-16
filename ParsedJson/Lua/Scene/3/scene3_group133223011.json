@@ -102,11 +102,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "water_level_A",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "progress",
             "no_refresh": true,
             "value": 0

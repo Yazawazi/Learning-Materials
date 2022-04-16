@@ -116,6 +116,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "questStart",
             "no_refresh": true,
             "value": 0

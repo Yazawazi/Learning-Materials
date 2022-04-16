@@ -169,21 +169,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "isFinished",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "midChecker",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "RightChecker",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "LeftChecker",
             "no_refresh": true,
             "value": 0

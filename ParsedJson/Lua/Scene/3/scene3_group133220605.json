@@ -207,6 +207,53 @@
             "variables": []
         }
     ],
+    "suites": [
+        {
+            "gadgets": [
+                605002,
+                605003,
+                605004
+            ],
+            "monsters": [
+                605001
+            ],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "ANY_MONSTER_DIE_605008"
+            ]
+        },
+        {
+            "gadgets": [
+                605005,
+                605007
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "ANY_GADGET_DIE_605009"
+            ]
+        },
+        {
+            "gadgets": [
+                605006
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "GADGET_STATE_CHANGE_605010"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
+        }
+    ],
     "triggers": [
         {
             "action": "action_EVENT_ANY_MONSTER_DIE_605008",

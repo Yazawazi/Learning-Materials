@@ -325,21 +325,25 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "times",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "correct",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "interact",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "complete",
                     "no_refresh": true,
                     "value": 0
@@ -395,21 +399,25 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "times",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "correct",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "interact",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "complete",
                     "no_refresh": true,
                     "value": 0
@@ -458,21 +466,25 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "times",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "correct",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "interact",
                     "no_refresh": false,
                     "value": 1
                 },
                 {
+                    "configId": 4,
                     "name": "complete",
                     "no_refresh": true,
                     "value": 0
@@ -518,21 +530,25 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "times",
                     "no_refresh": false,
                     "value": 4
                 },
                 {
+                    "configId": 2,
                     "name": "correct",
                     "no_refresh": false,
                     "value": 4
                 },
                 {
+                    "configId": 3,
                     "name": "interact",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "complete",
                     "no_refresh": false,
                     "value": 1
@@ -547,26 +563,118 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "times",
                     "no_refresh": false,
                     "value": 4
                 },
                 {
+                    "configId": 2,
                     "name": "correct",
                     "no_refresh": false,
                     "value": 4
                 },
                 {
+                    "configId": 3,
                     "name": "interact",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "complete",
                     "no_refresh": false,
                     "value": 1
                 }
             ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [
+                5002,
+                5003
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [
+                5007
+            ],
+            "triggers": [
+                "PLATFORM_REACH_POINT_5005",
+                "AVATAR_NEAR_PLATFORM_5006",
+                "ENTER_REGION_5007",
+                "VARIABLE_CHANGE_5029",
+                "GADGET_CREATE_5040"
+            ]
+        },
+        {
+            "gadgets": [
+                5002,
+                5004,
+                5030,
+                5031,
+                5032,
+                5033
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "PLATFORM_REACH_POINT_5001",
+                "SELECT_OPTION_5009",
+                "VARIABLE_CHANGE_5029",
+                "PLATFORM_REACH_POINT_5034",
+                "PLATFORM_REACH_POINT_5035",
+                "PLATFORM_REACH_POINT_5038",
+                "PLATFORM_REACH_POINT_5039",
+                "GADGET_CREATE_5040"
+            ]
+        },
+        {
+            "gadgets": [
+                5002,
+                5030,
+                5031,
+                5032,
+                5033
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "VARIABLE_CHANGE_5016",
+                "VARIABLE_CHANGE_5018",
+                "VARIABLE_CHANGE_5019",
+                "VARIABLE_CHANGE_5020",
+                "VARIABLE_CHANGE_5029"
+            ]
+        },
+        {
+            "gadgets": [
+                5002,
+                5025
+            ],
+            "monsters": [
+                5026,
+                5027,
+                5028
+            ],
+            "rand_weight": 100,
+            "regions": [
+                5037
+            ],
+            "triggers": [
+                "PLATFORM_REACH_POINT_5036",
+                "ENTER_REGION_5037"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [
@@ -717,21 +825,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "times",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "correct",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "interact",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "complete",
             "no_refresh": true,
             "value": 0

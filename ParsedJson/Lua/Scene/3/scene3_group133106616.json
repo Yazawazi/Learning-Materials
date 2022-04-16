@@ -160,6 +160,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "questfinish",
             "no_refresh": true,
             "value": 0

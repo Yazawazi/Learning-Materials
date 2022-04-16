@@ -371,6 +371,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "GroupCompletion",
             "no_refresh": false,
             "value": 0

@@ -178,6 +178,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "isOpened",
             "no_refresh": true,
             "value": 0

@@ -44,6 +44,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Monster",
                     "no_refresh": true,
                     "value": 0
@@ -64,6 +65,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Monster",
                     "no_refresh": true,
                     "value": 0
@@ -78,11 +80,41 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Monster",
                     "no_refresh": true,
                     "value": 0
                 }
             ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "VARIABLE_CHANGE_394001"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [
+                394002
+            ],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "ANY_MONSTER_DIE_394003"
+            ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [
@@ -105,6 +137,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Monster",
             "no_refresh": true,
             "value": 0

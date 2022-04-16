@@ -9059,6 +9059,42 @@
                 "y": 201.085,
                 "z": -3348.082
             }
+        },
+        {
+            "area": 12,
+            "business": {
+                "type": 4
+            },
+            "dynamic_load": true,
+            "id": 133213557,
+            "is_replaceable": {
+                "new_bin_only": true,
+                "value": false,
+                "version": 0
+            },
+            "pos": {
+                "x": -3300.597,
+                "y": 224.204,
+                "z": -3267.721
+            }
+        },
+        {
+            "area": 12,
+            "business": {
+                "type": 4
+            },
+            "dynamic_load": true,
+            "id": 133213558,
+            "is_replaceable": {
+                "new_bin_only": true,
+                "value": false,
+                "version": 0
+            },
+            "pos": {
+                "x": -3300.563,
+                "y": 224.195,
+                "z": -3267.734
+            }
         }
     ]
 }

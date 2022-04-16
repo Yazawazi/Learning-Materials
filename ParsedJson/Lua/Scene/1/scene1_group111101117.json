@@ -90,11 +90,13 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "start",
                     "no_refresh": false,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "isFinish",
                     "no_refresh": true,
                     "value": 0
@@ -125,11 +127,13 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "start",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "isFinish",
                     "no_refresh": true,
                     "value": 0
@@ -161,16 +165,53 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "start",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "isFinish",
                     "no_refresh": true,
                     "value": 1
                 }
             ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
+        },
+        {
+            "gadgets": [
+                117001,
+                117002,
+                117003
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "GADGET_STATE_CHANGE_117005",
+                "GADGET_CREATE_117007"
+            ]
+        },
+        {
+            "gadgets": [
+                117001,
+                117002,
+                117003,
+                117004
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [
@@ -194,11 +235,13 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "start",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "isFinish",
             "no_refresh": true,
             "value": 0

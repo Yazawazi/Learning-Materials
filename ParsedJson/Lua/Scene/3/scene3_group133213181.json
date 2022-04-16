@@ -6,6 +6,7 @@
     "action_EVENT_ENTER_REGION_181059": "WARN: Lua function omitted from the dump",
     "action_EVENT_ENTER_REGION_181063": "WARN: Lua function omitted from the dump",
     "action_EVENT_ENTER_REGION_181064": "WARN: Lua function omitted from the dump",
+    "action_EVENT_ENTER_REGION_181065": "WARN: Lua function omitted from the dump",
     "action_EVENT_GADGET_STATE_CHANGE_181062": "WARN: Lua function omitted from the dump",
     "condition_EVENT_ENTER_REGION_181057": "WARN: Lua function omitted from the dump",
     "condition_EVENT_ENTER_REGION_181058": "WARN: Lua function omitted from the dump",
@@ -879,7 +880,7 @@
             "tag": "666"
         },
         {
-            "action": "",
+            "action": "action_EVENT_ENTER_REGION_181065",
             "condition": "condition_EVENT_ENTER_REGION_181065",
             "config_id": 1181065,
             "event": 4,
@@ -890,6 +891,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "hasFinished",
             "no_refresh": false,
             "value": 0

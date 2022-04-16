@@ -54,6 +54,17 @@
             "variables": []
         }
     ],
+    "suites": [
+        {
+            "gadgets": [
+                602001
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
+        }
+    ],
     "triggers": [],
     "variables": []
 }

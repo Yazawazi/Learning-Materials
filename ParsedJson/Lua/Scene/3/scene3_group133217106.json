@@ -310,6 +310,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Option",
             "no_refresh": true,
             "value": 0

@@ -288,16 +288,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "292005_down",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "allclear_1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "reminder",
             "no_refresh": true,
             "value": 0

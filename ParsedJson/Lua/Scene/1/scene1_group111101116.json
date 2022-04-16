@@ -113,6 +113,7 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "isFinish",
                     "no_refresh": true,
                     "value": 0
@@ -147,6 +148,7 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "isFinish",
                     "no_refresh": true,
                     "value": 0
@@ -170,11 +172,51 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "isFinish",
                     "no_refresh": true,
                     "value": 1
                 }
             ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [
+                116001
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
+        },
+        {
+            "gadgets": [
+                116001,
+                116002,
+                116003
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [
+                116007
+            ],
+            "triggers": [
+                "PLATFORM_REACH_POINT_116005",
+                "AVATAR_NEAR_PLATFORM_116006",
+                "ENTER_REGION_116007",
+                "GADGET_STATE_CHANGE_116008"
+            ]
+        },
+        {
+            "gadgets": [
+                116001,
+                116004
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [
@@ -216,6 +258,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "isFinish",
             "no_refresh": true,
             "value": 0

@@ -130,6 +130,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "seal_battle_done",
             "no_refresh": false,
             "value": 0

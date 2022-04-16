@@ -135,6 +135,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "predone",
             "no_refresh": true,
             "value": 0

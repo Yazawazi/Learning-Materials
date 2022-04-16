@@ -125,6 +125,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "progress",
             "no_refresh": true,
             "value": 0

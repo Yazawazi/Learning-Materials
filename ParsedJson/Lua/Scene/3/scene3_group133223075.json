@@ -157,21 +157,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "thief_progress",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "thief_A_finish",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "thief_B_finish",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "thief_C_finish",
             "no_refresh": true,
             "value": 0

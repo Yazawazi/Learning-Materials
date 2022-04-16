@@ -217,6 +217,7 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "monster_wave",
             "no_refresh": false,
             "value": 0

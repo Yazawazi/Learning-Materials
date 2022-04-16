@@ -809,31 +809,37 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "hoop1Pos",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "hoop2Pos",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "complete",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "killedHoops",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "turncount",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "turncount1",
             "no_refresh": false,
             "value": 0

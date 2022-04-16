@@ -132,21 +132,25 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Trigger_1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "Trigger_2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "Trigger_3",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "Trigger_4",
                     "no_refresh": true,
                     "value": 0
@@ -182,21 +186,25 @@
             ],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Trigger_1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "Trigger_2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "Trigger_3",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "Trigger_4",
                     "no_refresh": true,
                     "value": 0
@@ -232,26 +240,77 @@
             "triggers": [],
             "variables": [
                 {
+                    "configId": 1,
                     "name": "Trigger_1",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 2,
                     "name": "Trigger_2",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 3,
                     "name": "Trigger_3",
                     "no_refresh": true,
                     "value": 0
                 },
                 {
+                    "configId": 4,
                     "name": "Trigger_4",
                     "no_refresh": true,
                     "value": 0
                 }
             ]
+        }
+    ],
+    "suites": [
+        {
+            "gadgets": [
+                254001,
+                254002,
+                254003,
+                254004
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "GADGET_STATE_CHANGE_254005",
+                "GADGET_STATE_CHANGE_254006",
+                "VARIABLE_CHANGE_254007"
+            ]
+        },
+        {
+            "gadgets": [
+                254001,
+                254002,
+                254003,
+                254004
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": [
+                "GADGET_STATE_CHANGE_254008",
+                "GADGET_STATE_CHANGE_254009",
+                "VARIABLE_CHANGE_254010"
+            ]
+        },
+        {
+            "gadgets": [
+                254001,
+                254002,
+                254003,
+                254004,
+                254011
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [
@@ -312,21 +371,25 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "Trigger_1",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "Trigger_2",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "Trigger_3",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 4,
             "name": "Trigger_4",
             "no_refresh": true,
             "value": 0

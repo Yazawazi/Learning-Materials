@@ -555,16 +555,19 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "xinshou",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "cangjin",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "dahuangjin",
             "no_refresh": true,
             "value": 0

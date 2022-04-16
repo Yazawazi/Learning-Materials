@@ -1118,46 +1118,55 @@
     ],
     "variables": [
         {
+            "configId": 1,
             "name": "killedIcePillar",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 2,
             "name": "MonsterTideCheck",
             "no_refresh": false,
             "value": 0
         },
         {
+            "configId": 3,
             "name": "positionIdx",
             "no_refresh": true,
             "value": -1
         },
         {
+            "configId": 4,
             "name": "iceCubeAlive",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 5,
             "name": "notCreateIceShieldActivated",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 6,
             "name": "415012_Hit_Uid",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 7,
             "name": "415013_Hit_Uid",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 8,
             "name": "415014_Hit_Uid",
             "no_refresh": true,
             "value": 0
         },
         {
+            "configId": 9,
             "name": "phasetwocheckvalue",
             "no_refresh": false,
             "value": 0
