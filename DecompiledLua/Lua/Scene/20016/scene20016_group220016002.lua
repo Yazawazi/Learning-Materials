@@ -130,6 +130,7 @@ L2_1[2] = L4_1
 triggers = L2_1
 L2_1 = {}
 L3_1 = {}
+L3_1.configId = 1
 L3_1.name = "SEAL_RESULT"
 L3_1.value = 0
 L3_1.no_refresh = false

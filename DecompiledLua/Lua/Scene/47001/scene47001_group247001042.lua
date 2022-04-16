@@ -606,6 +606,7 @@ L5_1[1] = L6_1
 triggers = L5_1
 L5_1 = {}
 L6_1 = {}
+L6_1.configId = 1
 L6_1.name = "challenge"
 L6_1.value = 0
 L6_1.no_refresh = false

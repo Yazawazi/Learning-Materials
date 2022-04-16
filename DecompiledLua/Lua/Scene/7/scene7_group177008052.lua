@@ -132,6 +132,7 @@ L10_1 = {}
 triggers = L10_1
 L10_1 = {}
 L11_1 = {}
+L11_1.configId = 1
 L11_1.name = "isFinish"
 L11_1.value = 0
 L11_1.no_refresh = true

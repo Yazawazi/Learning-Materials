@@ -4,7 +4,7 @@ L0_1.group_id = 133212188
 L1_1 = {}
 L2_1 = {}
 L2_1.config_id = 188001
-L2_1.monster_id = 20011301
+L2_1.monster_id = 20011201
 L3_1 = {}
 L3_1.x = -3611.666
 L3_1.y = 208.327
@@ -26,7 +26,7 @@ L2_1.climate_area_id = 9
 L2_1.area_id = 13
 L3_1 = {}
 L3_1.config_id = 188002
-L3_1.monster_id = 20011301
+L3_1.monster_id = 20011201
 L4_1 = {}
 L4_1.x = -3609.305
 L4_1.y = 208.031
@@ -48,7 +48,7 @@ L3_1.climate_area_id = 9
 L3_1.area_id = 13
 L4_1 = {}
 L4_1.config_id = 188003
-L4_1.monster_id = 20010601
+L4_1.monster_id = 20010501
 L5_1 = {}
 L5_1.x = -3660.939
 L5_1.y = 203.753
@@ -70,7 +70,7 @@ L4_1.climate_area_id = 9
 L4_1.area_id = 13
 L5_1 = {}
 L5_1.config_id = 188004
-L5_1.monster_id = 20010701
+L5_1.monster_id = 20010501
 L6_1 = {}
 L6_1.x = -3663.556
 L6_1.y = 203.883
@@ -92,7 +92,7 @@ L5_1.climate_area_id = 9
 L5_1.area_id = 13
 L6_1 = {}
 L6_1.config_id = 188005
-L6_1.monster_id = 20010901
+L6_1.monster_id = 20010801
 L7_1 = {}
 L7_1.x = -3681.622
 L7_1.y = 208.678
@@ -114,7 +114,7 @@ L6_1.climate_area_id = 9
 L6_1.area_id = 13
 L7_1 = {}
 L7_1.config_id = 188006
-L7_1.monster_id = 20010901
+L7_1.monster_id = 20010801
 L8_1 = {}
 L8_1.x = -3675.414
 L8_1.y = 209.064
@@ -136,7 +136,7 @@ L7_1.climate_area_id = 9
 L7_1.area_id = 13
 L8_1 = {}
 L8_1.config_id = 188030
-L8_1.monster_id = 20011301
+L8_1.monster_id = 20011201
 L9_1 = {}
 L9_1.x = -3612.951
 L9_1.y = 208.06
@@ -158,7 +158,7 @@ L8_1.climate_area_id = 9
 L8_1.area_id = 13
 L9_1 = {}
 L9_1.config_id = 188031
-L9_1.monster_id = 20010601
+L9_1.monster_id = 20010501
 L10_1 = {}
 L10_1.x = -3667.153
 L10_1.y = 203.859
@@ -178,6 +178,28 @@ L10_1[1] = L11_1
 L9_1.affix = L10_1
 L9_1.climate_area_id = 9
 L9_1.area_id = 13
+L10_1 = {}
+L10_1.config_id = 188043
+L10_1.monster_id = 20010801
+L11_1 = {}
+L11_1.x = -3678.069
+L11_1.y = 208.266
+L11_1.z = -2143.169
+L10_1.pos = L11_1
+L11_1 = {}
+L11_1.x = 0.0
+L11_1.y = 35.929
+L11_1.z = 0.0
+L10_1.rot = L11_1
+L10_1.level = 1
+L10_1.drop_id = 1000100
+L10_1.disableWander = true
+L11_1 = {}
+L12_1 = 1410
+L11_1[1] = L12_1
+L10_1.affix = L11_1
+L10_1.climate_area_id = 9
+L10_1.area_id = 13
 L1_1[1] = L2_1
 L1_1[2] = L3_1
 L1_1[3] = L4_1
@@ -186,6 +208,7 @@ L1_1[5] = L6_1
 L1_1[6] = L7_1
 L1_1[7] = L8_1
 L1_1[8] = L9_1
+L1_1[9] = L10_1
 monsters = L1_1
 L1_1 = {}
 npcs = L1_1
@@ -451,9 +474,9 @@ L19_1 = {}
 L19_1.config_id = 188036
 L19_1.gadget_id = 70900380
 L20_1 = {}
-L20_1.x = -3689.177
-L20_1.y = 227.238
-L20_1.z = -2106.481
+L20_1.x = -3689.914
+L20_1.y = 233.704
+L20_1.z = -2103.344
 L19_1.pos = L20_1
 L20_1 = {}
 L20_1.x = 0.0
@@ -482,7 +505,7 @@ L21_1.config_id = 188038
 L21_1.gadget_id = 70900380
 L22_1 = {}
 L22_1.x = -3685.577
-L22_1.y = 219.685
+L22_1.y = 226.508
 L22_1.z = -2111.575
 L21_1.pos = L22_1
 L22_1 = {}
@@ -674,7 +697,7 @@ L6_1 = L6_1.EVENT_ENTER_REGION
 L5_1.event = L6_1
 L5_1.source = ""
 L5_1.condition = "condition_EVENT_ENTER_REGION_188023"
-L5_1.action = ""
+L5_1.action = "action_EVENT_ENTER_REGION_188023"
 L5_1.trigger_count = 0
 L5_1.tag = "888"
 L6_1 = {}
@@ -694,7 +717,7 @@ L8_1 = L8_1.EVENT_ANY_MONSTER_DIE
 L7_1.event = L8_1
 L7_1.source = ""
 L7_1.condition = "condition_EVENT_ANY_MONSTER_DIE_188025"
-L7_1.action = "action_EVENT_ANY_MONSTER_DIE_188025"
+L7_1.action = ""
 L8_1 = {}
 L8_1.config_id = 1188026
 L8_1.name = "ENTER_REGION_188026"
@@ -712,7 +735,7 @@ L10_1 = L10_1.EVENT_ANY_MONSTER_DIE
 L9_1.event = L10_1
 L9_1.source = ""
 L9_1.condition = "condition_EVENT_ANY_MONSTER_DIE_188027"
-L9_1.action = "action_EVENT_ANY_MONSTER_DIE_188027"
+L9_1.action = ""
 L10_1 = {}
 L10_1.config_id = 1188028
 L10_1.name = "ENTER_REGION_188028"
@@ -730,7 +753,7 @@ L12_1 = L12_1.EVENT_ANY_MONSTER_DIE
 L11_1.event = L12_1
 L11_1.source = ""
 L11_1.condition = "condition_EVENT_ANY_MONSTER_DIE_188029"
-L11_1.action = "action_EVENT_ANY_MONSTER_DIE_188029"
+L11_1.action = ""
 L1_1[1] = L2_1
 L1_1[2] = L3_1
 L1_1[3] = L4_1
@@ -744,6 +767,7 @@ L1_1[10] = L11_1
 triggers = L1_1
 L1_1 = {}
 L2_1 = {}
+L2_1.configId = 1
 L2_1.name = "hasStarted"
 L2_1.value = 0
 L2_1.no_refresh = false
@@ -921,8 +945,10 @@ L10_1 = {}
 L11_1 = {}
 L12_1 = 188005
 L13_1 = 188006
+L14_1 = 188043
 L11_1[1] = L12_1
 L11_1[2] = L13_1
+L11_1[3] = L14_1
 L10_1.monsters = L11_1
 L11_1 = {}
 L10_1.gadgets = L11_1
@@ -992,10 +1018,10 @@ function L1_1(A0_2, A1_2)
   L3_2 = A0_2
   L4_2 = 666
   L5_2 = 207
-  L6_2 = 90
+  L6_2 = 120
   L7_2 = 4
   L8_2 = 888
-  L9_2 = 10
+  L9_2 = 15
   L2_2 = L2_2(L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2)
   if 0 ~= L2_2 then
     L2_2 = ScriptLib
@@ -1071,7 +1097,7 @@ function L1_1(A0_2, A1_2)
     return L2_2
   end
   L2_2 = ScriptLib
-  L2_2 = L2_2.RemoveExtraGroupSuite
+  L2_2 = L2_2.KillExtraGroupSuite
   L3_2 = A0_2
   L4_2 = 133212188
   L5_2 = 2
@@ -1307,6 +1333,27 @@ function L1_1(A0_2, A1_2)
 end
 condition_EVENT_ENTER_REGION_188023 = L1_1
 function L1_1(A0_2, A1_2)
+  local L2_2, L3_2, L4_2
+  L2_2 = ScriptLib
+  L2_2 = L2_2.KillEntityByConfigId
+  L3_2 = A0_2
+  L4_2 = {}
+  L4_2.config_id = 188008
+  L2_2 = L2_2(L3_2, L4_2)
+  if 0 ~= L2_2 then
+    L2_2 = ScriptLib
+    L2_2 = L2_2.PrintContextLog
+    L3_2 = A0_2
+    L4_2 = "@@ LUA_WARNING : kill_entity_by_configId"
+    L2_2(L3_2, L4_2)
+    L2_2 = -1
+    return L2_2
+  end
+  L2_2 = 0
+  return L2_2
+end
+action_EVENT_ENTER_REGION_188023 = L1_1
+function L1_1(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = A1_2.param1
   if L2_2 ~= 188024 then
@@ -1385,6 +1432,18 @@ function L1_1(A0_2, A1_2)
   L4_2 = 133212188
   L5_2 = 7
   L2_2(L3_2, L4_2, L5_2)
+  L2_2 = ScriptLib
+  L2_2 = L2_2.AddExtraGroupSuite
+  L3_2 = A0_2
+  L4_2 = 133212188
+  L5_2 = 5
+  L2_2(L3_2, L4_2, L5_2)
+  L2_2 = ScriptLib
+  L2_2 = L2_2.RemoveExtraGroupSuite
+  L3_2 = A0_2
+  L4_2 = 133212188
+  L5_2 = 4
+  L2_2(L3_2, L4_2, L5_2)
   L2_2 = 0
   return L2_2
 end
@@ -1403,40 +1462,6 @@ function L1_1(A0_2, A1_2)
   return L2_2
 end
 condition_EVENT_ANY_MONSTER_DIE_188025 = L1_1
-function L1_1(A0_2, A1_2)
-  local L2_2, L3_2, L4_2, L5_2
-  L2_2 = ScriptLib
-  L2_2 = L2_2.SetGadgetStateByConfigId
-  L3_2 = A0_2
-  L4_2 = 188010
-  L5_2 = GadgetState
-  L5_2 = L5_2.Default
-  L2_2 = L2_2(L3_2, L4_2, L5_2)
-  if 0 ~= L2_2 then
-    L2_2 = ScriptLib
-    L2_2 = L2_2.PrintContextLog
-    L3_2 = A0_2
-    L4_2 = "@@ LUA_WARNING : set_gadget_state_by_configId"
-    L2_2(L3_2, L4_2)
-    L2_2 = -1
-    return L2_2
-  end
-  L2_2 = ScriptLib
-  L2_2 = L2_2.AddExtraGroupSuite
-  L3_2 = A0_2
-  L4_2 = 133212188
-  L5_2 = 5
-  L2_2(L3_2, L4_2, L5_2)
-  L2_2 = ScriptLib
-  L2_2 = L2_2.RemoveExtraGroupSuite
-  L3_2 = A0_2
-  L4_2 = 133212188
-  L5_2 = 4
-  L2_2(L3_2, L4_2, L5_2)
-  L2_2 = 0
-  return L2_2
-end
-action_EVENT_ANY_MONSTER_DIE_188025 = L1_1
 function L1_1(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = A1_2.param1
@@ -1495,26 +1520,22 @@ function L1_1(A0_2, A1_2)
     return L2_2
   end
   L2_2 = ScriptLib
-  L2_2 = L2_2.SetGadgetStateByConfigId
-  L3_2 = A0_2
-  L4_2 = 188012
-  L5_2 = GadgetState
-  L5_2 = L5_2.GearStart
-  L2_2 = L2_2(L3_2, L4_2, L5_2)
-  if 0 ~= L2_2 then
-    L2_2 = ScriptLib
-    L2_2 = L2_2.PrintContextLog
-    L3_2 = A0_2
-    L4_2 = "@@ LUA_WARNING : set_gadget_state_by_configId"
-    L2_2(L3_2, L4_2)
-    L2_2 = -1
-    return L2_2
-  end
-  L2_2 = ScriptLib
   L2_2 = L2_2.AddExtraGroupSuite
   L3_2 = A0_2
   L4_2 = 133212188
   L5_2 = 8
+  L2_2(L3_2, L4_2, L5_2)
+  L2_2 = ScriptLib
+  L2_2 = L2_2.AddExtraGroupSuite
+  L3_2 = A0_2
+  L4_2 = 133212188
+  L5_2 = 6
+  L2_2(L3_2, L4_2, L5_2)
+  L2_2 = ScriptLib
+  L2_2 = L2_2.RemoveExtraGroupSuite
+  L3_2 = A0_2
+  L4_2 = 133212188
+  L5_2 = 5
   L2_2(L3_2, L4_2, L5_2)
   L2_2 = 0
   return L2_2
@@ -1534,40 +1555,6 @@ function L1_1(A0_2, A1_2)
   return L2_2
 end
 condition_EVENT_ANY_MONSTER_DIE_188027 = L1_1
-function L1_1(A0_2, A1_2)
-  local L2_2, L3_2, L4_2, L5_2
-  L2_2 = ScriptLib
-  L2_2 = L2_2.SetGadgetStateByConfigId
-  L3_2 = A0_2
-  L4_2 = 188012
-  L5_2 = GadgetState
-  L5_2 = L5_2.Default
-  L2_2 = L2_2(L3_2, L4_2, L5_2)
-  if 0 ~= L2_2 then
-    L2_2 = ScriptLib
-    L2_2 = L2_2.PrintContextLog
-    L3_2 = A0_2
-    L4_2 = "@@ LUA_WARNING : set_gadget_state_by_configId"
-    L2_2(L3_2, L4_2)
-    L2_2 = -1
-    return L2_2
-  end
-  L2_2 = ScriptLib
-  L2_2 = L2_2.AddExtraGroupSuite
-  L3_2 = A0_2
-  L4_2 = 133212188
-  L5_2 = 6
-  L2_2(L3_2, L4_2, L5_2)
-  L2_2 = ScriptLib
-  L2_2 = L2_2.RemoveExtraGroupSuite
-  L3_2 = A0_2
-  L4_2 = 133212188
-  L5_2 = 5
-  L2_2(L3_2, L4_2, L5_2)
-  L2_2 = 0
-  return L2_2
-end
-action_EVENT_ANY_MONSTER_DIE_188027 = L1_1
 function L1_1(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = A1_2.param1
@@ -1626,26 +1613,22 @@ function L1_1(A0_2, A1_2)
     return L2_2
   end
   L2_2 = ScriptLib
-  L2_2 = L2_2.SetGadgetStateByConfigId
-  L3_2 = A0_2
-  L4_2 = 188014
-  L5_2 = GadgetState
-  L5_2 = L5_2.GearStart
-  L2_2 = L2_2(L3_2, L4_2, L5_2)
-  if 0 ~= L2_2 then
-    L2_2 = ScriptLib
-    L2_2 = L2_2.PrintContextLog
-    L3_2 = A0_2
-    L4_2 = "@@ LUA_WARNING : set_gadget_state_by_configId"
-    L2_2(L3_2, L4_2)
-    L2_2 = -1
-    return L2_2
-  end
-  L2_2 = ScriptLib
   L2_2 = L2_2.AddExtraGroupSuite
   L3_2 = A0_2
   L4_2 = 133212188
   L5_2 = 9
+  L2_2(L3_2, L4_2, L5_2)
+  L2_2 = ScriptLib
+  L2_2 = L2_2.AddExtraGroupSuite
+  L3_2 = A0_2
+  L4_2 = 133212188
+  L5_2 = 2
+  L2_2(L3_2, L4_2, L5_2)
+  L2_2 = ScriptLib
+  L2_2 = L2_2.RemoveExtraGroupSuite
+  L3_2 = A0_2
+  L4_2 = 133212188
+  L5_2 = 6
   L2_2(L3_2, L4_2, L5_2)
   L2_2 = 0
   return L2_2
@@ -1665,40 +1648,6 @@ function L1_1(A0_2, A1_2)
   return L2_2
 end
 condition_EVENT_ANY_MONSTER_DIE_188029 = L1_1
-function L1_1(A0_2, A1_2)
-  local L2_2, L3_2, L4_2, L5_2
-  L2_2 = ScriptLib
-  L2_2 = L2_2.SetGadgetStateByConfigId
-  L3_2 = A0_2
-  L4_2 = 188014
-  L5_2 = GadgetState
-  L5_2 = L5_2.Default
-  L2_2 = L2_2(L3_2, L4_2, L5_2)
-  if 0 ~= L2_2 then
-    L2_2 = ScriptLib
-    L2_2 = L2_2.PrintContextLog
-    L3_2 = A0_2
-    L4_2 = "@@ LUA_WARNING : set_gadget_state_by_configId"
-    L2_2(L3_2, L4_2)
-    L2_2 = -1
-    return L2_2
-  end
-  L2_2 = ScriptLib
-  L2_2 = L2_2.AddExtraGroupSuite
-  L3_2 = A0_2
-  L4_2 = 133212188
-  L5_2 = 2
-  L2_2(L3_2, L4_2, L5_2)
-  L2_2 = ScriptLib
-  L2_2 = L2_2.RemoveExtraGroupSuite
-  L3_2 = A0_2
-  L4_2 = 133212188
-  L5_2 = 6
-  L2_2(L3_2, L4_2, L5_2)
-  L2_2 = 0
-  return L2_2
-end
-action_EVENT_ANY_MONSTER_DIE_188029 = L1_1
 L1_1 = require
 L2_1 = "V2_0/ElectricCore"
 L1_1(L2_1)

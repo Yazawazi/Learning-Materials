@@ -351,6 +351,7 @@ L1_1[6] = L7_1
 triggers = L1_1
 L1_1 = {}
 L2_1 = {}
+L2_1.configId = 1
 L2_1.name = "gravity_check"
 L2_1.value = 0
 L2_1.no_refresh = false

@@ -523,6 +523,7 @@ L11_1[4] = L15_1
 triggers = L11_1
 L11_1 = {}
 L12_1 = {}
+L12_1.configId = 1
 L12_1.name = "gameplayState"
 L12_1.value = 1
 L12_1.no_refresh = true

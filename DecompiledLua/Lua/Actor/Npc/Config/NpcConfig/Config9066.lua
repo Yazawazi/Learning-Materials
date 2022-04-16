@@ -75,7 +75,6 @@ L13_1.weight = 20
 L13_1.time = 6
 L13_1.freestyle = 1230
 L13_1.isLoop = true
-L13_1.disableHeadCtrl = true
 L14_1 = {}
 L14_1.phoneme = "P_Default_01"
 L14_1.emotion = "Default_01_B"

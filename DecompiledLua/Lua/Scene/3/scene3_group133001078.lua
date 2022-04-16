@@ -162,6 +162,10 @@ function L2_1(A0_2, A1_2)
       L4_2.is_set_screenXY = false
       L5_2 = {}
       L4_2.other_params = L5_2
+      L5_2 = KeepRotType
+      L5_2 = L5_2.Keep_ROT_X
+      L4_2.keep_rot_type = L5_2
+      L4_2.custom_radius = 0
       L2_2(L3_2, L4_2)
     else
     end

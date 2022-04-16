@@ -757,7 +757,7 @@ L11_1 = L11_1.EVENT_ENTER_REGION
 L10_1.event = L11_1
 L10_1.source = ""
 L10_1.condition = "condition_EVENT_ENTER_REGION_181065"
-L10_1.action = ""
+L10_1.action = "action_EVENT_ENTER_REGION_181065"
 L10_1.tag = "666"
 L1_1[1] = L2_1
 L1_1[2] = L3_1
@@ -771,6 +771,7 @@ L1_1[9] = L10_1
 triggers = L1_1
 L1_1 = {}
 L2_1 = {}
+L2_1.configId = 1
 L2_1.name = "hasFinished"
 L2_1.value = 0
 L2_1.no_refresh = false
@@ -1233,7 +1234,7 @@ function L1_1(A0_2, A1_2)
     return L2_2
   end
   L2_2 = ScriptLib
-  L2_2 = L2_2.RemoveExtraGroupSuite
+  L2_2 = L2_2.KillExtraGroupSuite
   L3_2 = A0_2
   L4_2 = 133213181
   L5_2 = 7
@@ -1554,6 +1555,27 @@ function L1_1(A0_2, A1_2)
   return L2_2
 end
 condition_EVENT_ENTER_REGION_181065 = L1_1
+function L1_1(A0_2, A1_2)
+  local L2_2, L3_2, L4_2
+  L2_2 = ScriptLib
+  L2_2 = L2_2.KillEntityByConfigId
+  L3_2 = A0_2
+  L4_2 = {}
+  L4_2.config_id = 181009
+  L2_2 = L2_2(L3_2, L4_2)
+  if 0 ~= L2_2 then
+    L2_2 = ScriptLib
+    L2_2 = L2_2.PrintContextLog
+    L3_2 = A0_2
+    L4_2 = "@@ LUA_WARNING : kill_entity_by_configId"
+    L2_2(L3_2, L4_2)
+    L2_2 = -1
+    return L2_2
+  end
+  L2_2 = 0
+  return L2_2
+end
+action_EVENT_ENTER_REGION_181065 = L1_1
 L1_1 = require
 L2_1 = "V2_0/ElectricCore"
 L1_1(L2_1)

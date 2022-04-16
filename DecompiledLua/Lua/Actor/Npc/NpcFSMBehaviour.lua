@@ -390,6 +390,15 @@ function L2_1(A0_2, A1_2, A2_2)
           end
         end
         L8_2 = A2_2[L6_2]
+        L8_2 = L8_2.conditionGrp
+        if L8_2 ~= nil then
+          L9_2 = L7_2
+          L8_2 = L7_2.SetConditionGroup
+          L10_2 = A2_2[L6_2]
+          L10_2 = L10_2.conditionGrp
+          L8_2(L9_2, L10_2)
+        end
+        L8_2 = A2_2[L6_2]
         L8_2 = L8_2.bubbleDatas
         if L8_2 ~= nil then
           L8_2 = ipairs

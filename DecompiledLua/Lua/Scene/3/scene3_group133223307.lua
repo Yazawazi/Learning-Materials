@@ -396,6 +396,7 @@ L2_1[11] = L13_1
 triggers = L2_1
 L2_1 = {}
 L3_1 = {}
+L3_1.configId = 1
 L3_1.name = "hasStarted"
 L3_1.value = 0
 L3_1.no_refresh = false

@@ -537,10 +537,22 @@ function L7_1(A0_2, A1_2)
   L5_2 = 1
   L2_2(L3_2, L4_2, L5_2)
   L3_2 = A0_2
-  L2_2 = A0_2.RequestInteraction
-  L4_2 = L6_1.Npc20536Data
-  L4_2 = L4_2.alias
-  L2_2(L3_2, L4_2)
+  L2_2 = A0_2.SetQuestVarByMainId
+  L4_2 = 0
+  L5_2 = 1
+  L2_2(L3_2, L4_2, L5_2)
+  L3_2 = A0_2
+  L2_2 = A0_2.CallDelay
+  L4_2 = 1
+  function L5_2(A0_3)
+    local L1_3, L2_3, L3_3
+    L2_3 = A0_3
+    L1_3 = A0_3.RequestInteraction
+    L3_3 = L6_1.Npc20536Data
+    L3_3 = L3_3.alias
+    L1_3(L2_3, L3_3)
+  end
+  L2_2(L3_2, L4_2, L5_2)
 end
 L1_1.OnSubFinish7106201 = L7_1
 function L7_1(A0_2, A1_2)

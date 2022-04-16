@@ -522,6 +522,7 @@ L18_1 = {}
 triggers = L18_1
 L18_1 = {}
 L19_1 = {}
+L19_1.configId = 1
 L19_1.name = "BulletNum"
 L19_1.value = 1
 L19_1.no_refresh = false

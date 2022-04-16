@@ -327,6 +327,7 @@ L2_1[7] = L9_1
 triggers = L2_1
 L2_1 = {}
 L3_1 = {}
+L3_1.configId = 1
 L3_1.name = "finish"
 L3_1.value = 0
 L3_1.no_refresh = true

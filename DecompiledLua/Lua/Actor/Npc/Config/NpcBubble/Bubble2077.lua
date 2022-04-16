@@ -1,4 +1,4 @@
-local L0_1, L1_1, L2_1, L3_1, L4_1, L5_1, L6_1, L7_1, L8_1, L9_1, L10_1, L11_1, L12_1, L13_1
+local L0_1, L1_1, L2_1, L3_1, L4_1, L5_1, L6_1, L7_1, L8_1, L9_1, L10_1, L11_1, L12_1, L13_1, L14_1, L15_1
 L0_1 = require
 L1_1 = "Actor/ActorCommon"
 L0_1(L1_1)
@@ -52,6 +52,18 @@ L13_1 = L4_1.Finished
 L12_1.questState = L13_1
 L12_1.priority = 2
 L11_1.condition = L12_1
+L12_1 = {}
+L13_1 = {}
+L14_1 = {}
+L15_1 = LuaVirtualType
+L15_1 = L15_1.NpcActionMainQuestCondition
+L14_1._type_ = L15_1
+L14_1.mainQuestId = 70822
+L15_1 = L4_1.Finished
+L14_1.questState = L15_1
+L13_1[1] = L14_1
+L12_1[1] = L13_1
+L11_1.conditionGrp = L12_1
 L12_1 = {}
 L13_1 = {}
 L13_1.dialogId = 1016207701

@@ -511,18 +511,7 @@ L2_1.event = L3_1
 L2_1.source = "800708"
 L2_1.condition = ""
 L2_1.action = "action_EVENT_QUEST_START_248011"
-L3_1 = {}
-L3_1.config_id = 1248022
-L3_1.name = "QUEST_FINISH_248022"
-L4_1 = EventType
-L4_1 = L4_1.EVENT_QUEST_FINISH
-L3_1.event = L4_1
-L3_1.source = "800708"
-L3_1.condition = ""
-L3_1.action = "action_EVENT_QUEST_FINISH_248022"
-L3_1.trigger_count = 0
 L1_1[1] = L2_1
-L1_1[2] = L3_1
 triggers = L1_1
 L1_1 = {}
 variables = L1_1
@@ -598,8 +587,6 @@ L3_1.gadgets = L4_1
 L4_1 = {}
 L3_1.regions = L4_1
 L4_1 = {}
-L5_1 = "QUEST_FINISH_248022"
-L4_1[1] = L5_1
 L3_1.triggers = L4_1
 L4_1 = {}
 L5_1 = 248012
@@ -649,14 +636,3 @@ function L1_1(A0_2, A1_2)
   return L2_2
 end
 action_EVENT_QUEST_START_248011 = L1_1
-function L1_1(A0_2, A1_2)
-  local L2_2, L3_2, L4_2
-  L2_2 = ScriptLib
-  L2_2 = L2_2.GoBackGroupSuite
-  L3_2 = A0_2
-  L4_2 = 166001248
-  L2_2(L3_2, L4_2)
-  L2_2 = 0
-  return L2_2
-end
-action_EVENT_QUEST_FINISH_248022 = L1_1

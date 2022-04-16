@@ -206,6 +206,60 @@ function L1_1(A0_2, A1_2, A2_2)
 end
 L0_1.ResumeOriginMat = L1_1
 function L1_1(A0_2)
+  local L1_2, L2_2
+  L1_2 = actorUtils
+  L1_2 = L1_2.ClearNpcFollowTask
+  L2_2 = A0_2.alias
+  L1_2(L2_2)
+end
+L0_1.ClearNpcFollowTask = L1_1
+function L1_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2)
+  local L7_2, L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2
+  L7_2 = actorUtils
+  L7_2 = L7_2.NpcFollowTask
+  L8_2 = A0_2.alias
+  L9_2 = A1_2
+  L10_2 = A2_2
+  L11_2 = A3_2
+  L12_2 = A4_2
+  L13_2 = A5_2
+  L14_2 = A6_2
+  L15_2 = 1
+  L16_2 = 10
+  L17_2 = 5
+  L18_2 = 25
+  L19_2 = 30
+  L20_2 = 50
+  L21_2 = 3
+  L22_2 = 5
+  L23_2 = false
+  L7_2(L8_2, L9_2, L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2)
+end
+L0_1.NpcFollowTask = L1_1
+function L1_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2, A9_2, A10_2, A11_2, A12_2, A13_2, A14_2)
+  local L15_2, L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2
+  L15_2 = actorUtils
+  L15_2 = L15_2.NpcFollowTask
+  L16_2 = A0_2.alias
+  L17_2 = A1_2
+  L18_2 = A2_2
+  L19_2 = A3_2
+  L20_2 = A4_2
+  L21_2 = A5_2
+  L22_2 = A6_2
+  L23_2 = A7_2
+  L24_2 = A8_2
+  L25_2 = A9_2
+  L26_2 = A10_2
+  L27_2 = A11_2
+  L28_2 = A12_2
+  L29_2 = A13_2
+  L30_2 = A14_2
+  L31_2 = true
+  L15_2(L16_2, L17_2, L18_2, L19_2, L20_2, L21_2, L22_2, L23_2, L24_2, L25_2, L26_2, L27_2, L28_2, L29_2, L30_2, L31_2)
+end
+L0_1.NpcFollowTaskWithParams = L1_1
+function L1_1(A0_2)
   local L1_2
   L1_2 = 0
   return L1_2
@@ -1337,24 +1391,27 @@ function L1_1(A0_2)
   return L1_2
 end
 L0_1.CreateWindLocal = L1_1
-function L1_1(A0_2)
+L1_1 = "DestroyWindLocal"
+function L2_1(A0_2)
   local L1_2
   L1_2 = 0
   return L1_2
 end
-L0_1.DestroyWindLocal = L1_1
-function L1_1(A0_2)
+L0_1[L1_1] = L2_1
+L1_1 = "ShowEffect"
+function L2_1(A0_2)
   local L1_2
   L1_2 = 0
   return L1_2
 end
-L0_1.ShowEffect = L1_1
-function L1_1(A0_2)
+L0_1[L1_1] = L2_1
+L1_1 = "CreateUActor"
+function L2_1(A0_2)
   local L1_2
   L1_2 = 0
   return L1_2
 end
-L0_1.CreateUActor = L1_1
+L0_1[L1_1] = L2_1
 L1_1 = "PreGetAlias"
 function L2_1(A0_2)
   local L1_2

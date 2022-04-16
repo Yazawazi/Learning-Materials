@@ -417,6 +417,7 @@ L1_1[22] = L23_1
 triggers = L1_1
 L1_1 = {}
 L2_1 = {}
+L2_1.configId = 1
 L2_1.name = "quest"
 L2_1.value = 0
 L2_1.no_refresh = true

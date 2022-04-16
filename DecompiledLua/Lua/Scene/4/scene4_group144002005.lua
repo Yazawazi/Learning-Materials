@@ -555,6 +555,7 @@ L1_1[13] = L14_1
 triggers = L1_1
 L1_1 = {}
 L2_1 = {}
+L2_1.configId = 1
 L2_1.name = "remainingSlate"
 L2_1.value = 3
 L2_1.no_refresh = true

@@ -277,6 +277,7 @@ L2_1[3] = L5_1
 triggers = L2_1
 L2_1 = {}
 L3_1 = {}
+L3_1.configId = 1
 L3_1.name = "PaimonCheck"
 L3_1.value = 1
 L3_1.no_refresh = true

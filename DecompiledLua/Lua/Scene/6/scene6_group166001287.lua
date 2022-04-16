@@ -6,6 +6,7 @@ L1_1.inner_region = 287003
 L1_1.outer_region = 287003
 L1_1.related_region = 287003
 L1_1.group_id = 166001287
+L1_1.bossConfigId = 287001
 L2_1 = {}
 L3_1 = {}
 L3_1.config_id = 287001
@@ -901,4 +902,7 @@ end
 action_EVENT_ANY_GADGET_DIE_287031 = L2_1
 L2_1 = require
 L3_1 = "V2_0/SetPerformanceOptimizationWithRegion_V3.0"
+L2_1(L3_1)
+L2_1 = require
+L3_1 = "V2_7/BW_NearBossAuthorityChange"
 L2_1(L3_1)

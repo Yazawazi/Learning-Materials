@@ -1290,6 +1290,29 @@ function L1_1(A0_2, A1_2)
   L2_2(L3_2, L4_2)
 end
 L0_1.HideBargainLikingBar = L1_1
+function L1_1(A0_2)
+  local L1_2, L2_2
+  L1_2 = actorUtils
+  L1_2 = L1_2.TakeBlackScreenControl
+  L2_2 = value
+  L1_2(L2_2)
+end
+L0_1.TakeBlackScreenControl = L1_1
+function L1_1(A0_2)
+  local L1_2
+  L1_2 = actorUtils
+  L1_2 = L1_2.FreeBlackScreenControl
+  L1_2()
+end
+L0_1.FreeBlackScreenControl = L1_1
+function L1_1(A0_2, A1_2)
+  local L2_2, L3_2
+  L2_2 = actorUtils
+  L2_2 = L2_2.SetBlackScreenValue
+  L3_2 = 1 - A1_2
+  L2_2(L3_2)
+end
+L0_1.SetBlackScreenValue = L1_1
 function L1_1(A0_2, A1_2, A2_2, A3_2, A4_2, A5_2, A6_2, A7_2, A8_2, A9_2)
   local L10_2, L11_2, L12_2, L13_2, L14_2, L15_2, L16_2, L17_2, L18_2, L19_2, L20_2
   if A8_2 ~= nil or A9_2 ~= nil then
@@ -3541,7 +3564,8 @@ function L1_1(A0_2)
   L1_2(L2_2, L3_2)
 end
 L0_1.StopRealReminder = L1_1
-function L1_1(A0_2)
+L1_1 = "StopPlayerCombat"
+function L2_1(A0_2)
   local L1_2, L2_2, L3_2
   L2_2 = A0_2
   L1_2 = A0_2.StopReminder
@@ -3552,8 +3576,9 @@ function L1_1(A0_2)
   L3_2 = "PlayerCombat"
   L1_2(L2_2, L3_2)
 end
-L0_1.StopPlayerCombat = L1_1
-function L1_1(A0_2)
+L0_1[L1_1] = L2_1
+L1_1 = "StopOpenPage"
+function L2_1(A0_2)
   local L1_2, L2_2, L3_2
   L2_2 = A0_2
   L1_2 = A0_2.StopReminder
@@ -3564,8 +3589,9 @@ function L1_1(A0_2)
   L3_2 = "OpenPage"
   L1_2(L2_2, L3_2)
 end
-L0_1.StopOpenPage = L1_1
-function L1_1(A0_2)
+L0_1[L1_1] = L2_1
+L1_1 = "StopOpenMainPage"
+function L2_1(A0_2)
   local L1_2, L2_2, L3_2
   L2_2 = A0_2
   L1_2 = A0_2.StopReminder
@@ -3576,7 +3602,7 @@ function L1_1(A0_2)
   L3_2 = "OpenMainPage"
   L1_2(L2_2, L3_2)
 end
-L0_1.StopOpenMainPage = L1_1
+L0_1[L1_1] = L2_1
 L1_1 = "PlayerCombatOnPause"
 function L2_1(A0_2)
   local L1_2, L2_2, L3_2, L4_2, L5_2, L6_2, L7_2

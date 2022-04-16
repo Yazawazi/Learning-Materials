@@ -681,6 +681,7 @@ L2_1[10] = L12_1
 triggers = L2_1
 L2_1 = {}
 L3_1 = {}
+L3_1.configId = 1
 L3_1.name = "LaSignora_weather"
 L3_1.value = 1
 L3_1.no_refresh = false

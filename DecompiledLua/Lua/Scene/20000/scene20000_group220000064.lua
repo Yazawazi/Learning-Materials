@@ -335,6 +335,7 @@ L1_1[18] = L19_1
 triggers = L1_1
 L1_1 = {}
 L2_1 = {}
+L2_1.configId = 1
 L2_1.name = "num_1"
 L2_1.value = 0
 L2_1.no_refresh = false

@@ -1,4 +1,4 @@
-local L0_1, L1_1, L2_1, L3_1, L4_1, L5_1, L6_1
+local L0_1, L1_1, L2_1, L3_1, L4_1, L5_1, L6_1, L7_1
 L0_1 = {}
 L0_1.group_id = 111101018
 L1_1 = {}
@@ -188,6 +188,50 @@ L3_1 = {}
 L2_1.variables = L3_1
 L1_1[2] = L2_1
 suite_disk = L1_1
+L1_1 = {}
+L2_1 = {}
+L3_1 = {}
+L2_1.monsters = L3_1
+L3_1 = {}
+L4_1 = 18004
+L3_1[1] = L4_1
+L2_1.gadgets = L3_1
+L3_1 = {}
+L4_1 = 18005
+L3_1[1] = L4_1
+L2_1.regions = L3_1
+L3_1 = {}
+L4_1 = "ENTER_REGION_18005"
+L5_1 = "ANY_MONSTER_DIE_18006"
+L6_1 = "GADGET_STATE_CHANGE_18007"
+L3_1[1] = L4_1
+L3_1[2] = L5_1
+L3_1[3] = L6_1
+L2_1.triggers = L3_1
+L2_1.rand_weight = 100
+L3_1 = {}
+L4_1 = {}
+L5_1 = 18001
+L6_1 = 18002
+L7_1 = 18003
+L4_1[1] = L5_1
+L4_1[2] = L6_1
+L4_1[3] = L7_1
+L3_1.monsters = L4_1
+L4_1 = {}
+L5_1 = 18004
+L4_1[1] = L5_1
+L3_1.gadgets = L4_1
+L4_1 = {}
+L3_1.regions = L4_1
+L4_1 = {}
+L5_1 = "ANY_MONSTER_DIE_18006"
+L4_1[1] = L5_1
+L3_1.triggers = L4_1
+L3_1.rand_weight = 100
+L1_1[1] = L2_1
+L1_1[2] = L3_1
+suites = L1_1
 function L1_1(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = A1_2.param1

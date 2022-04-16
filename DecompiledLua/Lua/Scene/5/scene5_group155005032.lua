@@ -1,4 +1,4 @@
-local L0_1, L1_1, L2_1, L3_1
+local L0_1, L1_1, L2_1, L3_1, L4_1
 L0_1 = {}
 L0_1.group_id = 155005032
 L1_1 = {}
@@ -49,3 +49,27 @@ L3_1 = {}
 L2_1.variables = L3_1
 L1_1[2] = L2_1
 suite_disk = L1_1
+L1_1 = {}
+L2_1 = {}
+L3_1 = {}
+L2_1.monsters = L3_1
+L3_1 = {}
+L2_1.gadgets = L3_1
+L3_1 = {}
+L2_1.regions = L3_1
+L3_1 = {}
+L2_1.triggers = L3_1
+L2_1.rand_weight = 100
+L3_1 = {}
+L4_1 = {}
+L3_1.monsters = L4_1
+L4_1 = {}
+L3_1.gadgets = L4_1
+L4_1 = {}
+L3_1.regions = L4_1
+L4_1 = {}
+L3_1.triggers = L4_1
+L3_1.rand_weight = 100
+L1_1[1] = L2_1
+L1_1[2] = L3_1
+suites = L1_1

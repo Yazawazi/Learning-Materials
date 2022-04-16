@@ -490,6 +490,7 @@ L1_1[21] = L22_1
 triggers = L1_1
 L1_1 = {}
 L2_1 = {}
+L2_1.configId = 1
 L2_1.name = "finishyishi"
 L2_1.value = 0
 L2_1.no_refresh = false

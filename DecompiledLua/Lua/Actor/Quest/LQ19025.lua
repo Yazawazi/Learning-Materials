@@ -242,7 +242,7 @@ function L9_1(A0_2, A1_2)
   L2_2(L3_2, L4_2, L5_2)
   L3_2 = A0_2
   L2_2 = A0_2.NotifyTo
-  L4_2 = "Npc2045"
+  L4_2 = "Npc2454"
   L5_2 = NpcUtil
   L5_2 = L5_2.NpcEventType
   L5_2 = L5_2.STARTDAILY

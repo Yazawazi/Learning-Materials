@@ -688,6 +688,7 @@ L1_1[3] = L4_1
 points = L1_1
 L1_1 = {}
 L2_1 = {}
+L2_1.configId = 1
 L2_1.name = "guide_quest_finish"
 L2_1.value = 0
 L2_1.no_refresh = true

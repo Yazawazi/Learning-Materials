@@ -1289,7 +1289,7 @@ function L4_1(A0_2, A1_2)
 end
 LF_Notify_Platform_Sink = L4_1
 function L4_1(A0_2, A1_2)
-  local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2
+  local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2, L10_2, L11_2
   L2_2 = ScriptLib
   L2_2 = L2_2.ForceRefreshAuthorityByConfigId
   L3_2 = A0_2
@@ -1310,6 +1310,20 @@ function L4_1(A0_2, A1_2)
   L5_2 = A0_2.uid
   L5_2 = L5_2 % 10000
   L2_2(L3_2, L4_2, L5_2)
+  L2_2 = ipairs
+  L3_2 = L1_1.gadget_platform_list
+  L2_2, L3_2, L4_2 = L2_2(L3_2)
+  for L5_2, L6_2 in L2_2, L3_2, L4_2 do
+    L7_2 = ScriptLib
+    L7_2 = L7_2.SetGroupTempValue
+    L8_2 = A0_2
+    L9_2 = "arrive_"
+    L10_2 = L6_2
+    L9_2 = L9_2 .. L10_2
+    L10_2 = 0
+    L11_2 = {}
+    L7_2(L8_2, L9_2, L10_2, L11_2)
+  end
   L2_2 = gadgets
   L3_2 = 4 + A1_2
   L2_2 = L2_2[L3_2]
@@ -1416,9 +1430,35 @@ function L4_1(A0_2)
       L13_2 = L13_2 .. L14_2
       L11_2(L12_2, L13_2)
       L11_2 = ScriptLib
-      L11_2 = L11_2.StartPlatform
+      L11_2 = L11_2.GetGroupTempValue
       L12_2 = A0_2
-      L13_2 = L10_2
+      L13_2 = "arrive_"
+      L14_2 = L10_2
+      L13_2 = L13_2 .. L14_2
+      L14_2 = {}
+      L11_2 = L11_2(L12_2, L13_2, L14_2)
+      if L11_2 == 1 then
+        L11_2 = ScriptLib
+        L11_2 = L11_2.StartPlatform
+        L12_2 = A0_2
+        L13_2 = L10_2
+        L11_2(L12_2, L13_2)
+      else
+        L11_2 = ScriptLib
+        L11_2 = L11_2.PrintGroupWarning
+        L12_2 = A0_2
+        L13_2 = "## ocean_id : abnormal platform | not reach bottom = "
+        L14_2 = L10_2
+        L13_2 = L13_2 .. L14_2
+        L11_2(L12_2, L13_2)
+      end
+    else
+      L11_2 = ScriptLib
+      L11_2 = L11_2.PrintGroupWarning
+      L12_2 = A0_2
+      L13_2 = "## ocean_id : abnormal platform recovery | k = "
+      L14_2 = L9_2
+      L13_2 = L13_2 .. L14_2
       L11_2(L12_2, L13_2)
     end
   end
@@ -1455,6 +1495,33 @@ function L4_1(A0_2)
   return L1_2
 end
 LF_Reset_Platform = L4_1
+function L4_1(A0_2, A1_2)
+  local L2_2, L3_2, L4_2, L5_2, L6_2, L7_2, L8_2, L9_2
+  L2_2 = ScriptLib
+  L2_2 = L2_2.PrintContextLog
+  L3_2 = A0_2
+  L4_2 = "## ocean_id : platform_arrival | config_id="
+  L5_2 = A1_2.param1
+  L6_2 = " route="
+  L7_2 = A1_2.param2
+  L8_2 = " point="
+  L9_2 = A1_2.param3
+  L4_2 = L4_2 .. L5_2 .. L6_2 .. L7_2 .. L8_2 .. L9_2
+  L2_2(L3_2, L4_2)
+  L2_2 = A1_2.param3
+  if L2_2 == 1 then
+    L2_2 = ScriptLib
+    L2_2 = L2_2.SetGroupTempValue
+    L3_2 = A0_2
+    L4_2 = "arrive_"
+    L5_2 = A1_2.param1
+    L4_2 = L4_2 .. L5_2
+    L5_2 = 1
+    L6_2 = {}
+    L2_2(L3_2, L4_2, L5_2, L6_2)
+  end
+end
+LF_Platform_Arrival = L4_1
 function L4_1(A0_2)
   local L1_2, L2_2, L3_2, L4_2
   L1_2 = ScriptLib
@@ -2555,19 +2622,20 @@ L19_1.level = 16
 L19_1.drop_tag = "\231\186\175\230\176\180\231\178\190\231\129\181"
 L19_1.isOneoff = true
 L19_1.persistent = true
-L20_1 = {}
-L21_1 = "monster_config_id"
-L20_1[L21_1] = 769026
-L21_1 = "resin"
-L22_1 = 40
-L20_1[L21_1] = L22_1
-L21_1 = "life_time"
-L22_1 = 600
-L20_1[L21_1] = L22_1
-L21_1 = "take_num"
-L22_1 = 100
-L20_1[L21_1] = L22_1
-L19_1.boss_chest = L20_1
+L20_1 = "boss_chest"
+L21_1 = {}
+L22_1 = "monster_config_id"
+L21_1[L22_1] = 769026
+L22_1 = "resin"
+L23_1 = 40
+L21_1[L22_1] = L23_1
+L22_1 = "life_time"
+L23_1 = 600
+L21_1[L22_1] = L23_1
+L22_1 = "take_num"
+L23_1 = 100
+L21_1[L22_1] = L23_1
+L19_1[L20_1] = L21_1
 L19_1.area_id = 5
 L20_1 = {}
 L20_1.config_id = 769055
@@ -3090,6 +3158,29 @@ L22_1 = "action_EVENT_VARIABLE_CHANGE_769069"
 L20_1[L21_1] = L22_1
 L21_1 = "trigger_count"
 L20_1[L21_1] = 0
+L21_1 = {}
+L22_1 = 1769070
+L21_1.config_id = L22_1
+L22_1 = "name"
+L23_1 = "PLATFORM_ARRIVAL_769070"
+L21_1[L22_1] = L23_1
+L22_1 = "event"
+L23_1 = "EventType"
+L23_1 = _ENV[L23_1]
+L24_1 = "EVENT_PLATFORM_ARRIVAL"
+L23_1 = L23_1[L24_1]
+L21_1[L22_1] = L23_1
+L22_1 = "source"
+L23_1 = ""
+L21_1[L22_1] = L23_1
+L22_1 = "condition"
+L23_1 = ""
+L21_1[L22_1] = L23_1
+L22_1 = "action"
+L23_1 = "action_EVENT_PLATFORM_ARRIVAL_769070"
+L21_1[L22_1] = L23_1
+L22_1 = "trigger_count"
+L21_1[L22_1] = 0
 L5_1[1] = L6_1
 L5_1[2] = L7_1
 L5_1[3] = L8_1
@@ -3105,10 +3196,13 @@ L5_1[12] = L17_1
 L5_1[13] = L18_1
 L5_1[14] = L19_1
 L5_1[15] = L20_1
+L5_1[16] = L21_1
 _ENV[L4_1] = L5_1
 L4_1 = "variables"
 L5_1 = {}
 L6_1 = {}
+L7_1 = "configId"
+L6_1[L7_1] = 1
 L7_1 = "name"
 L8_1 = "next_monster1"
 L6_1[L7_1] = L8_1
@@ -3118,6 +3212,8 @@ L7_1 = "no_refresh"
 L8_1 = false
 L6_1[L7_1] = L8_1
 L7_1 = {}
+L8_1 = "configId"
+L7_1[L8_1] = 2
 L8_1 = "name"
 L9_1 = "next_monster2"
 L7_1[L8_1] = L9_1
@@ -3127,6 +3223,8 @@ L8_1 = "no_refresh"
 L9_1 = false
 L7_1[L8_1] = L9_1
 L8_1 = {}
+L9_1 = "configId"
+L8_1[L9_1] = 3
 L9_1 = "name"
 L10_1 = "summon_platform1"
 L8_1[L9_1] = L10_1
@@ -3136,6 +3234,8 @@ L9_1 = "no_refresh"
 L10_1 = false
 L8_1[L9_1] = L10_1
 L9_1 = {}
+L10_1 = "configId"
+L9_1[L10_1] = 4
 L10_1 = "name"
 L11_1 = "summon_platform2"
 L9_1[L10_1] = L11_1
@@ -3145,6 +3245,8 @@ L10_1 = "no_refresh"
 L11_1 = false
 L9_1[L10_1] = L11_1
 L10_1 = {}
+L11_1 = "configId"
+L10_1[L11_1] = 5
 L11_1 = "name"
 L12_1 = "platform1"
 L10_1[L11_1] = L12_1
@@ -3154,6 +3256,8 @@ L11_1 = "no_refresh"
 L12_1 = false
 L10_1[L11_1] = L12_1
 L11_1 = {}
+L12_1 = "configId"
+L11_1[L12_1] = 6
 L12_1 = "name"
 L13_1 = "platform2"
 L11_1[L12_1] = L13_1
@@ -3163,6 +3267,8 @@ L12_1 = "no_refresh"
 L13_1 = false
 L11_1[L12_1] = L13_1
 L12_1 = {}
+L13_1 = "configId"
+L12_1[L13_1] = 7
 L13_1 = "name"
 L14_1 = "platform3"
 L12_1[L13_1] = L14_1
@@ -3172,6 +3278,8 @@ L13_1 = "no_refresh"
 L14_1 = false
 L12_1[L13_1] = L14_1
 L13_1 = {}
+L14_1 = "configId"
+L13_1[L14_1] = 8
 L14_1 = "name"
 L15_1 = "platform4"
 L13_1[L14_1] = L15_1
@@ -3181,6 +3289,8 @@ L14_1 = "no_refresh"
 L15_1 = false
 L13_1[L14_1] = L15_1
 L14_1 = {}
+L15_1 = "configId"
+L14_1[L15_1] = 9
 L15_1 = "name"
 L16_1 = "boss_exist"
 L14_1[L15_1] = L16_1
@@ -3190,6 +3300,8 @@ L15_1 = "no_refresh"
 L16_1 = false
 L14_1[L15_1] = L16_1
 L15_1 = {}
+L16_1 = "configId"
+L15_1[L16_1] = 10
 L16_1 = "name"
 L17_1 = "stage"
 L15_1[L16_1] = L17_1
@@ -3199,6 +3311,9 @@ L16_1 = "no_refresh"
 L17_1 = false
 L15_1[L16_1] = L17_1
 L16_1 = {}
+L17_1 = "configId"
+L18_1 = 11
+L16_1[L17_1] = L18_1
 L17_1 = "name"
 L18_1 = "REGION_EID"
 L16_1[L17_1] = L18_1
@@ -3208,6 +3323,9 @@ L17_1 = "no_refresh"
 L18_1 = false
 L16_1[L17_1] = L18_1
 L17_1 = {}
+L18_1 = "configId"
+L19_1 = 12
+L17_1[L18_1] = L19_1
 L18_1 = "name"
 L19_1 = "auth_uid_p1"
 L17_1[L18_1] = L19_1
@@ -3217,6 +3335,9 @@ L18_1 = "no_refresh"
 L19_1 = false
 L17_1[L18_1] = L19_1
 L18_1 = {}
+L19_1 = "configId"
+L20_1 = 13
+L18_1[L19_1] = L20_1
 L19_1 = "name"
 L20_1 = "auth_uid_p2"
 L18_1[L19_1] = L20_1
@@ -3226,6 +3347,9 @@ L19_1 = "no_refresh"
 L20_1 = false
 L18_1[L19_1] = L20_1
 L19_1 = {}
+L20_1 = "configId"
+L21_1 = 14
+L19_1[L20_1] = L21_1
 L20_1 = "name"
 L21_1 = "is_in_replacement"
 L19_1[L20_1] = L21_1
@@ -3503,6 +3627,7 @@ L12_1 = "ENTER_REGION_769059"
 L13_1 = "LEAVE_REGION_769060"
 L14_1 = "GROUP_WILL_UNLOAD_769061"
 L15_1 = "VARIABLE_CHANGE_769068"
+L16_1 = "PLATFORM_ARRIVAL_769070"
 L8_1[1] = L9_1
 L8_1[2] = L10_1
 L8_1[3] = L11_1
@@ -3510,6 +3635,7 @@ L8_1[4] = L12_1
 L8_1[5] = L13_1
 L8_1[6] = L14_1
 L8_1[7] = L15_1
+L8_1[8] = L16_1
 L6_1[L7_1] = L8_1
 L7_1 = "rand_weight"
 L8_1 = 100
@@ -4789,6 +4915,17 @@ function L5_1(A0_2, A1_2)
       L2_2(L3_2, L4_2)
     end
   end
+  L2_2 = 0
+  return L2_2
+end
+_ENV[L4_1] = L5_1
+L4_1 = "action_EVENT_PLATFORM_ARRIVAL_769070"
+function L5_1(A0_2, A1_2)
+  local L2_2, L3_2, L4_2
+  L2_2 = LF_Platform_Arrival
+  L3_2 = A0_2
+  L4_2 = A1_2
+  L2_2(L3_2, L4_2)
   L2_2 = 0
   return L2_2
 end

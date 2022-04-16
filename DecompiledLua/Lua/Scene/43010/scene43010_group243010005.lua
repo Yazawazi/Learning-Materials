@@ -195,6 +195,7 @@ L2_1[5] = L7_1
 points = L2_1
 L2_1 = {}
 L3_1 = {}
+L3_1.configId = 1
 L3_1.name = "success"
 L3_1.value = 0
 L3_1.no_refresh = false

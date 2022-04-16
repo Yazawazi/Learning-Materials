@@ -20,7 +20,7 @@ L2_1.drop_id = 1000100
 L2_1.area_id = 14
 L3_1 = {}
 L3_1.config_id = 43002
-L3_1.monster_id = 21011002
+L3_1.monster_id = 21011001
 L4_1 = {}
 L4_1.x = -4283.931
 L4_1.y = 215.053
@@ -101,103 +101,38 @@ L7_1.level = 1
 L7_1.drop_id = 1000100
 L7_1.area_id = 14
 L8_1 = {}
-L8_1.config_id = 43039
-L8_1.monster_id = 21010701
+L8_1.config_id = 43040
+L8_1.monster_id = 21010501
 L9_1 = {}
-L9_1.x = -4332.445
-L9_1.y = 215.444
-L9_1.z = -3874.635
+L9_1.x = -4299.016
+L9_1.y = 212.457
+L9_1.z = -3884.944
 L8_1.pos = L9_1
 L9_1 = {}
 L9_1.x = 0.0
-L9_1.y = 246.857
+L9_1.y = 316.128
 L9_1.z = 0.0
 L8_1.rot = L9_1
 L8_1.level = 1
 L8_1.drop_id = 1000100
+L8_1.pose_id = 32
 L8_1.area_id = 14
 L9_1 = {}
-L9_1.config_id = 43040
-L9_1.monster_id = 21010502
+L9_1.config_id = 43041
+L9_1.monster_id = 21010701
 L10_1 = {}
-L10_1.x = -4299.016
-L10_1.y = 212.457
-L10_1.z = -3884.944
+L10_1.x = -4268.559
+L10_1.y = 208.909
+L10_1.z = -3883.357
 L9_1.pos = L10_1
 L10_1 = {}
 L10_1.x = 0.0
-L10_1.y = 316.128
+L10_1.y = 285.77
 L10_1.z = 0.0
 L9_1.rot = L10_1
 L9_1.level = 1
 L9_1.drop_id = 1000100
-L9_1.pose_id = 32
 L9_1.area_id = 14
-L10_1 = {}
-L10_1.config_id = 43041
-L10_1.monster_id = 21010701
-L11_1 = {}
-L11_1.x = -4268.559
-L11_1.y = 208.909
-L11_1.z = -3883.357
-L10_1.pos = L11_1
-L11_1 = {}
-L11_1.x = 0.0
-L11_1.y = 285.77
-L11_1.z = 0.0
-L10_1.rot = L11_1
-L10_1.level = 1
-L10_1.drop_id = 1000100
-L10_1.area_id = 14
-L11_1 = {}
-L11_1.config_id = 43042
-L11_1.monster_id = 21011601
-L12_1 = {}
-L12_1.x = -4270.874
-L12_1.y = 207.411
-L12_1.z = -3862.379
-L11_1.pos = L12_1
-L12_1 = {}
-L12_1.x = 0.0
-L12_1.y = 234.762
-L12_1.z = 0.0
-L11_1.rot = L12_1
-L11_1.level = 1
-L11_1.drop_id = 1000100
-L11_1.area_id = 14
-L12_1 = {}
-L12_1.config_id = 43043
-L12_1.monster_id = 21010601
-L13_1 = {}
-L13_1.x = -4274.133
-L13_1.y = 209.621
-L13_1.z = -3881.929
-L12_1.pos = L13_1
-L13_1 = {}
-L13_1.x = 0.0
-L13_1.y = 285.77
-L13_1.z = 0.0
-L12_1.rot = L13_1
-L12_1.level = 1
-L12_1.drop_id = 1000100
-L12_1.area_id = 14
-L13_1 = {}
-L13_1.config_id = 43044
-L13_1.monster_id = 21020201
-L14_1 = {}
-L14_1.x = -4213.836
-L14_1.y = 200.934
-L14_1.z = -3877.538
-L13_1.pos = L14_1
-L14_1 = {}
-L14_1.x = 0.0
-L14_1.y = 253.216
-L14_1.z = 0.0
-L13_1.rot = L14_1
-L13_1.level = 1
-L13_1.drop_id = 1000100
-L13_1.pose_id = 401
-L13_1.area_id = 14
 L1_1[1] = L2_1
 L1_1[2] = L3_1
 L1_1[3] = L4_1
@@ -206,10 +141,6 @@ L1_1[5] = L6_1
 L1_1[6] = L7_1
 L1_1[7] = L8_1
 L1_1[8] = L9_1
-L1_1[9] = L10_1
-L1_1[10] = L11_1
-L1_1[11] = L12_1
-L1_1[12] = L13_1
 monsters = L1_1
 L1_1 = {}
 npcs = L1_1
@@ -658,83 +589,62 @@ L10_1.action = "action_EVENT_GROUP_LOAD_43025"
 L10_1.trigger_count = 0
 L11_1 = {}
 L11_1.config_id = 1043027
-L12_1 = "PLATFORM_REACH_POINT_43027"
-L11_1.name = L12_1
+L11_1.name = "PLATFORM_REACH_POINT_43027"
 L12_1 = EventType
 L12_1 = L12_1.EVENT_PLATFORM_REACH_POINT
 L11_1.event = L12_1
 L11_1.source = ""
-L12_1 = "condition_EVENT_PLATFORM_REACH_POINT_43027"
-L11_1.condition = L12_1
-L12_1 = "action_EVENT_PLATFORM_REACH_POINT_43027"
-L11_1.action = L12_1
+L11_1.condition = "condition_EVENT_PLATFORM_REACH_POINT_43027"
+L11_1.action = "action_EVENT_PLATFORM_REACH_POINT_43027"
 L11_1.trigger_count = 0
 L11_1.tag = "888"
 L12_1 = {}
-L13_1 = 1043028
-L12_1.config_id = L13_1
-L13_1 = "PLATFORM_REACH_POINT_43028"
-L12_1.name = L13_1
+L12_1.config_id = 1043028
+L12_1.name = "PLATFORM_REACH_POINT_43028"
 L13_1 = EventType
 L13_1 = L13_1.EVENT_PLATFORM_REACH_POINT
 L12_1.event = L13_1
 L12_1.source = ""
-L13_1 = "condition_EVENT_PLATFORM_REACH_POINT_43028"
-L12_1.condition = L13_1
-L13_1 = "action_EVENT_PLATFORM_REACH_POINT_43028"
-L12_1.action = L13_1
+L12_1.condition = "condition_EVENT_PLATFORM_REACH_POINT_43028"
+L12_1.action = "action_EVENT_PLATFORM_REACH_POINT_43028"
 L12_1.trigger_count = 0
 L12_1.tag = "888"
 L13_1 = {}
-L14_1 = 1043029
-L13_1.config_id = L14_1
-L14_1 = "PLATFORM_REACH_POINT_43029"
-L13_1.name = L14_1
+L13_1.config_id = 1043029
+L13_1.name = "PLATFORM_REACH_POINT_43029"
 L14_1 = EventType
 L14_1 = L14_1.EVENT_PLATFORM_REACH_POINT
 L13_1.event = L14_1
 L13_1.source = ""
-L14_1 = "condition_EVENT_PLATFORM_REACH_POINT_43029"
-L13_1.condition = L14_1
-L14_1 = "action_EVENT_PLATFORM_REACH_POINT_43029"
-L13_1.action = L14_1
+L13_1.condition = "condition_EVENT_PLATFORM_REACH_POINT_43029"
+L13_1.action = "action_EVENT_PLATFORM_REACH_POINT_43029"
 L13_1.trigger_count = 0
 L13_1.tag = "888"
 L14_1 = {}
-L15_1 = 1043030
-L14_1.config_id = L15_1
-L15_1 = "PLATFORM_REACH_POINT_43030"
-L14_1.name = L15_1
+L14_1.config_id = 1043030
+L14_1.name = "PLATFORM_REACH_POINT_43030"
 L15_1 = EventType
 L15_1 = L15_1.EVENT_PLATFORM_REACH_POINT
 L14_1.event = L15_1
 L14_1.source = ""
-L15_1 = "condition_EVENT_PLATFORM_REACH_POINT_43030"
-L14_1.condition = L15_1
-L15_1 = "action_EVENT_PLATFORM_REACH_POINT_43030"
-L14_1.action = L15_1
+L14_1.condition = "condition_EVENT_PLATFORM_REACH_POINT_43030"
+L14_1.action = "action_EVENT_PLATFORM_REACH_POINT_43030"
 L14_1.trigger_count = 0
 L14_1.tag = "888"
 L15_1 = {}
-L16_1 = 1043031
-L15_1.config_id = L16_1
-L16_1 = "PLATFORM_REACH_POINT_43031"
-L15_1.name = L16_1
+L15_1.config_id = 1043031
+L15_1.name = "PLATFORM_REACH_POINT_43031"
 L16_1 = EventType
 L16_1 = L16_1.EVENT_PLATFORM_REACH_POINT
 L15_1.event = L16_1
 L15_1.source = ""
-L16_1 = "condition_EVENT_PLATFORM_REACH_POINT_43031"
-L15_1.condition = L16_1
-L16_1 = "action_EVENT_PLATFORM_REACH_POINT_43031"
-L15_1.action = L16_1
+L15_1.condition = "condition_EVENT_PLATFORM_REACH_POINT_43031"
+L15_1.action = "action_EVENT_PLATFORM_REACH_POINT_43031"
 L15_1.trigger_count = 0
 L15_1.tag = "888"
 L16_1 = {}
-L17_1 = 1043033
-L16_1.config_id = L17_1
-L17_1 = "ANY_MONSTER_DIE_43033"
-L16_1.name = L17_1
+L16_1.config_id = 1043033
+L16_1.name = "ANY_MONSTER_DIE_43033"
 L17_1 = EventType
 L18_1 = "EVENT_ANY_MONSTER_DIE"
 L17_1 = L17_1[L18_1]
@@ -763,6 +673,8 @@ triggers = L1_1
 L1_1 = "variables"
 L2_1 = {}
 L3_1 = {}
+L4_1 = "configId"
+L3_1[L4_1] = 1
 L4_1 = "challengeSuccess"
 L3_1.name = L4_1
 L4_1 = "value"
@@ -770,6 +682,8 @@ L3_1[L4_1] = 0
 L4_1 = "no_refresh"
 L3_1[L4_1] = false
 L4_1 = {}
+L5_1 = "configId"
+L4_1[L5_1] = 2
 L5_1 = "challengeStart"
 L4_1.name = L5_1
 L5_1 = "value"
@@ -778,6 +692,101 @@ L5_1 = "no_refresh"
 L4_1[L5_1] = false
 L2_1[1] = L3_1
 L2_1[2] = L4_1
+_ENV[L1_1] = L2_1
+L1_1 = "garbages"
+L2_1 = {}
+L3_1 = {}
+L4_1 = {}
+L5_1 = 43039
+L4_1.config_id = L5_1
+L4_1.monster_id = 21010701
+L5_1 = {}
+L6_1 = -4332.445
+L5_1.x = L6_1
+L6_1 = 215.444
+L5_1.y = L6_1
+L6_1 = -3874.635
+L5_1.z = L6_1
+L4_1.pos = L5_1
+L5_1 = {}
+L5_1.x = 0.0
+L6_1 = 246.857
+L5_1.y = L6_1
+L5_1.z = 0.0
+L4_1.rot = L5_1
+L4_1.level = 1
+L4_1.drop_id = 1000100
+L4_1.area_id = 14
+L5_1 = {}
+L6_1 = 43042
+L5_1.config_id = L6_1
+L6_1 = 21011601
+L5_1.monster_id = L6_1
+L6_1 = {}
+L7_1 = -4270.874
+L6_1.x = L7_1
+L7_1 = 207.411
+L6_1.y = L7_1
+L7_1 = -3862.379
+L6_1.z = L7_1
+L5_1.pos = L6_1
+L6_1 = {}
+L6_1.x = 0.0
+L6_1.y = 234.762
+L6_1.z = 0.0
+L5_1.rot = L6_1
+L5_1.level = 1
+L5_1.drop_id = 1000100
+L5_1.area_id = 14
+L6_1 = {}
+L7_1 = 43043
+L6_1.config_id = L7_1
+L7_1 = 21010601
+L6_1.monster_id = L7_1
+L7_1 = {}
+L8_1 = -4274.133
+L7_1.x = L8_1
+L8_1 = 209.621
+L7_1.y = L8_1
+L8_1 = -3881.929
+L7_1.z = L8_1
+L6_1.pos = L7_1
+L7_1 = {}
+L7_1.x = 0.0
+L7_1.y = 285.77
+L7_1.z = 0.0
+L6_1.rot = L7_1
+L6_1.level = 1
+L6_1.drop_id = 1000100
+L6_1.area_id = 14
+L7_1 = {}
+L8_1 = 43044
+L7_1.config_id = L8_1
+L8_1 = 21020201
+L7_1.monster_id = L8_1
+L8_1 = {}
+L9_1 = -4213.836
+L8_1.x = L9_1
+L9_1 = 200.934
+L8_1.y = L9_1
+L9_1 = -3877.538
+L8_1.z = L9_1
+L7_1.pos = L8_1
+L8_1 = {}
+L8_1.x = 0.0
+L9_1 = 253.216
+L8_1.y = L9_1
+L8_1.z = 0.0
+L7_1.rot = L8_1
+L7_1.level = 1
+L7_1.drop_id = 1000100
+L7_1.pose_id = 401
+L7_1.area_id = 14
+L3_1[1] = L4_1
+L3_1[2] = L5_1
+L3_1[3] = L6_1
+L3_1[4] = L7_1
+L2_1.monsters = L3_1
 _ENV[L1_1] = L2_1
 L1_1 = "init_config"
 L2_1 = {}
@@ -883,10 +892,8 @@ L5_1 = {}
 L6_1 = {}
 L7_1 = 43001
 L8_1 = 43038
-L9_1 = 43039
 L6_1[1] = L7_1
 L6_1[2] = L8_1
-L6_1[3] = L9_1
 L5_1.monsters = L6_1
 L6_1 = {}
 L5_1.gadgets = L6_1
@@ -919,12 +926,8 @@ L7_1 = {}
 L8_1 = {}
 L9_1 = 43003
 L10_1 = 43041
-L11_1 = 43042
-L12_1 = 43043
 L8_1[1] = L9_1
 L8_1[2] = L10_1
-L8_1[3] = L11_1
-L8_1[4] = L12_1
 L7_1.monsters = L8_1
 L8_1 = {}
 L9_1 = 43007
@@ -946,9 +949,7 @@ L7_1[L8_1] = L9_1
 L8_1 = {}
 L9_1 = {}
 L10_1 = 43004
-L11_1 = 43044
 L9_1[1] = L10_1
-L9_1[2] = L11_1
 L8_1.monsters = L9_1
 L9_1 = {}
 L8_1.gadgets = L9_1
@@ -1533,8 +1534,7 @@ function L1_1(A0_2, A1_2)
   return L2_2
 end
 action_EVENT_GROUP_LOAD_43025 = L1_1
-L1_1 = "condition_EVENT_PLATFORM_REACH_POINT_43027"
-function L2_1(A0_2, A1_2)
+function L1_1(A0_2, A1_2)
   local L2_2
   L2_2 = A1_2.param1
   if 43008 ~= L2_2 then
@@ -1554,9 +1554,8 @@ function L2_1(A0_2, A1_2)
   L2_2 = true
   return L2_2
 end
-_ENV[L1_1] = L2_1
-L1_1 = "action_EVENT_PLATFORM_REACH_POINT_43027"
-function L2_1(A0_2, A1_2)
+condition_EVENT_PLATFORM_REACH_POINT_43027 = L1_1
+function L1_1(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = ScriptLib
   L2_2 = L2_2.KillEntityByConfigId
@@ -1576,9 +1575,8 @@ function L2_1(A0_2, A1_2)
   L2_2 = 0
   return L2_2
 end
-_ENV[L1_1] = L2_1
-L1_1 = "condition_EVENT_PLATFORM_REACH_POINT_43028"
-function L2_1(A0_2, A1_2)
+action_EVENT_PLATFORM_REACH_POINT_43027 = L1_1
+function L1_1(A0_2, A1_2)
   local L2_2
   L2_2 = A1_2.param1
   if 43008 ~= L2_2 then
@@ -1598,9 +1596,8 @@ function L2_1(A0_2, A1_2)
   L2_2 = true
   return L2_2
 end
-_ENV[L1_1] = L2_1
-L1_1 = "action_EVENT_PLATFORM_REACH_POINT_43028"
-function L2_1(A0_2, A1_2)
+condition_EVENT_PLATFORM_REACH_POINT_43028 = L1_1
+function L1_1(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = ScriptLib
   L2_2 = L2_2.KillEntityByConfigId
@@ -1620,9 +1617,8 @@ function L2_1(A0_2, A1_2)
   L2_2 = 0
   return L2_2
 end
-_ENV[L1_1] = L2_1
-L1_1 = "condition_EVENT_PLATFORM_REACH_POINT_43029"
-function L2_1(A0_2, A1_2)
+action_EVENT_PLATFORM_REACH_POINT_43028 = L1_1
+function L1_1(A0_2, A1_2)
   local L2_2
   L2_2 = A1_2.param1
   if 43008 ~= L2_2 then
@@ -1642,9 +1638,8 @@ function L2_1(A0_2, A1_2)
   L2_2 = true
   return L2_2
 end
-_ENV[L1_1] = L2_1
-L1_1 = "action_EVENT_PLATFORM_REACH_POINT_43029"
-function L2_1(A0_2, A1_2)
+condition_EVENT_PLATFORM_REACH_POINT_43029 = L1_1
+function L1_1(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = ScriptLib
   L2_2 = L2_2.KillEntityByConfigId
@@ -1670,9 +1665,8 @@ function L2_1(A0_2, A1_2)
   L2_2 = 0
   return L2_2
 end
-_ENV[L1_1] = L2_1
-L1_1 = "condition_EVENT_PLATFORM_REACH_POINT_43030"
-function L2_1(A0_2, A1_2)
+action_EVENT_PLATFORM_REACH_POINT_43029 = L1_1
+function L1_1(A0_2, A1_2)
   local L2_2
   L2_2 = A1_2.param1
   if 43008 ~= L2_2 then
@@ -1692,9 +1686,8 @@ function L2_1(A0_2, A1_2)
   L2_2 = true
   return L2_2
 end
-_ENV[L1_1] = L2_1
-L1_1 = "action_EVENT_PLATFORM_REACH_POINT_43030"
-function L2_1(A0_2, A1_2)
+condition_EVENT_PLATFORM_REACH_POINT_43030 = L1_1
+function L1_1(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = ScriptLib
   L2_2 = L2_2.KillEntityByConfigId
@@ -1714,9 +1707,8 @@ function L2_1(A0_2, A1_2)
   L2_2 = 0
   return L2_2
 end
-_ENV[L1_1] = L2_1
-L1_1 = "condition_EVENT_PLATFORM_REACH_POINT_43031"
-function L2_1(A0_2, A1_2)
+action_EVENT_PLATFORM_REACH_POINT_43030 = L1_1
+function L1_1(A0_2, A1_2)
   local L2_2
   L2_2 = A1_2.param1
   if 43008 ~= L2_2 then
@@ -1736,9 +1728,8 @@ function L2_1(A0_2, A1_2)
   L2_2 = true
   return L2_2
 end
-_ENV[L1_1] = L2_1
-L1_1 = "action_EVENT_PLATFORM_REACH_POINT_43031"
-function L2_1(A0_2, A1_2)
+condition_EVENT_PLATFORM_REACH_POINT_43031 = L1_1
+function L1_1(A0_2, A1_2)
   local L2_2, L3_2, L4_2
   L2_2 = ScriptLib
   L2_2 = L2_2.KillEntityByConfigId
@@ -1758,7 +1749,7 @@ function L2_1(A0_2, A1_2)
   L2_2 = 0
   return L2_2
 end
-_ENV[L1_1] = L2_1
+action_EVENT_PLATFORM_REACH_POINT_43031 = L1_1
 L1_1 = "condition_EVENT_ANY_MONSTER_DIE_43033"
 function L2_1(A0_2, A1_2)
   local L2_2

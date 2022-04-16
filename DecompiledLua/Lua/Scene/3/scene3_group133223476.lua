@@ -157,6 +157,7 @@ L1_1[7] = L8_1
 triggers = L1_1
 L1_1 = {}
 L2_1 = {}
+L2_1.configId = 1
 L2_1.name = "feather_count"
 L2_1.value = 0
 L2_1.no_refresh = true

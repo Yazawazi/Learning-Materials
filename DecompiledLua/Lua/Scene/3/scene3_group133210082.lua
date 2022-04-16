@@ -1,4 +1,4 @@
-local L0_1, L1_1, L2_1, L3_1, L4_1, L5_1, L6_1, L7_1
+local L0_1, L1_1, L2_1, L3_1, L4_1, L5_1, L6_1, L7_1, L8_1
 L0_1 = {}
 L0_1.group_id = 133210082
 L1_1 = {}
@@ -162,6 +162,48 @@ L3_1 = {}
 L2_1.variables = L3_1
 L1_1[2] = L2_1
 suite_disk = L1_1
+L1_1 = {}
+L2_1 = {}
+L3_1 = {}
+L2_1.monsters = L3_1
+L3_1 = {}
+L4_1 = 82001
+L5_1 = 82002
+L6_1 = 82003
+L7_1 = 82004
+L3_1[1] = L4_1
+L3_1[2] = L5_1
+L3_1[3] = L6_1
+L3_1[4] = L7_1
+L2_1.gadgets = L3_1
+L3_1 = {}
+L2_1.regions = L3_1
+L3_1 = {}
+L4_1 = "GROUP_LOAD_82005"
+L3_1[1] = L4_1
+L2_1.triggers = L3_1
+L2_1.rand_weight = 100
+L3_1 = {}
+L4_1 = {}
+L3_1.monsters = L4_1
+L4_1 = {}
+L5_1 = 82001
+L6_1 = 82002
+L7_1 = 82003
+L8_1 = 82004
+L4_1[1] = L5_1
+L4_1[2] = L6_1
+L4_1[3] = L7_1
+L4_1[4] = L8_1
+L3_1.gadgets = L4_1
+L4_1 = {}
+L3_1.regions = L4_1
+L4_1 = {}
+L3_1.triggers = L4_1
+L3_1.rand_weight = 100
+L1_1[1] = L2_1
+L1_1[2] = L3_1
+suites = L1_1
 function L1_1(A0_2, A1_2)
   local L2_2, L3_2, L4_2, L5_2
   L2_2 = ScriptLib

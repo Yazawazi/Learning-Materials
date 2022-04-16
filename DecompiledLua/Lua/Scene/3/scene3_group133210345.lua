@@ -794,6 +794,7 @@ L1_1[8] = L9_1
 triggers = L1_1
 L1_1 = {}
 L2_1 = {}
+L2_1.configId = 1
 L2_1.name = "hasStarted"
 L2_1.value = 0
 L2_1.no_refresh = false
@@ -1560,6 +1561,7 @@ function L1_1(A0_2, A1_2)
   return L2_2
 end
 action_EVENT_ENTER_REGION_345032 = L1_1
-L1_1 = require
+L1_1 = "require"
+L1_1 = _ENV[L1_1]
 L2_1 = "V2_0/ElectricCore"
 L1_1(L2_1)

@@ -396,6 +396,7 @@ L2_1[15] = L17_1
 points = L2_1
 L2_1 = {}
 L3_1 = {}
+L3_1.configId = 1
 L3_1.name = "IS_IN_LIMIT_TIME"
 L3_1.value = 0
 L3_1.no_refresh = false

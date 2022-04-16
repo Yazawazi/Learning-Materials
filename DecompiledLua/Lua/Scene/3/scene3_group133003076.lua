@@ -444,6 +444,7 @@ L1_1[13] = L14_1
 triggers = L1_1
 L1_1 = {}
 L2_1 = {}
+L2_1.configId = 1
 L2_1.name = "isObstacle1Available"
 L2_1.value = 1
 L2_1.no_refresh = false

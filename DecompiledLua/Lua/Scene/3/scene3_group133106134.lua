@@ -390,6 +390,7 @@ L4_1[5] = L9_1
 triggers = L4_1
 L4_1 = {}
 L5_1 = {}
+L5_1.configId = 1
 L5_1.name = "questFinished"
 L5_1.value = 0
 L5_1.no_refresh = true

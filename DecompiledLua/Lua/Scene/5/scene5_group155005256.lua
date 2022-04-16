@@ -150,6 +150,7 @@ L6_1[2] = L8_1
 triggers = L6_1
 L6_1 = {}
 L7_1 = {}
+L7_1.configId = 1
 L7_1.name = "gameplayState"
 L7_1.value = 1
 L7_1.no_refresh = true

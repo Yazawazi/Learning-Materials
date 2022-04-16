@@ -138,6 +138,7 @@ L7_1[4] = L11_1
 triggers = L7_1
 L7_1 = {}
 L8_1 = {}
+L8_1.configId = 1
 L8_1.name = "ismoving"
 L8_1.value = 0
 L8_1.no_refresh = false
