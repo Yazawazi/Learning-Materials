@@ -187,6 +187,31 @@
             }
         }
     ],
+    "garbages": {
+        "monsters": [
+            {
+                "affix": [
+                    1401
+                ],
+                "area_id": 14,
+                "config_id": 60003,
+                "disableWander": true,
+                "drop_id": 1000100,
+                "level": 1,
+                "monster_id": 21020201,
+                "pos": {
+                    "x": -4326.536,
+                    "y": 204.072,
+                    "z": -4208.798
+                },
+                "rot": {
+                    "x": 0,
+                    "y": 72.317,
+                    "z": 0
+                }
+            }
+        ]
+    },
     "init_config": {
         "end_suite": 5,
         "rand_suite": false,
@@ -240,7 +265,7 @@
                 1401
             ],
             "area_id": 14,
-            "config_id": 60003,
+            "config_id": 60004,
             "disableWander": true,
             "drop_id": 1000100,
             "level": 1,
@@ -333,7 +358,7 @@
         {
             "gadgets": [],
             "monsters": [
-                60003
+                60004
             ],
             "rand_weight": 100,
             "regions": [],

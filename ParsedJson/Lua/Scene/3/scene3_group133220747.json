@@ -1,6 +1,6 @@
 {
     "action_EVENT_ANY_GADGET_DIE_747004": "WARN: Lua function omitted from the dump",
-    "action_EVENT_QUEST_FINISH_747007": "WARN: Lua function omitted from the dump",
+    "action_EVENT_TIMER_EVENT_747002": "WARN: Lua function omitted from the dump",
     "condition_EVENT_ANY_GADGET_DIE_747004": "WARN: Lua function omitted from the dump",
     "gadgets": [
         {
@@ -14,9 +14,9 @@
                 "z": -4392.355
             },
             "rot": {
-                "x": 0.826,
-                "y": 279.254,
-                "z": 4.219
+                "x": 3.065,
+                "y": 262.258,
+                "z": 10.937
             }
         }
     ],
@@ -37,27 +37,28 @@
             "rand_weight": 100,
             "regions": [],
             "triggers": [
-                "ANY_GADGET_DIE_747004",
-                "QUEST_FINISH_747007"
+                "TIMER_EVENT_747002",
+                "ANY_GADGET_DIE_747004"
             ]
         }
     ],
     "triggers": [
+        {
+            "action": "action_EVENT_TIMER_EVENT_747002",
+            "condition": "",
+            "config_id": 1747002,
+            "event": 15,
+            "name": "TIMER_EVENT_747002",
+            "source": "billboard01",
+            "trigger_count": 0
+        },
         {
             "action": "action_EVENT_ANY_GADGET_DIE_747004",
             "condition": "condition_EVENT_ANY_GADGET_DIE_747004",
             "config_id": 1747004,
             "event": 2,
             "name": "ANY_GADGET_DIE_747004",
-            "source": ""
-        },
-        {
-            "action": "action_EVENT_QUEST_FINISH_747007",
-            "condition": "",
-            "config_id": 1747007,
-            "event": 21,
-            "name": "QUEST_FINISH_747007",
-            "source": "1914601",
+            "source": "",
             "trigger_count": 0
         }
     ],

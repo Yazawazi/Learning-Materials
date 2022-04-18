@@ -59,18 +59,18 @@
     "regions": [],
     "suites": [
         {
-            "gadgets": [],
+            "gadgets": [
+                1001,
+                1002,
+                1003
+            ],
             "monsters": [],
             "rand_weight": 100,
             "regions": [],
             "triggers": []
         },
         {
-            "gadgets": [
-                1001,
-                1002,
-                1003
-            ],
+            "gadgets": [],
             "monsters": [],
             "rand_weight": 100,
             "regions": [],

@@ -3,11 +3,15 @@
     "action_EVENT_ANY_MONSTER_DIE_8008": "WARN: Lua function omitted from the dump",
     "action_EVENT_ENTER_REGION_8001": "WARN: Lua function omitted from the dump",
     "action_EVENT_ENTER_REGION_8003": "WARN: Lua function omitted from the dump",
+    "action_EVENT_ENTER_REGION_8010": "WARN: Lua function omitted from the dump",
+    "action_EVENT_ENTER_REGION_8011": "WARN: Lua function omitted from the dump",
     "action_EVENT_TIMER_EVENT_8004": "WARN: Lua function omitted from the dump",
     "condition_EVENT_ANY_MONSTER_DIE_8002": "WARN: Lua function omitted from the dump",
     "condition_EVENT_ANY_MONSTER_DIE_8008": "WARN: Lua function omitted from the dump",
     "condition_EVENT_ENTER_REGION_8001": "WARN: Lua function omitted from the dump",
     "condition_EVENT_ENTER_REGION_8003": "WARN: Lua function omitted from the dump",
+    "condition_EVENT_ENTER_REGION_8010": "WARN: Lua function omitted from the dump",
+    "condition_EVENT_ENTER_REGION_8011": "WARN: Lua function omitted from the dump",
     "condition_EVENT_TIMER_EVENT_8004": "WARN: Lua function omitted from the dump",
     "gadgets": [],
     "garbages": {
@@ -23,7 +27,7 @@
         ]
     },
     "init_config": {
-        "end_suite": 2,
+        "end_suite": 3,
         "rand_suite": false,
         "suite": 1
     },
@@ -98,6 +102,34 @@
             },
             "radius": 10,
             "shape": 1
+        },
+        {
+            "config_id": 8010,
+            "pos": {
+                "x": 12.07,
+                "y": 49.594,
+                "z": 116.273
+            },
+            "shape": 2,
+            "size": {
+                "x": 20,
+                "y": 20,
+                "z": 40
+            }
+        },
+        {
+            "config_id": 8011,
+            "pos": {
+                "x": 12.07,
+                "y": 49.594,
+                "z": 116.273
+            },
+            "shape": 2,
+            "size": {
+                "x": 20,
+                "y": 20,
+                "z": 40
+            }
         }
     ],
     "suites": [
@@ -122,12 +154,24 @@
                 8007
             ],
             "rand_weight": 100,
-            "regions": [],
+            "regions": [
+                8010,
+                8011
+            ],
             "triggers": [
                 "ANY_MONSTER_DIE_8002",
                 "TIMER_EVENT_8004",
-                "ANY_MONSTER_DIE_8008"
+                "ANY_MONSTER_DIE_8008",
+                "ENTER_REGION_8010",
+                "ENTER_REGION_8011"
             ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [
@@ -137,7 +181,8 @@
             "config_id": 1008001,
             "event": 4,
             "name": "ENTER_REGION_8001",
-            "source": ""
+            "source": "",
+            "trigger_count": 0
         },
         {
             "action": "action_EVENT_ANY_MONSTER_DIE_8002",
@@ -153,7 +198,8 @@
             "config_id": 1008003,
             "event": 4,
             "name": "ENTER_REGION_8003",
-            "source": ""
+            "source": "",
+            "trigger_count": 0
         },
         {
             "action": "action_EVENT_TIMER_EVENT_8004",
@@ -170,6 +216,24 @@
             "event": 1,
             "name": "ANY_MONSTER_DIE_8008",
             "source": ""
+        },
+        {
+            "action": "action_EVENT_ENTER_REGION_8010",
+            "condition": "condition_EVENT_ENTER_REGION_8010",
+            "config_id": 1008010,
+            "event": 4,
+            "name": "ENTER_REGION_8010",
+            "source": "",
+            "trigger_count": 0
+        },
+        {
+            "action": "action_EVENT_ENTER_REGION_8011",
+            "condition": "condition_EVENT_ENTER_REGION_8011",
+            "config_id": 1008011,
+            "event": 4,
+            "name": "ENTER_REGION_8011",
+            "source": "",
+            "trigger_count": 0
         }
     ],
     "variables": [

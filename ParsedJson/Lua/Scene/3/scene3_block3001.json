@@ -1533,7 +1533,7 @@
             "id": 133001110,
             "is_replaceable": {
                 "new_bin_only": true,
-                "value": false,
+                "value": true,
                 "version": 0
             },
             "pos": {

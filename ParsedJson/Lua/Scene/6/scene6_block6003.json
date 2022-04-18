@@ -3,7 +3,7 @@
         {
             "area": 300,
             "business": {
-                "type": 4
+                "type": 1
             },
             "dynamic_load": true,
             "id": 166003001,

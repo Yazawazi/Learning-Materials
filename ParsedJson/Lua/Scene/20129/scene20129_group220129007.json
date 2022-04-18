@@ -1,7 +1,7 @@
 {
-    "action_EVENT_ENTER_REGION_7001": "WARN: Lua function omitted from the dump",
+    "action_EVENT_DUNGEON_SETTLE_7001": "WARN: Lua function omitted from the dump",
     "action_EVENT_ENTER_REGION_7004": "WARN: Lua function omitted from the dump",
-    "condition_EVENT_ENTER_REGION_7001": "WARN: Lua function omitted from the dump",
+    "condition_EVENT_DUNGEON_SETTLE_7001": "WARN: Lua function omitted from the dump",
     "condition_EVENT_ENTER_REGION_7004": "WARN: Lua function omitted from the dump",
     "gadgets": [
         {
@@ -47,16 +47,6 @@
     "npcs": [],
     "regions": [
         {
-            "config_id": 7001,
-            "pos": {
-                "x": 326.088,
-                "y": 200.012,
-                "z": 720.744
-            },
-            "radius": 30,
-            "shape": 1
-        },
-        {
             "config_id": 7004,
             "pos": {
                 "x": 323.411,
@@ -75,11 +65,10 @@
             "monsters": [],
             "rand_weight": 100,
             "regions": [
-                7001,
                 7004
             ],
             "triggers": [
-                "ENTER_REGION_7001",
+                "DUNGEON_SETTLE_7001",
                 "ENTER_REGION_7004"
             ]
         },
@@ -95,11 +84,11 @@
     ],
     "triggers": [
         {
-            "action": "action_EVENT_ENTER_REGION_7001",
-            "condition": "condition_EVENT_ENTER_REGION_7001",
+            "action": "action_EVENT_DUNGEON_SETTLE_7001",
+            "condition": "condition_EVENT_DUNGEON_SETTLE_7001",
             "config_id": 1007001,
-            "event": 4,
-            "name": "ENTER_REGION_7001",
+            "event": 8,
+            "name": "DUNGEON_SETTLE_7001",
             "source": ""
         },
         {

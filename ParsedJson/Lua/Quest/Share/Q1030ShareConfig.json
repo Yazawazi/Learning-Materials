@@ -20,7 +20,7 @@
                     "data_index": 1,
                     "id": 10204,
                     "pos": "Q102915_Q103001_N10204",
-                    "room_id": 20130,
+                    "room_id": 1,
                     "scene_id": 20130,
                     "script": "Actor/Npc/TempNPC"
                 },
@@ -28,8 +28,8 @@
                     "alias": "Npc1048",
                     "data_index": 2,
                     "id": 1048,
-                    "pos": "Q103101_N1048",
-                    "room_id": 20130,
+                    "pos": "T102931_N1048",
+                    "room_id": 1,
                     "scene_id": 20130,
                     "script": "Actor/Npc/TempNPC"
                 },
@@ -37,8 +37,8 @@
                     "alias": "Npc1030",
                     "data_index": 3,
                     "id": 1030,
-                    "pos": "T101905_T102804_T102901_T103001_T103005_N1030",
-                    "room_id": 20130,
+                    "pos": "Q102923_Q103201_N1030",
+                    "room_id": 1,
                     "scene_id": 20130,
                     "script": "Actor/Npc/TempNPC"
                 },
@@ -46,8 +46,8 @@
                     "alias": "Npc1049",
                     "data_index": 4,
                     "id": 1049,
-                    "pos": "Q103002_Q103101_Q103102_N1049",
-                    "room_id": 20130,
+                    "pos": "N1049_Q102912",
+                    "room_id": 1,
                     "scene_id": 20130,
                     "script": "Actor/Npc/TempNPC"
                 },
@@ -55,17 +55,26 @@
                     "alias": "Paimon",
                     "data_index": 5,
                     "id": 1005,
-                    "pos": "T101905_T102804_T102901_T103001_T103005_N1005",
-                    "room_id": 20130,
+                    "pos": "Q102923_Q103201_N1005",
+                    "room_id": 1,
                     "scene_id": 20130,
                     "script": "Actor/Quest/Q352/Paimon"
                 },
                 {
-                    "alias": "Npc12544",
+                    "alias": "Npc1044",
                     "data_index": 6,
+                    "id": 1044,
+                    "pos": "Q102923_Q103201_N1044",
+                    "room_id": 1,
+                    "scene_id": 20130,
+                    "script": "Actor/Npc/TempNPC"
+                },
+                {
+                    "alias": "Npc12544",
+                    "data_index": 7,
                     "id": 12544,
-                    "pos": "T101905_T103001_T103005_N12544",
-                    "room_id": 20130,
+                    "pos": "Q102923_Q103201_N12544",
+                    "room_id": 1,
                     "scene_id": 20130,
                     "script": "Actor/Npc/TempNPC"
                 }
@@ -78,7 +87,7 @@
                     "data_index": 1,
                     "id": 10204,
                     "pos": "Q102915_Q103001_N10204",
-                    "room_id": 20130,
+                    "room_id": 1,
                     "scene_id": 20130,
                     "script": "Actor/Npc/TempNPC"
                 },
@@ -86,8 +95,8 @@
                     "alias": "Npc1048",
                     "data_index": 2,
                     "id": 1048,
-                    "pos": "Q103101_N1048",
-                    "room_id": 20130,
+                    "pos": "T102931_N1048",
+                    "room_id": 1,
                     "scene_id": 20130,
                     "script": "Actor/Npc/TempNPC"
                 },
@@ -95,8 +104,8 @@
                     "alias": "Npc1030",
                     "data_index": 3,
                     "id": 1030,
-                    "pos": "T101905_T102804_T102901_T103001_T103005_N1030",
-                    "room_id": 20130,
+                    "pos": "Q102923_Q103201_N1030",
+                    "room_id": 1,
                     "scene_id": 20130,
                     "script": "Actor/Npc/TempNPC"
                 },
@@ -104,8 +113,8 @@
                     "alias": "Npc1049",
                     "data_index": 4,
                     "id": 1049,
-                    "pos": "Q103002_Q103101_Q103102_N1049",
-                    "room_id": 20130,
+                    "pos": "N1049_Q102912",
+                    "room_id": 1,
                     "scene_id": 20130,
                     "script": "Actor/Npc/TempNPC"
                 }
@@ -118,7 +127,7 @@
                     "data_index": 1,
                     "id": 10204,
                     "pos": "Q102915_Q103001_N10204",
-                    "room_id": 20130,
+                    "room_id": 1,
                     "scene_id": 20130,
                     "script": "Actor/Npc/TempNPC"
                 },
@@ -126,8 +135,8 @@
                     "alias": "Npc1048",
                     "data_index": 2,
                     "id": 1048,
-                    "pos": "Q103101_N1048",
-                    "room_id": 20130,
+                    "pos": "T102931_N1048",
+                    "room_id": 1,
                     "scene_id": 20130,
                     "script": "Actor/Npc/TempNPC"
                 },
@@ -135,8 +144,8 @@
                     "alias": "Npc1030",
                     "data_index": 3,
                     "id": 1030,
-                    "pos": "T101905_T102804_T102901_T103001_T103005_N1030",
-                    "room_id": 20130,
+                    "pos": "Q102923_Q103201_N1030",
+                    "room_id": 1,
                     "scene_id": 20130,
                     "script": "Actor/Npc/TempNPC"
                 },
@@ -144,8 +153,8 @@
                     "alias": "Npc1049",
                     "data_index": 4,
                     "id": 1049,
-                    "pos": "Q103002_Q103101_Q103102_N1049",
-                    "room_id": 20130,
+                    "pos": "Q103003_N1049",
+                    "room_id": 1,
                     "scene_id": 20130,
                     "script": "Actor/Npc/TempNPC"
                 },
@@ -154,7 +163,7 @@
                     "data_index": 5,
                     "id": 1044,
                     "pos": "Q103003_N1044",
-                    "room_id": 20130,
+                    "room_id": 1,
                     "scene_id": 20130,
                     "script": "Actor/Npc/TempNPC"
                 },
@@ -163,7 +172,7 @@
                     "data_index": 6,
                     "id": 12544,
                     "pos": "Q103003_N12544",
-                    "room_id": 20130,
+                    "room_id": 1,
                     "scene_id": 20130,
                     "script": "Actor/Npc/TempNPC"
                 }
@@ -387,7 +396,7 @@
                     "alias": "Xiao",
                     "data_index": 1,
                     "id": 10204,
-                    "pos": "Q103006_N10204",
+                    "pos": "Q103006_T103040_N10204",
                     "room_id": 20129,
                     "scene_id": 20129,
                     "script": "Actor/Npc/TempNPC"

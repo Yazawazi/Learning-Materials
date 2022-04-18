@@ -20,7 +20,7 @@
                     "data_index": 1,
                     "id": 1048,
                     "pos": "Q103101_N1048",
-                    "room_id": 20130,
+                    "room_id": 1,
                     "scene_id": 20130,
                     "script": "Actor/Npc/TempNPC"
                 }
@@ -33,7 +33,7 @@
                     "data_index": 1,
                     "id": 1049,
                     "pos": "Q103002_Q103101_Q103102_N1049",
-                    "room_id": 20130,
+                    "room_id": 1,
                     "scene_id": 20130,
                     "script": "Actor/Npc/TempNPC"
                 },
@@ -42,7 +42,7 @@
                     "data_index": 2,
                     "id": 1044,
                     "pos": "Q103003_N1044",
-                    "room_id": 20130,
+                    "room_id": 1,
                     "scene_id": 20130,
                     "script": "Actor/Npc/TempNPC"
                 }

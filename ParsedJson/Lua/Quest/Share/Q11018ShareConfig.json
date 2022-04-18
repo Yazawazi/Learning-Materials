@@ -39,19 +39,7 @@
                 }
             ]
         },
-        "1101803": {
-            "npcs": [
-                {
-                    "alias": "Npc1048",
-                    "data_index": 1,
-                    "id": 1048,
-                    "pos": "Q1101804_N1048",
-                    "room_id": 0,
-                    "scene_id": 3,
-                    "script": "Actor/Npc/TempNPC"
-                }
-            ]
-        },
+        "1101803": [],
         "1101804": {
             "npcs": [
                 {

@@ -1,10 +1,12 @@
 {
     "action_EVENT_ANY_MONSTER_DIE_6002": "WARN: Lua function omitted from the dump",
     "action_EVENT_ENTER_REGION_6001": "WARN: Lua function omitted from the dump",
+    "action_EVENT_ENTER_REGION_6007": "WARN: Lua function omitted from the dump",
     "action_EVENT_TIMER_EVENT_6003": "WARN: Lua function omitted from the dump",
     "action_EVENT_TIMER_EVENT_6004": "WARN: Lua function omitted from the dump",
     "condition_EVENT_ANY_MONSTER_DIE_6002": "WARN: Lua function omitted from the dump",
     "condition_EVENT_ENTER_REGION_6001": "WARN: Lua function omitted from the dump",
+    "condition_EVENT_ENTER_REGION_6007": "WARN: Lua function omitted from the dump",
     "gadgets": [
         {
             "config_id": 6005,
@@ -95,6 +97,20 @@
                 "y": 10,
                 "z": 20
             }
+        },
+        {
+            "config_id": 6007,
+            "pos": {
+                "x": 10.619,
+                "y": 54.469,
+                "z": 127.53
+            },
+            "shape": 2,
+            "size": {
+                "x": 20,
+                "y": 15,
+                "z": 30
+            }
         }
     ],
     "suites": [
@@ -122,6 +138,17 @@
                 "TIMER_EVENT_6003",
                 "TIMER_EVENT_6004"
             ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [
+                6007
+            ],
+            "triggers": [
+                "ENTER_REGION_6007"
+            ]
         }
     ],
     "triggers": [
@@ -131,7 +158,8 @@
             "config_id": 1006001,
             "event": 4,
             "name": "ENTER_REGION_6001",
-            "source": ""
+            "source": "",
+            "trigger_count": 0
         },
         {
             "action": "action_EVENT_ANY_MONSTER_DIE_6002",
@@ -156,6 +184,15 @@
             "event": 15,
             "name": "TIMER_EVENT_6004",
             "source": "finish"
+        },
+        {
+            "action": "action_EVENT_ENTER_REGION_6007",
+            "condition": "condition_EVENT_ENTER_REGION_6007",
+            "config_id": 1006007,
+            "event": 4,
+            "name": "ENTER_REGION_6007",
+            "source": "",
+            "trigger_count": 0
         }
     ],
     "variables": []

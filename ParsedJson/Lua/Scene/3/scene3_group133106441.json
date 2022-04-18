@@ -1,8 +1,12 @@
 {
     "action_EVENT_ANY_GADGET_DIE_441006": "WARN: Lua function omitted from the dump",
+    "action_EVENT_ANY_GADGET_DIE_441009": "WARN: Lua function omitted from the dump",
     "action_EVENT_GADGET_STATE_CHANGE_441011": "WARN: Lua function omitted from the dump",
+    "action_EVENT_GROUP_LOAD_441004": "WARN: Lua function omitted from the dump",
     "condition_EVENT_ANY_GADGET_DIE_441006": "WARN: Lua function omitted from the dump",
+    "condition_EVENT_ANY_GADGET_DIE_441009": "WARN: Lua function omitted from the dump",
     "condition_EVENT_GADGET_STATE_CHANGE_441011": "WARN: Lua function omitted from the dump",
+    "condition_EVENT_GROUP_LOAD_441004": "WARN: Lua function omitted from the dump",
     "gadgets": [
         {
             "area_id": 19,
@@ -12,14 +16,14 @@
             "level": 36,
             "persistent": true,
             "pos": {
-                "x": -501.105,
-                "y": 175.96,
-                "z": 1789.721
+                "x": -501.873,
+                "y": 175.837,
+                "z": 1782.758
             },
             "rot": {
-                "x": 355.716,
-                "y": 282.876,
-                "z": 91.878
+                "x": 346.003,
+                "y": 359.395,
+                "z": 104.21
             }
         },
         {
@@ -212,7 +216,10 @@
             "monsters": [],
             "rand_weight": 100,
             "regions": [],
-            "triggers": []
+            "triggers": [
+                "GROUP_LOAD_441004",
+                "ANY_GADGET_DIE_441009"
+            ]
         },
         {
             "gadgets": [],
@@ -227,12 +234,30 @@
     ],
     "triggers": [
         {
+            "action": "action_EVENT_GROUP_LOAD_441004",
+            "condition": "condition_EVENT_GROUP_LOAD_441004",
+            "config_id": 1441004,
+            "event": 29,
+            "name": "GROUP_LOAD_441004",
+            "source": "",
+            "trigger_count": 0
+        },
+        {
             "action": "action_EVENT_ANY_GADGET_DIE_441006",
             "condition": "condition_EVENT_ANY_GADGET_DIE_441006",
             "config_id": 1441006,
             "event": 2,
             "name": "ANY_GADGET_DIE_441006",
             "source": ""
+        },
+        {
+            "action": "action_EVENT_ANY_GADGET_DIE_441009",
+            "condition": "condition_EVENT_ANY_GADGET_DIE_441009",
+            "config_id": 1441009,
+            "event": 2,
+            "name": "ANY_GADGET_DIE_441009",
+            "source": "",
+            "trigger_count": 0
         },
         {
             "action": "action_EVENT_GADGET_STATE_CHANGE_441011",

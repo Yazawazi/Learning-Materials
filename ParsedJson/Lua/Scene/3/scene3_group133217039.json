@@ -99,34 +99,60 @@
             }
         }
     },
+    "garbages": {
+        "monsters": [
+            {
+                "affix": [
+                    1401
+                ],
+                "area_id": 14,
+                "config_id": 39001,
+                "disableWander": true,
+                "drop_id": 1000100,
+                "isElite": true,
+                "level": 1,
+                "monster_id": 23010101,
+                "pos": {
+                    "x": -4475.442,
+                    "y": 200.944,
+                    "z": -3771.29
+                },
+                "rot": {
+                    "x": 0,
+                    "y": 337.246,
+                    "z": 0
+                }
+            },
+            {
+                "affix": [
+                    1401
+                ],
+                "area_id": 14,
+                "config_id": 39003,
+                "disableWander": true,
+                "drop_id": 1000100,
+                "isElite": true,
+                "level": 1,
+                "monster_id": 23010201,
+                "pos": {
+                    "x": -4487.508,
+                    "y": 200,
+                    "z": -3760.809
+                },
+                "rot": {
+                    "x": 12.865,
+                    "y": 134.128,
+                    "z": 2.543
+                }
+            }
+        ]
+    },
     "init_config": {
         "end_suite": 4,
         "rand_suite": false,
         "suite": 1
     },
     "monsters": {
-        "39001": {
-            "affix": [
-                1401
-            ],
-            "area_id": 14,
-            "config_id": 39001,
-            "disableWander": true,
-            "drop_id": 1000100,
-            "isElite": true,
-            "level": 1,
-            "monster_id": 23010601,
-            "pos": {
-                "x": -4475.442,
-                "y": 200.944,
-                "z": -3771.29
-            },
-            "rot": {
-                "x": 0,
-                "y": 337.246,
-                "z": 0
-            }
-        },
         "39002": {
             "affix": [
                 1401
@@ -149,28 +175,6 @@
                 "z": 0
             }
         },
-        "39003": {
-            "affix": [
-                1401
-            ],
-            "area_id": 14,
-            "config_id": 39003,
-            "disableWander": true,
-            "drop_id": 1000100,
-            "isElite": true,
-            "level": 1,
-            "monster_id": 23010301,
-            "pos": {
-                "x": -4487.508,
-                "y": 200,
-                "z": -3760.809
-            },
-            "rot": {
-                "x": 12.865,
-                "y": 134.128,
-                "z": 2.543
-            }
-        },
         "39004": {
             "affix": [
                 1401
@@ -191,6 +195,50 @@
                 "x": 0,
                 "y": 274.231,
                 "z": 0
+            }
+        },
+        "39005": {
+            "affix": [
+                1401
+            ],
+            "area_id": 14,
+            "config_id": 39005,
+            "disableWander": true,
+            "drop_id": 1000100,
+            "isElite": true,
+            "level": 1,
+            "monster_id": 23010601,
+            "pos": {
+                "x": -4475.442,
+                "y": 200.944,
+                "z": -3771.29
+            },
+            "rot": {
+                "x": 0,
+                "y": 337.246,
+                "z": 0
+            }
+        },
+        "39006": {
+            "affix": [
+                1401
+            ],
+            "area_id": 14,
+            "config_id": 39006,
+            "disableWander": true,
+            "drop_id": 1000100,
+            "isElite": true,
+            "level": 1,
+            "monster_id": 23010301,
+            "pos": {
+                "x": -4487.508,
+                "y": 200,
+                "z": -3760.809
+            },
+            "rot": {
+                "x": 12.865,
+                "y": 134.128,
+                "z": 2.543
             }
         }
     },
@@ -262,8 +310,8 @@
         {
             "gadgets": [],
             "monsters": [
-                39001,
-                39003
+                39005,
+                39006
             ],
             "rand_weight": 0,
             "regions": [],

@@ -95,6 +95,9 @@ function L6_1(A0_2)
     L2_3(L3_3, L4_3, L5_3, L6_3, L7_3, L8_3, L9_3, L10_3, L11_3, L12_3)
   end
   L2_2(L3_2, L4_2, L5_2)
+  L3_2 = A0_2
+  L2_2 = A0_2.DestroySelf
+  L2_2(L3_2)
 end
 L1_1.TriggerIn = L6_1
 function L6_1(A0_2)

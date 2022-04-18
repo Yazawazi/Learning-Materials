@@ -27,16 +27,16 @@
     "regions": [],
     "suites": [
         {
-            "gadgets": [
-                5001
-            ],
+            "gadgets": [],
             "monsters": [],
             "rand_weight": 100,
             "regions": [],
             "triggers": []
         },
         {
-            "gadgets": [],
+            "gadgets": [
+                5001
+            ],
             "monsters": [],
             "rand_weight": 100,
             "regions": [],

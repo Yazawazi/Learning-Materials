@@ -1,5 +1,4 @@
 {
-    "action_EVENT_ANY_GADGET_DIE_582008": "WARN: Lua function omitted from the dump",
     "action_EVENT_ANY_GADGET_DIE_582043": "WARN: Lua function omitted from the dump",
     "action_EVENT_ANY_GADGET_DIE_582054": "WARN: Lua function omitted from the dump",
     "action_EVENT_ANY_GADGET_DIE_582064": "WARN: Lua function omitted from the dump",
@@ -87,7 +86,6 @@
     "action_EVENT_VARIABLE_CHANGE_582120": "WARN: Lua function omitted from the dump",
     "action_EVENT_VARIABLE_CHANGE_582145": "WARN: Lua function omitted from the dump",
     "action_EVENT_VARIABLE_CHANGE_582233": "WARN: Lua function omitted from the dump",
-    "condition_EVENT_ANY_GADGET_DIE_582008": "WARN: Lua function omitted from the dump",
     "condition_EVENT_ANY_GADGET_DIE_582043": "WARN: Lua function omitted from the dump",
     "condition_EVENT_ANY_GADGET_DIE_582054": "WARN: Lua function omitted from the dump",
     "condition_EVENT_ANY_GADGET_DIE_582064": "WARN: Lua function omitted from the dump",
@@ -132,6 +130,7 @@
     "condition_EVENT_ANY_MONSTER_DIE_582119": "WARN: Lua function omitted from the dump",
     "condition_EVENT_ANY_MONSTER_DIE_582144": "WARN: Lua function omitted from the dump",
     "condition_EVENT_ANY_MONSTER_DIE_582232": "WARN: Lua function omitted from the dump",
+    "condition_EVENT_ENTER_REGION_582042": "WARN: Lua function omitted from the dump",
     "condition_EVENT_GADGET_CREATE_582003": "WARN: Lua function omitted from the dump",
     "condition_EVENT_PLATFORM_REACH_POINT_582006": "WARN: Lua function omitted from the dump",
     "condition_EVENT_PLATFORM_REACH_POINT_582010": "WARN: Lua function omitted from the dump",
@@ -248,9 +247,9 @@
             "gadget_id": 70290266,
             "level": 1,
             "pos": {
-                "x": 963.136,
-                "y": 724.678,
-                "z": 341.242
+                "x": 963.176,
+                "y": 724.639,
+                "z": 341.27
             },
             "rot": {
                 "x": 348.924,
@@ -282,7 +281,7 @@
             "pos": {
                 "x": 950.075,
                 "y": 722.969,
-                "z": 327.43
+                "z": 327.429
             },
             "rot": {
                 "x": 344.913,
@@ -297,7 +296,7 @@
             "level": 1,
             "pos": {
                 "x": 963.227,
-                "y": 725.005,
+                "y": 724.946,
                 "z": 341.351
             },
             "rot": {
@@ -313,8 +312,8 @@
             "level": 1,
             "pos": {
                 "x": 965.622,
-                "y": 725.884,
-                "z": 340.251
+                "y": 724.973,
+                "z": 340.25
             },
             "rot": {
                 "x": 0,
@@ -329,7 +328,7 @@
             "level": 1,
             "pos": {
                 "x": 952.459,
-                "y": 723.014,
+                "y": 722.376,
                 "z": 326.797
             },
             "rot": {
@@ -505,9 +504,9 @@
             "gadget_id": 70290205,
             "level": 1,
             "pos": {
-                "x": 886.428,
-                "y": 709.859,
-                "z": 206.358
+                "x": 886.326,
+                "y": 709.868,
+                "z": 206.981
             },
             "rot": {
                 "x": 0,
@@ -522,7 +521,7 @@
             "level": 1,
             "pos": {
                 "x": 884.534,
-                "y": 710.618,
+                "y": 709.522,
                 "z": 210.515
             },
             "rot": {
@@ -537,8 +536,8 @@
             "gadget_id": 70290233,
             "level": 1,
             "pos": {
-                "x": 967.139,
-                "y": 718.456,
+                "x": 967.138,
+                "y": 718.222,
                 "z": 308.367
             },
             "rot": {
@@ -554,7 +553,7 @@
             "level": 1,
             "pos": {
                 "x": 969.189,
-                "y": 717.625,
+                "y": 716.737,
                 "z": 299.864
             },
             "rot": {
@@ -570,7 +569,7 @@
             "level": 1,
             "pos": {
                 "x": 956.49,
-                "y": 717.019,
+                "y": 716.135,
                 "z": 298.886
             },
             "rot": {
@@ -587,7 +586,7 @@
             "pos": {
                 "x": 967.115,
                 "y": 718.197,
-                "z": 308.451
+                "z": 308.452
             },
             "rot": {
                 "x": 351.605,
@@ -601,7 +600,7 @@
             "gadget_id": 70290204,
             "level": 1,
             "pos": {
-                "x": 969.869,
+                "x": 969.87,
                 "y": 716.622,
                 "z": 298.93
             },
@@ -633,8 +632,8 @@
             "gadget_id": 70290353,
             "level": 1,
             "pos": {
-                "x": 964.247,
-                "y": 718.332,
+                "x": 964.246,
+                "y": 717.579,
                 "z": 305.344
             },
             "rot": {
@@ -665,9 +664,9 @@
             "gadget_id": 70290353,
             "level": 1,
             "pos": {
-                "x": 957.893,
-                "y": 716.031,
-                "z": 297.492
+                "x": 956.134,
+                "y": 715.671,
+                "z": 296.257
             },
             "rot": {
                 "x": 351.171,
@@ -697,8 +696,8 @@
             "gadget_id": 70290233,
             "level": 1,
             "pos": {
-                "x": 966.261,
-                "y": 715.551,
+                "x": 966.262,
+                "y": 714.571,
                 "z": 283.796
             },
             "rot": {
@@ -713,9 +712,9 @@
             "gadget_id": 70290233,
             "level": 1,
             "pos": {
-                "x": 961.211,
-                "y": 714.169,
-                "z": 273.492
+                "x": 961.212,
+                "y": 713.169,
+                "z": 273.493
             },
             "rot": {
                 "x": 0,
@@ -730,7 +729,7 @@
             "level": 1,
             "pos": {
                 "x": 946.119,
-                "y": 713.859,
+                "y": 713.011,
                 "z": 283.597
             },
             "rot": {
@@ -777,7 +776,7 @@
             "gadget_id": 70290204,
             "level": 1,
             "pos": {
-                "x": 943.031,
+                "x": 943.03,
                 "y": 711.546,
                 "z": 273.078
             },
@@ -811,7 +810,7 @@
             "pos": {
                 "x": 954.475,
                 "y": 713.789,
-                "z": 273.851
+                "z": 273.85
             },
             "rot": {
                 "x": 1.242,
@@ -858,7 +857,7 @@
             "level": 1,
             "pos": {
                 "x": 948.157,
-                "y": 712.677,
+                "y": 711.323,
                 "z": 260.869
             },
             "rot": {
@@ -874,7 +873,7 @@
             "level": 1,
             "pos": {
                 "x": 963.956,
-                "y": 715.299,
+                "y": 714.597,
                 "z": 282.26
             },
             "rot": {
@@ -889,7 +888,7 @@
             "gadget_id": 70290353,
             "level": 1,
             "pos": {
-                "x": 954.454,
+                "x": 954.453,
                 "y": 713.792,
                 "z": 273.675
             },
@@ -987,7 +986,7 @@
             "pos": {
                 "x": 926.391,
                 "y": 709.948,
-                "z": 252.092
+                "z": 252.093
             },
             "rot": {
                 "x": 1.648,
@@ -1049,9 +1048,9 @@
             "gadget_id": 70290353,
             "level": 1,
             "pos": {
-                "x": 909.11,
-                "y": 708.734,
-                "z": 259.582
+                "x": 909.075,
+                "y": 707.761,
+                "z": 259.706
             },
             "rot": {
                 "x": 353.755,
@@ -1113,7 +1112,7 @@
             "gadget_id": 70290204,
             "level": 1,
             "pos": {
-                "x": 899.99,
+                "x": 899.991,
                 "y": 707.007,
                 "z": 230.904
             },
@@ -1179,7 +1178,7 @@
             "pos": {
                 "x": 885.829,
                 "y": 706.566,
-                "z": 226.817
+                "z": 226.816
             },
             "rot": {
                 "x": 0,
@@ -1194,7 +1193,7 @@
             "level": 1,
             "pos": {
                 "x": 874.479,
-                "y": 706.14,
+                "y": 706.144,
                 "z": 223.082
             },
             "rot": {
@@ -1481,9 +1480,9 @@
             "gadget_id": 70290353,
             "level": 1,
             "pos": {
-                "x": 866.738,
-                "y": 705.607,
-                "z": 217.794
+                "x": 866.951,
+                "y": 705.443,
+                "z": 218.246
             },
             "rot": {
                 "x": 353.755,
@@ -1497,9 +1496,9 @@
             "gadget_id": 70290353,
             "level": 1,
             "pos": {
-                "x": 853.077,
-                "y": 706.26,
-                "z": 224.817
+                "x": 853.216,
+                "y": 706.269,
+                "z": 224.861
             },
             "rot": {
                 "x": 353.755,
@@ -1513,9 +1512,9 @@
             "gadget_id": 70290353,
             "level": 1,
             "pos": {
-                "x": 838.568,
-                "y": 706.219,
-                "z": 222.056
+                "x": 838.637,
+                "y": 706.22,
+                "z": 222.031
             },
             "rot": {
                 "x": 353.755,
@@ -1529,9 +1528,9 @@
             "gadget_id": 70290353,
             "level": 1,
             "pos": {
-                "x": 824.361,
-                "y": 706.318,
-                "z": 226.698
+                "x": 824.4,
+                "y": 706.316,
+                "z": 226.734
             },
             "rot": {
                 "x": 353.755,
@@ -1547,7 +1546,7 @@
             "pos": {
                 "x": 832.6,
                 "y": 706.185,
-                "z": 223.994
+                "z": 223.995
             },
             "rot": {
                 "x": 0.404,
@@ -1561,7 +1560,7 @@
             "gadget_id": 70360342,
             "level": 1,
             "pos": {
-                "x": 824.482,
+                "x": 824.481,
                 "y": 706.32,
                 "z": 226.695
             },
@@ -1610,7 +1609,7 @@
             "level": 1,
             "pos": {
                 "x": 806.172,
-                "y": 707.284,
+                "y": 706.074,
                 "z": 244.835
             },
             "rot": {
@@ -1626,7 +1625,7 @@
             "level": 1,
             "pos": {
                 "x": 798.162,
-                "y": 707.301,
+                "y": 706.197,
                 "z": 233.523
             },
             "rot": {
@@ -1723,7 +1722,7 @@
             "pos": {
                 "x": 812.61,
                 "y": 706.29,
-                "z": 231.233
+                "z": 231.234
             },
             "rot": {
                 "x": 0,
@@ -1803,7 +1802,7 @@
             "pos": {
                 "x": 794.248,
                 "y": 706.121,
-                "z": 223.254
+                "z": 223.255
             },
             "rot": {
                 "x": 0,
@@ -1817,9 +1816,9 @@
             "gadget_id": 70290353,
             "level": 1,
             "pos": {
-                "x": 834.065,
+                "x": 834.144,
                 "y": 706.08,
-                "z": 231.681
+                "z": 231.289
             },
             "rot": {
                 "x": 0,
@@ -1833,9 +1832,9 @@
             "gadget_id": 70290353,
             "level": 1,
             "pos": {
-                "x": 809.243,
-                "y": 706.449,
-                "z": 234.155
+                "x": 809.295,
+                "y": 706.453,
+                "z": 233.889
             },
             "rot": {
                 "x": 0,
@@ -1849,9 +1848,9 @@
             "gadget_id": 70290353,
             "level": 1,
             "pos": {
-                "x": 795.783,
-                "y": 707.007,
-                "z": 246.786
+                "x": 796.034,
+                "y": 707.103,
+                "z": 246.365
             },
             "rot": {
                 "x": 0,
@@ -1865,9 +1864,9 @@
             "gadget_id": 70290353,
             "level": 1,
             "pos": {
-                "x": 797.389,
-                "y": 706.14,
-                "z": 235.365
+                "x": 797.176,
+                "y": 706.145,
+                "z": 235.389
             },
             "rot": {
                 "x": 0,
@@ -1881,9 +1880,9 @@
             "gadget_id": 70290353,
             "level": 1,
             "pos": {
-                "x": 794.394,
+                "x": 794.362,
                 "y": 706.122,
-                "z": 223.378
+                "z": 223.324
             },
             "rot": {
                 "x": 0,
@@ -2024,6 +2023,15 @@
                 "event": 17,
                 "name": "CHALLENGE_FAIL_582007",
                 "source": "666",
+                "trigger_count": 0
+            },
+            {
+                "action": "action_EVENT_ANY_GADGET_DIE_582008",
+                "condition": "condition_EVENT_ANY_GADGET_DIE_582008",
+                "config_id": 1582008,
+                "event": 2,
+                "name": "ANY_GADGET_DIE_582008",
+                "source": "",
                 "trigger_count": 0
             }
         ]
@@ -2392,7 +2400,7 @@
                 "y": 725.906,
                 "z": 335.292
             },
-            "radius": 5,
+            "radius": 10,
             "shape": 1
         }
     ],
@@ -2411,7 +2419,6 @@
                 "GADGET_CREATE_582003",
                 "SELECT_OPTION_582004",
                 "PLATFORM_REACH_POINT_582006",
-                "ANY_GADGET_DIE_582008",
                 "ENTER_REGION_582042"
             ]
         },
@@ -2710,7 +2717,8 @@
             "config_id": 1582003,
             "event": 6,
             "name": "GADGET_CREATE_582003",
-            "source": ""
+            "source": "",
+            "trigger_count": 0
         },
         {
             "action": "action_EVENT_SELECT_OPTION_582004",
@@ -2718,7 +2726,8 @@
             "config_id": 1582004,
             "event": 9,
             "name": "SELECT_OPTION_582004",
-            "source": ""
+            "source": "",
+            "trigger_count": 0
         },
         {
             "action": "action_EVENT_PLATFORM_REACH_POINT_582006",
@@ -2728,14 +2737,6 @@
             "name": "PLATFORM_REACH_POINT_582006",
             "source": "",
             "tag": "888"
-        },
-        {
-            "action": "action_EVENT_ANY_GADGET_DIE_582008",
-            "condition": "condition_EVENT_ANY_GADGET_DIE_582008",
-            "config_id": 1582008,
-            "event": 2,
-            "name": "ANY_GADGET_DIE_582008",
-            "source": ""
         },
         {
             "action": "action_EVENT_PLATFORM_REACH_POINT_582010",
@@ -2803,7 +2804,7 @@
         },
         {
             "action": "action_EVENT_ENTER_REGION_582042",
-            "condition": "",
+            "condition": "condition_EVENT_ENTER_REGION_582042",
             "config_id": 1582042,
             "event": 4,
             "name": "ENTER_REGION_582042",

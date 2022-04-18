@@ -78,8 +78,6 @@
     "suites": [
         {
             "gadgets": [
-                15001,
-                15002,
                 15003,
                 15004
             ],
@@ -91,6 +89,16 @@
                 "GADGET_STATE_CHANGE_15006",
                 "GADGET_STATE_CHANGE_15007"
             ]
+        },
+        {
+            "gadgets": [
+                15001,
+                15002
+            ],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [

@@ -1,6 +1,5 @@
 {
     "LF_Rotate": "WARN: Lua function omitted from the dump",
-    "action_EVENT_ENTER_REGION_2035": "WARN: Lua function omitted from the dump",
     "action_EVENT_GADGET_STATE_CHANGE_2003": "WARN: Lua function omitted from the dump",
     "action_EVENT_GADGET_STATE_CHANGE_2005": "WARN: Lua function omitted from the dump",
     "action_EVENT_GADGET_STATE_CHANGE_2006": "WARN: Lua function omitted from the dump",
@@ -8,10 +7,12 @@
     "action_EVENT_GADGET_STATE_CHANGE_2011": "WARN: Lua function omitted from the dump",
     "action_EVENT_GADGET_STATE_CHANGE_2013": "WARN: Lua function omitted from the dump",
     "action_EVENT_GADGET_STATE_CHANGE_2020": "WARN: Lua function omitted from the dump",
+    "action_EVENT_GADGET_STATE_CHANGE_2051": "WARN: Lua function omitted from the dump",
+    "action_EVENT_GADGET_STATE_CHANGE_2058": "WARN: Lua function omitted from the dump",
+    "action_EVENT_GADGET_STATE_CHANGE_2060": "WARN: Lua function omitted from the dump",
     "action_EVENT_GADGET_STATE_CHANGE_2076": "WARN: Lua function omitted from the dump",
     "action_EVENT_GADGET_STATE_CHANGE_2081": "WARN: Lua function omitted from the dump",
     "action_EVENT_GROUP_LOAD_2084": "WARN: Lua function omitted from the dump",
-    "action_EVENT_LEAVE_REGION_2036": "WARN: Lua function omitted from the dump",
     "action_EVENT_SELECT_OPTION_2004": "WARN: Lua function omitted from the dump",
     "action_EVENT_SELECT_OPTION_2007": "WARN: Lua function omitted from the dump",
     "action_EVENT_SELECT_OPTION_2012": "WARN: Lua function omitted from the dump",
@@ -20,6 +21,9 @@
     "action_EVENT_SELECT_OPTION_2038": "WARN: Lua function omitted from the dump",
     "action_EVENT_SELECT_OPTION_2044": "WARN: Lua function omitted from the dump",
     "action_EVENT_SELECT_OPTION_2046": "WARN: Lua function omitted from the dump",
+    "action_EVENT_SELECT_OPTION_2054": "WARN: Lua function omitted from the dump",
+    "action_EVENT_SELECT_OPTION_2056": "WARN: Lua function omitted from the dump",
+    "action_EVENT_SELECT_OPTION_2062": "WARN: Lua function omitted from the dump",
     "action_EVENT_SELECT_OPTION_2072": "WARN: Lua function omitted from the dump",
     "action_EVENT_SELECT_OPTION_2078": "WARN: Lua function omitted from the dump",
     "action_EVENT_SELECT_OPTION_2079": "WARN: Lua function omitted from the dump",
@@ -42,12 +46,21 @@
     "action_EVENT_VARIABLE_CHANGE_2031": "WARN: Lua function omitted from the dump",
     "action_EVENT_VARIABLE_CHANGE_2032": "WARN: Lua function omitted from the dump",
     "action_EVENT_VARIABLE_CHANGE_2033": "WARN: Lua function omitted from the dump",
+    "action_EVENT_VARIABLE_CHANGE_2035": "WARN: Lua function omitted from the dump",
+    "action_EVENT_VARIABLE_CHANGE_2036": "WARN: Lua function omitted from the dump",
+    "action_EVENT_VARIABLE_CHANGE_2037": "WARN: Lua function omitted from the dump",
+    "action_EVENT_VARIABLE_CHANGE_2047": "WARN: Lua function omitted from the dump",
+    "action_EVENT_VARIABLE_CHANGE_2048": "WARN: Lua function omitted from the dump",
     "action_EVENT_VARIABLE_CHANGE_2049": "WARN: Lua function omitted from the dump",
     "action_EVENT_VARIABLE_CHANGE_2050": "WARN: Lua function omitted from the dump",
+    "action_EVENT_VARIABLE_CHANGE_2053": "WARN: Lua function omitted from the dump",
+    "action_EVENT_VARIABLE_CHANGE_2064": "WARN: Lua function omitted from the dump",
     "action_EVENT_VARIABLE_CHANGE_2065": "WARN: Lua function omitted from the dump",
+    "action_EVENT_VARIABLE_CHANGE_2073": "WARN: Lua function omitted from the dump",
     "action_EVENT_VARIABLE_CHANGE_2087": "WARN: Lua function omitted from the dump",
     "action_EVENT_VARIABLE_CHANGE_2089": "WARN: Lua function omitted from the dump",
-    "condition_EVENT_ENTER_REGION_2035": "WARN: Lua function omitted from the dump",
+    "condition_EVENT_ENTER_REGION_2059": "WARN: Lua function omitted from the dump",
+    "condition_EVENT_ENTER_REGION_2061": "WARN: Lua function omitted from the dump",
     "condition_EVENT_GADGET_STATE_CHANGE_2003": "WARN: Lua function omitted from the dump",
     "condition_EVENT_GADGET_STATE_CHANGE_2005": "WARN: Lua function omitted from the dump",
     "condition_EVENT_GADGET_STATE_CHANGE_2006": "WARN: Lua function omitted from the dump",
@@ -55,9 +68,11 @@
     "condition_EVENT_GADGET_STATE_CHANGE_2011": "WARN: Lua function omitted from the dump",
     "condition_EVENT_GADGET_STATE_CHANGE_2013": "WARN: Lua function omitted from the dump",
     "condition_EVENT_GADGET_STATE_CHANGE_2020": "WARN: Lua function omitted from the dump",
+    "condition_EVENT_GADGET_STATE_CHANGE_2051": "WARN: Lua function omitted from the dump",
+    "condition_EVENT_GADGET_STATE_CHANGE_2058": "WARN: Lua function omitted from the dump",
+    "condition_EVENT_GADGET_STATE_CHANGE_2060": "WARN: Lua function omitted from the dump",
     "condition_EVENT_GADGET_STATE_CHANGE_2076": "WARN: Lua function omitted from the dump",
     "condition_EVENT_GADGET_STATE_CHANGE_2081": "WARN: Lua function omitted from the dump",
-    "condition_EVENT_LEAVE_REGION_2036": "WARN: Lua function omitted from the dump",
     "condition_EVENT_SELECT_OPTION_2004": "WARN: Lua function omitted from the dump",
     "condition_EVENT_SELECT_OPTION_2007": "WARN: Lua function omitted from the dump",
     "condition_EVENT_SELECT_OPTION_2012": "WARN: Lua function omitted from the dump",
@@ -66,6 +81,9 @@
     "condition_EVENT_SELECT_OPTION_2038": "WARN: Lua function omitted from the dump",
     "condition_EVENT_SELECT_OPTION_2044": "WARN: Lua function omitted from the dump",
     "condition_EVENT_SELECT_OPTION_2046": "WARN: Lua function omitted from the dump",
+    "condition_EVENT_SELECT_OPTION_2054": "WARN: Lua function omitted from the dump",
+    "condition_EVENT_SELECT_OPTION_2056": "WARN: Lua function omitted from the dump",
+    "condition_EVENT_SELECT_OPTION_2062": "WARN: Lua function omitted from the dump",
     "condition_EVENT_SELECT_OPTION_2072": "WARN: Lua function omitted from the dump",
     "condition_EVENT_SELECT_OPTION_2078": "WARN: Lua function omitted from the dump",
     "condition_EVENT_SELECT_OPTION_2079": "WARN: Lua function omitted from the dump",
@@ -83,9 +101,17 @@
     "condition_EVENT_VARIABLE_CHANGE_2031": "WARN: Lua function omitted from the dump",
     "condition_EVENT_VARIABLE_CHANGE_2032": "WARN: Lua function omitted from the dump",
     "condition_EVENT_VARIABLE_CHANGE_2033": "WARN: Lua function omitted from the dump",
+    "condition_EVENT_VARIABLE_CHANGE_2035": "WARN: Lua function omitted from the dump",
+    "condition_EVENT_VARIABLE_CHANGE_2036": "WARN: Lua function omitted from the dump",
+    "condition_EVENT_VARIABLE_CHANGE_2037": "WARN: Lua function omitted from the dump",
+    "condition_EVENT_VARIABLE_CHANGE_2047": "WARN: Lua function omitted from the dump",
+    "condition_EVENT_VARIABLE_CHANGE_2048": "WARN: Lua function omitted from the dump",
     "condition_EVENT_VARIABLE_CHANGE_2049": "WARN: Lua function omitted from the dump",
     "condition_EVENT_VARIABLE_CHANGE_2050": "WARN: Lua function omitted from the dump",
+    "condition_EVENT_VARIABLE_CHANGE_2053": "WARN: Lua function omitted from the dump",
+    "condition_EVENT_VARIABLE_CHANGE_2064": "WARN: Lua function omitted from the dump",
     "condition_EVENT_VARIABLE_CHANGE_2065": "WARN: Lua function omitted from the dump",
+    "condition_EVENT_VARIABLE_CHANGE_2073": "WARN: Lua function omitted from the dump",
     "condition_EVENT_VARIABLE_CHANGE_2087": "WARN: Lua function omitted from the dump",
     "condition_EVENT_VARIABLE_CHANGE_2089": "WARN: Lua function omitted from the dump",
     "gadgets": [
@@ -407,13 +433,13 @@
             "level": 1,
             "persistent": true,
             "pos": {
-                "x": 60.511,
-                "y": 41.967,
-                "z": 42.287
+                "x": 60.428,
+                "y": 42.11,
+                "z": 42.913
             },
             "rot": {
                 "x": 0,
-                "y": 172.479,
+                "y": 0,
                 "z": 0
             }
         },
@@ -476,20 +502,21 @@
                 "trigger_count": 0
             },
             {
-                "action": "action_EVENT_VARIABLE_CHANGE_2037",
-                "condition": "condition_EVENT_VARIABLE_CHANGE_2037",
-                "config_id": 1002037,
-                "event": 3,
-                "name": "VARIABLE_CHANGE_2037",
-                "source": "reminder1"
-            },
-            {
                 "action": "action_EVENT_ENTER_REGION_2045",
                 "condition": "",
                 "config_id": 1002045,
                 "event": 4,
                 "name": "ENTER_REGION_2045",
                 "source": ""
+            },
+            {
+                "action": "action_EVENT_VARIABLE_CHANGE_2052",
+                "condition": "condition_EVENT_VARIABLE_CHANGE_2052",
+                "config_id": 1002052,
+                "event": 3,
+                "name": "VARIABLE_CHANGE_2052",
+                "source": "",
+                "trigger_count": 0
             },
             {
                 "action": "action_EVENT_VARIABLE_CHANGE_2055",
@@ -510,11 +537,11 @@
                 "trigger_count": 0
             },
             {
-                "action": "action_EVENT_GROUP_LOAD_2086",
-                "condition": "",
-                "config_id": 1002086,
-                "event": 29,
-                "name": "GROUP_LOAD_2086",
+                "action": "action_EVENT_SELECT_OPTION_2063",
+                "condition": "condition_EVENT_SELECT_OPTION_2063",
+                "config_id": 1002063,
+                "event": 9,
+                "name": "SELECT_OPTION_2063",
                 "source": "",
                 "trigger_count": 0
             },
@@ -538,23 +565,23 @@
     "npcs": [],
     "regions": [
         {
-            "config_id": 2035,
+            "config_id": 2059,
             "pos": {
-                "x": 20.666,
-                "y": 41.579,
-                "z": 79.172
+                "x": 20.345,
+                "y": 41.676,
+                "z": 80.438
             },
-            "radius": 6,
+            "radius": 10,
             "shape": 1
         },
         {
-            "config_id": 2036,
+            "config_id": 2061,
             "pos": {
-                "x": 20.666,
-                "y": 41.579,
-                "z": 79.172
+                "x": 60.071,
+                "y": 41.9,
+                "z": 36.338
             },
-            "radius": 6,
+            "radius": 10,
             "shape": 1
         }
     ],
@@ -584,12 +611,15 @@
             "monsters": [],
             "rand_weight": 100,
             "regions": [
-                2035,
-                2036
+                2059,
+                2061
             ],
             "triggers": [
-                "ENTER_REGION_2035",
-                "LEAVE_REGION_2036",
+                "VARIABLE_CHANGE_2035",
+                "VARIABLE_CHANGE_2036",
+                "VARIABLE_CHANGE_2037",
+                "ENTER_REGION_2059",
+                "ENTER_REGION_2061",
                 "GROUP_LOAD_2084"
             ]
         },
@@ -606,7 +636,10 @@
                 "VARIABLE_CHANGE_2022",
                 "VARIABLE_CHANGE_2023",
                 "SELECT_OPTION_2038",
+                "SELECT_OPTION_2062",
+                "VARIABLE_CHANGE_2064",
                 "SELECT_OPTION_2072",
+                "VARIABLE_CHANGE_2073",
                 "TIMER_EVENT_2075"
             ]
         },
@@ -622,6 +655,7 @@
                 "VARIABLE_CHANGE_2027",
                 "VARIABLE_CHANGE_2028",
                 "SELECT_OPTION_2044",
+                "GADGET_STATE_CHANGE_2051",
                 "VARIABLE_CHANGE_2065",
                 "GADGET_STATE_CHANGE_2076",
                 "TIMER_EVENT_2077",
@@ -658,6 +692,9 @@
                 "VARIABLE_CHANGE_2032",
                 "VARIABLE_CHANGE_2033",
                 "SELECT_OPTION_2046",
+                "VARIABLE_CHANGE_2053",
+                "GADGET_STATE_CHANGE_2058",
+                "GADGET_STATE_CHANGE_2060",
                 "SELECT_OPTION_2082",
                 "TIMER_EVENT_2083"
             ]
@@ -672,6 +709,10 @@
                 "TIMER_EVENT_2009",
                 "VARIABLE_CHANGE_2015",
                 "SELECT_OPTION_2018",
+                "VARIABLE_CHANGE_2047",
+                "VARIABLE_CHANGE_2048",
+                "SELECT_OPTION_2054",
+                "SELECT_OPTION_2056",
                 "SELECT_OPTION_2085",
                 "VARIABLE_CHANGE_2087",
                 "VARIABLE_CHANGE_2089"
@@ -908,22 +949,30 @@
             "trigger_count": 0
         },
         {
-            "action": "action_EVENT_ENTER_REGION_2035",
-            "condition": "condition_EVENT_ENTER_REGION_2035",
+            "action": "action_EVENT_VARIABLE_CHANGE_2035",
+            "condition": "condition_EVENT_VARIABLE_CHANGE_2035",
             "config_id": 1002035,
-            "event": 4,
-            "name": "ENTER_REGION_2035",
-            "source": "",
+            "event": 3,
+            "name": "VARIABLE_CHANGE_2035",
+            "source": "platform3",
             "trigger_count": 0
         },
         {
-            "action": "action_EVENT_LEAVE_REGION_2036",
-            "condition": "condition_EVENT_LEAVE_REGION_2036",
+            "action": "action_EVENT_VARIABLE_CHANGE_2036",
+            "condition": "condition_EVENT_VARIABLE_CHANGE_2036",
             "config_id": 1002036,
-            "event": 5,
-            "name": "LEAVE_REGION_2036",
-            "source": "",
+            "event": 3,
+            "name": "VARIABLE_CHANGE_2036",
+            "source": "platform3",
             "trigger_count": 0
+        },
+        {
+            "action": "action_EVENT_VARIABLE_CHANGE_2037",
+            "condition": "condition_EVENT_VARIABLE_CHANGE_2037",
+            "config_id": 1002037,
+            "event": 3,
+            "name": "VARIABLE_CHANGE_2037",
+            "source": "reminder1"
         },
         {
             "action": "action_EVENT_SELECT_OPTION_2038",
@@ -951,6 +1000,24 @@
             "source": ""
         },
         {
+            "action": "action_EVENT_VARIABLE_CHANGE_2047",
+            "condition": "condition_EVENT_VARIABLE_CHANGE_2047",
+            "config_id": 1002047,
+            "event": 3,
+            "name": "VARIABLE_CHANGE_2047",
+            "source": "platform6",
+            "trigger_count": 0
+        },
+        {
+            "action": "action_EVENT_VARIABLE_CHANGE_2048",
+            "condition": "condition_EVENT_VARIABLE_CHANGE_2048",
+            "config_id": 1002048,
+            "event": 3,
+            "name": "VARIABLE_CHANGE_2048",
+            "source": "platform6",
+            "trigger_count": 0
+        },
+        {
             "action": "action_EVENT_VARIABLE_CHANGE_2049",
             "condition": "condition_EVENT_VARIABLE_CHANGE_2049",
             "config_id": 1002049,
@@ -969,6 +1036,96 @@
             "trigger_count": 0
         },
         {
+            "action": "action_EVENT_GADGET_STATE_CHANGE_2051",
+            "condition": "condition_EVENT_GADGET_STATE_CHANGE_2051",
+            "config_id": 1002051,
+            "event": 7,
+            "name": "GADGET_STATE_CHANGE_2051",
+            "source": "",
+            "trigger_count": 0
+        },
+        {
+            "action": "action_EVENT_VARIABLE_CHANGE_2053",
+            "condition": "condition_EVENT_VARIABLE_CHANGE_2053",
+            "config_id": 1002053,
+            "event": 3,
+            "name": "VARIABLE_CHANGE_2053",
+            "source": "",
+            "trigger_count": 0
+        },
+        {
+            "action": "action_EVENT_SELECT_OPTION_2054",
+            "condition": "condition_EVENT_SELECT_OPTION_2054",
+            "config_id": 1002054,
+            "event": 9,
+            "name": "SELECT_OPTION_2054",
+            "source": "",
+            "trigger_count": 0
+        },
+        {
+            "action": "action_EVENT_SELECT_OPTION_2056",
+            "condition": "condition_EVENT_SELECT_OPTION_2056",
+            "config_id": 1002056,
+            "event": 9,
+            "name": "SELECT_OPTION_2056",
+            "source": "",
+            "trigger_count": 0
+        },
+        {
+            "action": "action_EVENT_GADGET_STATE_CHANGE_2058",
+            "condition": "condition_EVENT_GADGET_STATE_CHANGE_2058",
+            "config_id": 1002058,
+            "event": 7,
+            "name": "GADGET_STATE_CHANGE_2058",
+            "source": "",
+            "trigger_count": 0
+        },
+        {
+            "action": "",
+            "condition": "condition_EVENT_ENTER_REGION_2059",
+            "config_id": 1002059,
+            "event": 4,
+            "name": "ENTER_REGION_2059",
+            "source": "",
+            "trigger_count": 0
+        },
+        {
+            "action": "action_EVENT_GADGET_STATE_CHANGE_2060",
+            "condition": "condition_EVENT_GADGET_STATE_CHANGE_2060",
+            "config_id": 1002060,
+            "event": 7,
+            "name": "GADGET_STATE_CHANGE_2060",
+            "source": "",
+            "trigger_count": 0
+        },
+        {
+            "action": "",
+            "condition": "condition_EVENT_ENTER_REGION_2061",
+            "config_id": 1002061,
+            "event": 4,
+            "name": "ENTER_REGION_2061",
+            "source": "",
+            "trigger_count": 0
+        },
+        {
+            "action": "action_EVENT_SELECT_OPTION_2062",
+            "condition": "condition_EVENT_SELECT_OPTION_2062",
+            "config_id": 1002062,
+            "event": 9,
+            "name": "SELECT_OPTION_2062",
+            "source": "",
+            "trigger_count": 0
+        },
+        {
+            "action": "action_EVENT_VARIABLE_CHANGE_2064",
+            "condition": "condition_EVENT_VARIABLE_CHANGE_2064",
+            "config_id": 1002064,
+            "event": 3,
+            "name": "VARIABLE_CHANGE_2064",
+            "source": "",
+            "trigger_count": 0
+        },
+        {
             "action": "action_EVENT_VARIABLE_CHANGE_2065",
             "condition": "condition_EVENT_VARIABLE_CHANGE_2065",
             "config_id": 1002065,
@@ -983,6 +1140,15 @@
             "config_id": 1002072,
             "event": 9,
             "name": "SELECT_OPTION_2072",
+            "source": "",
+            "trigger_count": 0
+        },
+        {
+            "action": "action_EVENT_VARIABLE_CHANGE_2073",
+            "condition": "condition_EVENT_VARIABLE_CHANGE_2073",
+            "config_id": 1002073,
+            "event": 3,
+            "name": "VARIABLE_CHANGE_2073",
             "source": "",
             "trigger_count": 0
         },
@@ -1180,6 +1346,12 @@
         {
             "configId": 17,
             "name": "rotate_c3",
+            "no_refresh": true,
+            "value": 0
+        },
+        {
+            "configId": 18,
+            "name": "isGuideFinish",
             "no_refresh": true,
             "value": 0
         }

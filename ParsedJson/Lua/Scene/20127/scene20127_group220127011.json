@@ -7,11 +7,12 @@
     "action_EVENT_VARIABLE_CHANGE_11007": "WARN: Lua function omitted from the dump",
     "condition_EVENT_ANY_MONSTER_DIE_11005": "WARN: Lua function omitted from the dump",
     "condition_EVENT_ANY_MONSTER_DIE_11010": "WARN: Lua function omitted from the dump",
+    "condition_EVENT_ENTER_REGION_11011": "WARN: Lua function omitted from the dump",
     "condition_EVENT_VARIABLE_CHANGE_11006": "WARN: Lua function omitted from the dump",
     "condition_EVENT_VARIABLE_CHANGE_11007": "WARN: Lua function omitted from the dump",
     "gadgets": [],
     "init_config": {
-        "end_suite": 0,
+        "end_suite": 5,
         "rand_suite": false,
         "suite": 1
     },
@@ -112,13 +113,13 @@
             "pos": {
                 "x": 19.444,
                 "y": 49.403,
-                "z": 79.993
+                "z": 106.428
             },
             "shape": 2,
             "size": {
                 "x": 50,
                 "y": 20,
-                "z": 30
+                "z": 60
             }
         }
     ],
@@ -171,6 +172,13 @@
             "triggers": [
                 "ANY_MONSTER_DIE_11005"
             ]
+        },
+        {
+            "gadgets": [],
+            "monsters": [],
+            "rand_weight": 100,
+            "regions": [],
+            "triggers": []
         }
     ],
     "triggers": [
@@ -219,7 +227,7 @@
         },
         {
             "action": "action_EVENT_ENTER_REGION_11011",
-            "condition": "",
+            "condition": "condition_EVENT_ENTER_REGION_11011",
             "config_id": 1011011,
             "event": 4,
             "name": "ENTER_REGION_11011",
@@ -231,6 +239,12 @@
         {
             "configId": 1,
             "name": "gameState",
+            "no_refresh": true,
+            "value": 0
+        },
+        {
+            "configId": 2,
+            "name": "isClear",
             "no_refresh": true,
             "value": 0
         }

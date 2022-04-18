@@ -14,6 +14,10 @@
                 [
                     "133220775",
                     ""
+                ],
+                [
+                    "133221093",
+                    ""
                 ]
             ]
         }
@@ -56,6 +60,15 @@
                     "room_id": 0,
                     "scene_id": 3,
                     "script": "Actor/Npc/TempNPC"
+                },
+                {
+                    "alias": "Npc3163",
+                    "data_index": 4,
+                    "id": 3163,
+                    "pos": "Q1914601_C1914601_N12530",
+                    "room_id": 0,
+                    "scene_id": 3,
+                    "script": "Actor/Npc/NpcFSMBehaviour"
                 }
             ]
         },
@@ -87,6 +100,15 @@
                     "room_id": 0,
                     "scene_id": 3,
                     "script": "Actor/Npc/TempNPC"
+                },
+                {
+                    "alias": "Npc3163",
+                    "data_index": 4,
+                    "id": 3163,
+                    "pos": "Q1914605_C1914605_N510",
+                    "room_id": 0,
+                    "scene_id": 3,
+                    "script": "Actor/Npc/NpcFSMBehaviour"
                 }
             ],
             "transmit_points": [
@@ -125,6 +147,15 @@
                     "room_id": 0,
                     "scene_id": 3,
                     "script": "Actor/Npc/TempNPC"
+                },
+                {
+                    "alias": "Npc3163",
+                    "data_index": 4,
+                    "id": 3163,
+                    "pos": "Q1914605_C1914605_N510",
+                    "room_id": 0,
+                    "scene_id": 3,
+                    "script": "Actor/Npc/NpcFSMBehaviour"
                 }
             ],
             "transmit_points": [
@@ -163,6 +194,15 @@
                     "room_id": 0,
                     "scene_id": 3,
                     "script": "Actor/Npc/TempNPC"
+                },
+                {
+                    "alias": "Npc3163",
+                    "data_index": 4,
+                    "id": 3163,
+                    "pos": "Q1914605_C1914605_N510",
+                    "room_id": 0,
+                    "scene_id": 3,
+                    "script": "Actor/Npc/NpcFSMBehaviour"
                 }
             ],
             "transmit_points": [
@@ -201,6 +241,15 @@
                     "room_id": 0,
                     "scene_id": 3,
                     "script": "Actor/Npc/TempNPC"
+                },
+                {
+                    "alias": "Npc3163",
+                    "data_index": 4,
+                    "id": 3163,
+                    "pos": "Q1914605_C1914605_N510",
+                    "room_id": 0,
+                    "scene_id": 3,
+                    "script": "Actor/Npc/NpcFSMBehaviour"
                 }
             ]
         },
@@ -232,6 +281,15 @@
                     "room_id": 0,
                     "scene_id": 3,
                     "script": "Actor/Npc/TempNPC"
+                },
+                {
+                    "alias": "Npc3163",
+                    "data_index": 4,
+                    "id": 3163,
+                    "pos": "Q1914606_C1914606_N12530",
+                    "room_id": -2,
+                    "scene_id": 3,
+                    "script": "Actor/Npc/NpcFSMBehaviour"
                 }
             ]
         },
@@ -263,6 +321,15 @@
                     "room_id": 0,
                     "scene_id": 3,
                     "script": "Actor/Npc/TempNPC"
+                },
+                {
+                    "alias": "Npc3163",
+                    "data_index": 4,
+                    "id": 3163,
+                    "pos": "Q1914607_C1914607_N12530",
+                    "room_id": 0,
+                    "scene_id": 3,
+                    "script": "Actor/Npc/NpcFSMBehaviour"
                 }
             ]
         },
@@ -294,6 +361,15 @@
                     "room_id": 0,
                     "scene_id": 3,
                     "script": "Actor/Npc/TempNPC"
+                },
+                {
+                    "alias": "Npc3163",
+                    "data_index": 4,
+                    "id": 3163,
+                    "pos": "Q1914607_C1914607_N12530",
+                    "room_id": 0,
+                    "scene_id": 3,
+                    "script": "Actor/Npc/NpcFSMBehaviour"
                 }
             ]
         },
@@ -352,6 +428,15 @@
                     "room_id": 0,
                     "scene_id": 3,
                     "script": "Actor/Npc/TempNPC"
+                },
+                {
+                    "alias": "Npc3163",
+                    "data_index": 7,
+                    "id": 3163,
+                    "pos": "Q1914605_C1914605_N510",
+                    "room_id": 0,
+                    "scene_id": 3,
+                    "script": "Actor/Npc/NpcFSMBehaviour"
                 }
             ]
         },
@@ -383,6 +468,15 @@
                     "room_id": 0,
                     "scene_id": 3,
                     "script": "Actor/Npc/TempNPC"
+                },
+                {
+                    "alias": "Npc3163",
+                    "data_index": 4,
+                    "id": 3163,
+                    "pos": "Q1914601_C1914601_N12530",
+                    "room_id": 0,
+                    "scene_id": 3,
+                    "script": "Actor/Npc/NpcFSMBehaviour"
                 }
             ]
         },
@@ -414,6 +508,15 @@
                     "room_id": 0,
                     "scene_id": 3,
                     "script": "Actor/Npc/TempNPC"
+                },
+                {
+                    "alias": "Npc3163",
+                    "data_index": 4,
+                    "id": 3163,
+                    "pos": "Q1914601_C1914601_N12530",
+                    "room_id": 0,
+                    "scene_id": 3,
+                    "script": "Actor/Npc/NpcFSMBehaviour"
                 }
             ]
         },
@@ -445,6 +548,15 @@
                     "room_id": 0,
                     "scene_id": 3,
                     "script": "Actor/Npc/TempNPC"
+                },
+                {
+                    "alias": "Npc3163",
+                    "data_index": 4,
+                    "id": 3163,
+                    "pos": "Q1914601_C1914601_N12530",
+                    "room_id": 0,
+                    "scene_id": 3,
+                    "script": "Actor/Npc/NpcFSMBehaviour"
                 }
             ]
         },

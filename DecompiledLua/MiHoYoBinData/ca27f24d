@@ -124,9 +124,14 @@ function L6_1(A0_2)
     L7_3 = nil
     L8_3 = false
     L2_3(L3_3, L4_3, L5_3, L6_3, L7_3, L8_3)
-    L3_3 = A0_3
-    L2_3 = A0_3.DestroySelf
-    L2_3(L3_3)
+    L2_3 = actorMgr
+    L3_3 = L2_3
+    L2_3 = L2_3.GetActor
+    L4_3 = "Q1030Trigger4"
+    L2_3 = L2_3(L3_3, L4_3)
+    L4_3 = L2_3
+    L3_3 = L2_3.DestroySelf
+    L3_3(L4_3)
   end
   L7_2(L8_2, L9_2, L10_2)
 end

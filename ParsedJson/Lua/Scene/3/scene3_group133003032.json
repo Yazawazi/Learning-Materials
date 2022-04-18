@@ -1,4 +1,5 @@
 {
+    "action_EVENT_ENTER_REGION_32004": "WARN: Lua function omitted from the dump",
     "gadgets": [
         {
             "area_id": 1,
@@ -354,7 +355,19 @@
     },
     "monsters": [],
     "npcs": [],
-    "regions": [],
+    "regions": [
+        {
+            "area_id": 1,
+            "config_id": 32004,
+            "pos": {
+                "x": 2695.862,
+                "y": 194.6,
+                "z": -1793.005
+            },
+            "radius": 10,
+            "shape": 1
+        }
+    ],
     "suites": [
         {
             "gadgets": [
@@ -374,10 +387,24 @@
             ],
             "monsters": [],
             "rand_weight": 100,
-            "regions": [],
-            "triggers": []
+            "regions": [
+                32004
+            ],
+            "triggers": [
+                "ENTER_REGION_32004"
+            ]
         }
     ],
-    "triggers": [],
+    "triggers": [
+        {
+            "action": "action_EVENT_ENTER_REGION_32004",
+            "condition": "",
+            "config_id": 1032004,
+            "event": 4,
+            "name": "ENTER_REGION_32004",
+            "source": "",
+            "trigger_count": 0
+        }
+    ],
     "variables": []
 }

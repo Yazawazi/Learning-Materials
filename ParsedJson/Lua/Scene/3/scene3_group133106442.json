@@ -1,5 +1,9 @@
 {
+    "action_EVENT_ANY_GADGET_DIE_442008": "WARN: Lua function omitted from the dump",
     "action_EVENT_ENTER_REGION_442005": "WARN: Lua function omitted from the dump",
+    "action_EVENT_GROUP_LOAD_442007": "WARN: Lua function omitted from the dump",
+    "condition_EVENT_ANY_GADGET_DIE_442008": "WARN: Lua function omitted from the dump",
+    "condition_EVENT_GROUP_LOAD_442007": "WARN: Lua function omitted from the dump",
     "gadgets": [
         {
             "area_id": 19,
@@ -152,7 +156,10 @@
             "monsters": [],
             "rand_weight": 100,
             "regions": [],
-            "triggers": []
+            "triggers": [
+                "GROUP_LOAD_442007",
+                "ANY_GADGET_DIE_442008"
+            ]
         }
     ],
     "triggers": [
@@ -163,6 +170,24 @@
             "event": 4,
             "name": "ENTER_REGION_442005",
             "source": ""
+        },
+        {
+            "action": "action_EVENT_GROUP_LOAD_442007",
+            "condition": "condition_EVENT_GROUP_LOAD_442007",
+            "config_id": 1442007,
+            "event": 29,
+            "name": "GROUP_LOAD_442007",
+            "source": "",
+            "trigger_count": 0
+        },
+        {
+            "action": "action_EVENT_ANY_GADGET_DIE_442008",
+            "condition": "condition_EVENT_ANY_GADGET_DIE_442008",
+            "config_id": 1442008,
+            "event": 2,
+            "name": "ANY_GADGET_DIE_442008",
+            "source": "",
+            "trigger_count": 0
         }
     ],
     "variables": []

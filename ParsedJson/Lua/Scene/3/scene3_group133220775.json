@@ -1,5 +1,6 @@
 {
     "action_EVENT_ANY_GADGET_DIE_775002": "WARN: Lua function omitted from the dump",
+    "action_EVENT_TIMER_EVENT_775003": "WARN: Lua function omitted from the dump",
     "condition_EVENT_ANY_GADGET_DIE_775002": "WARN: Lua function omitted from the dump",
     "gadgets": [
         {
@@ -36,7 +37,8 @@
             "rand_weight": 100,
             "regions": [],
             "triggers": [
-                "ANY_GADGET_DIE_775002"
+                "ANY_GADGET_DIE_775002",
+                "TIMER_EVENT_775003"
             ]
         }
     ],
@@ -48,6 +50,15 @@
             "event": 2,
             "name": "ANY_GADGET_DIE_775002",
             "source": ""
+        },
+        {
+            "action": "action_EVENT_TIMER_EVENT_775003",
+            "condition": "",
+            "config_id": 1775003,
+            "event": 15,
+            "name": "TIMER_EVENT_775003",
+            "source": "billboard03",
+            "trigger_count": 0
         }
     ],
     "variables": []

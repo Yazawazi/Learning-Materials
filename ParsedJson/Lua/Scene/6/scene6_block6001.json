@@ -2101,9 +2101,9 @@
             "area": 300,
             "id": 166001143,
             "is_replaceable": {
-                "new_bin_only": true,
-                "value": false,
-                "version": 0
+                "new_bin_only": false,
+                "value": true,
+                "version": 1
             },
             "pos": {
                 "x": 1076.836,
@@ -10076,8 +10076,7 @@
                 "x": 726.488,
                 "y": 974.494,
                 "z": 1077.91
-            },
-            "refresh_id": 1
+            }
         },
         {
             "area": 300,

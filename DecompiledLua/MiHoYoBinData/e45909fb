@@ -57,6 +57,9 @@ function L6_1(A0_2)
   L4_2 = L4_1.Npc12512Data
   L4_2 = L4_2.alias
   L2_2(L3_2, L4_2)
+  L3_2 = A0_2
+  L2_2 = A0_2.DestroySelf
+  L2_2(L3_2)
 end
 L1_1.TriggerIn = L6_1
 function L6_1(A0_2)

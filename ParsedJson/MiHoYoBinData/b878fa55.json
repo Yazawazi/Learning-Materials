@@ -182,18 +182,6 @@
         "ALL": 1,
         "SINGLE": 0
     },
-    "ActorType": {
-        "BASE_ENTITY": 1,
-        "CUTSCENE_ACTOR": 7,
-        "GADGET_ACTOR": 5,
-        "GLOBAL_ACTOR": 4,
-        "INTERACTION_ACTOR": 8,
-        "INVALID": 0,
-        "NPCGLOBAL_ACTOR": 9,
-        "NPC_ACTOR": 2,
-        "QUEST_ACTOR": 3,
-        "SUB_GLOBAL_ACTOR": 6
-    },
     "AddActionType": {
         "Idle": 0,
         "ResetGlobalValue": 1
@@ -2162,10 +2150,6 @@
         "QuestEnd": 2,
         "TeleportBegin": 10,
         "TeleportEnd": 11
-    },
-    "NarratorState": {
-        "ING": 0,
-        "PAUSING": 1
     },
     "NavType": {
         "None": 0,

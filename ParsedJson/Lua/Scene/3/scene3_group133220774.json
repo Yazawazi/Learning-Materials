@@ -1,5 +1,7 @@
 {
     "action_EVENT_ANY_GADGET_DIE_774002": "WARN: Lua function omitted from the dump",
+    "action_EVENT_QUEST_FINISH_774004": "WARN: Lua function omitted from the dump",
+    "action_EVENT_TIMER_EVENT_774003": "WARN: Lua function omitted from the dump",
     "condition_EVENT_ANY_GADGET_DIE_774002": "WARN: Lua function omitted from the dump",
     "gadgets": [
         {
@@ -36,7 +38,9 @@
             "rand_weight": 100,
             "regions": [],
             "triggers": [
-                "ANY_GADGET_DIE_774002"
+                "ANY_GADGET_DIE_774002",
+                "TIMER_EVENT_774003",
+                "QUEST_FINISH_774004"
             ]
         }
     ],
@@ -47,7 +51,26 @@
             "config_id": 1774002,
             "event": 2,
             "name": "ANY_GADGET_DIE_774002",
-            "source": ""
+            "source": "",
+            "trigger_count": 0
+        },
+        {
+            "action": "action_EVENT_TIMER_EVENT_774003",
+            "condition": "",
+            "config_id": 1774003,
+            "event": 15,
+            "name": "TIMER_EVENT_774003",
+            "source": "billboard02",
+            "trigger_count": 0
+        },
+        {
+            "action": "action_EVENT_QUEST_FINISH_774004",
+            "condition": "",
+            "config_id": 1774004,
+            "event": 21,
+            "name": "QUEST_FINISH_774004",
+            "source": "1914601",
+            "trigger_count": 0
         }
     ],
     "variables": []

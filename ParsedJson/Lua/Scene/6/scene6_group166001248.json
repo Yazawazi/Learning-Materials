@@ -194,6 +194,19 @@
             }
         }
     ],
+    "garbages": {
+        "triggers": [
+            {
+                "action": "action_EVENT_QUEST_FINISH_248022",
+                "condition": "",
+                "config_id": 1248022,
+                "event": 21,
+                "name": "QUEST_FINISH_248022",
+                "source": "800708",
+                "trigger_count": 0
+            }
+        ]
+    },
     "init_config": {
         "end_suite": 0,
         "rand_suite": false,
