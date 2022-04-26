@@ -1,5 +1,5 @@
-# YSLua
- Decompiled and compiled lua files for a certain anime game that i cannot say
+# animepython
+ Decompiled and compiled ~~lua~~ python files for a certain anime game that i cannot say
 
 
 Updated for 2.6.51
